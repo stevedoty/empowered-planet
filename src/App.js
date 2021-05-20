@@ -4,6 +4,7 @@ import './assets/css/main.css';
 
 import Navbar from './components/navbar.js';
 import Banner from './components/banner.js';
+import SocialMedia from './components/socialmedia.js';
 import Intro from './components/intro.js';
 import Vision from './components/vision.js';
 import Gallery from './components/gallery.js';
@@ -17,18 +18,21 @@ function App() {
 
       <Banner />
 
+      <SocialMedia />
+
       <Intro />
 
       <Vision />
 
- 
+
 
 
 
     			<section id="online" className="main style3 primary">
-    				<div className="content">
+            <div className="content">
     					<h2>Media</h2>
     					<p></p>
+
     					<div className="media">
     						<article className="">
     							<a href="https://www.youtube.com/channel/UCBxSUKp2UGcPHf44myf2o2Q" target="blank" className="image">
@@ -55,7 +59,6 @@ function App() {
     							</a>
     						</article>
     					</div>
-
     				</div>
     			</section>
 

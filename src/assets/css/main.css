@@ -1227,6 +1227,18 @@ input, select, textarea {
 				border-radius: 0.2em;
 			}
 
+.social-media {
+	width: 40px;
+	position: fixed;
+	z-index: 99999;
+}
+.social-media .icons {
+	display: grid;
+	grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+	background-color: rgba(255,255,255,0.381);
+}
+
+
 	footer {
 		margin-top: 2em;
 	}
