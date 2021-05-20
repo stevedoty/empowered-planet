@@ -2,6 +2,7 @@
 import './App.css';
 import './assets/css/main.css';
 
+import Navbar from './components/navbar.js'
 import Gallery from './components/gallery.js'
 
 
@@ -9,18 +10,8 @@ function App() {
   return (
     <div className="App">
 
+      <Navbar />
 
-    			<header id="header">
-    				<h1>Empowered Planet</h1>
-    				<nav>
-    					<ul>
-    						<li><a href="#intro">Introduction</a></li>
-    						<li><a href="#focus">Pictorals</a></li>
-    						<li><a href="#contact">Contact</a></li>
-    						<li><a href="#store">Market</a></li>
-    					</ul>
-    				</nav>
-    			</header>
 
 
 

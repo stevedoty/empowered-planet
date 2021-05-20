@@ -4,7 +4,7 @@ import React from 'react';
 
 function Gallery() {
   return (
-    <div className="component1">
+    <div className="gallery">
 
     <section id="focus" className="main style3 primary">
       <div className="content">
