@@ -2,7 +2,7 @@
 import './App.css';
 import './assets/css/main.css';
 
-import Gallery from './components/component1.js'
+import Gallery from './components/gallery.js'
 
 
 function App() {
