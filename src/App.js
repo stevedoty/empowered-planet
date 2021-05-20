@@ -4,6 +4,7 @@ import './assets/css/main.css';
 
 import Navbar from './components/navbar.js';
 import Banner from './components/banner.js';
+import Intro from './components/intro.js';
 import Gallery from './components/gallery.js';
 
 
@@ -15,26 +16,8 @@ function App() {
 
       <Banner />
 
+      <Intro />
 
-
-
-    			<section id="intro" className="main style1 dark fullscreen">
-    				<div className="content">
-    					<header>
-    						<p
-    							style={{fontWeight: "500", padding: "1em 0.5em 0 0.5em", fontSize: "2.618em", fontVariant: "small-caps",}}>
-    								Empowered Planet</p>
-    					</header>
-    				<br />
-    				~
-    				<br />
-    					<footer>
-    						<p
-    							style={{fontWeight:"100", padding: "0 0.5em 1.618em 0.5em", fontSize: "1em", fontVariant: "small-caps"}}>
-    								Global and Local Collaboration</p>
-    					</footer>
-    				</div>
-    			</section>
 
 
     			<section id="one" className="main style2">
