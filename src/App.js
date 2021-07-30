@@ -14,22 +14,16 @@ import Messenger from './components/messenger.js';
 function App() {
   return (
     <div className="App">
-          <Navbar />
-          <Banner />
-          <BrandLinks />
-          <Intro />
-          <Library />
-          <Store />
-          <Messenger />
-
-
-
+      <Navbar />
+      <Banner />
+      <BrandLinks />
+      <Intro />
+      <Library />
+      <Store />
+      <Messenger />
       <footer id="footer">
-
             <p>&copy; empoweredplanet</p>
-
       </footer>
-
     </div>
   );
 }

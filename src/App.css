@@ -10,6 +10,7 @@ body{
 }
 /* -------------------------------- */
 .App {
+display: inline-block;
 text-align: center;
 background-color: var(--main-bg-color);
 padding: none;
@@ -21,7 +22,7 @@ margin: none;
 position: fixed;
 top:0;
 height: var(--navbar-height);
-width: 100vw;
+width: 100%;
 display: flex;
 flex-direction: row;
 background-color: white;
@@ -51,10 +52,11 @@ text-align: center;
 }
 /* -------------------------------- */
 .Banner{
-height: 300px;
 width: 100vw;
 background-color: rgba(0,0,0,0);
-padding-top: 10rem;
+padding-top: 6rem;
+margin-bottom: 6rem;
+
 }
 
 /* -------------------------------- */
@@ -63,7 +65,7 @@ position: fixed;
 display: flex;
 flex-wrap: wrap;
 justify-content: space-between;
-top: calc(var(--navbar-height)+10rem);
+top: calc(var(--navbar-height)+20rem);
 width: 100%;
 }
 .BrandLinks-column{
@@ -75,12 +77,11 @@ align-items: center;
 width: 100px;
 }
 .BrandLinks-icon{
-height: 50px;
-width: 50px;
 border-radius: 5px;
 display: block;
 vertical-align: middle;
-
+}
+.BrandLinks-icon {
 }
 .SocialMedia{
 border-radius: 0 5px 5px 0;
@@ -88,7 +89,6 @@ border-radius: 0 5px 5px 0;
 .SocialMedia-icon{}
 .Donations{
 border-radius: 5px 0 0 5px;
-
 }
 .Donations-icon{}
 

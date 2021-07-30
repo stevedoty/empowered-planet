@@ -11,42 +11,42 @@ let socialmediaArray = [
         icon:"fa-youtube",
       },
       {
-        title:"",
+        title:"tiktok",
         link:"https://www.tiktok.com/@empoweredplanet?lang=en",
         icon:"fa-tiktok",
       },
       {
-        title:"",
+        title:"snapchat",
         link:"https://story.snapchat.com/u/empoweredplanet",
         icon:"fa-snapchat",
       },
       {
-        title:"",
+        title:"Pinterest",
         link:"https://www.pinterest.com/empoweredplanet/_saved/",
         icon:"fa-pinterest",
       },
       {
-        title:"",
+        title:"Instagram",
         link:"https://www.instagram.com/empoweredplanet/",
         icon:"fa-instagram",
       },
       {
-        title:"",
+        title:"twitter",
         link:"https://twitter.com/empoweredplane1",
         icon:"fa-twitter",
       },
       {
-        title:"",
+        title:"facebook",
         link:"https://www.facebook.com/",
         icon:"fa-facebook-f",
       },
       {
-        title:"",
+        title:"linkedin",
         link:"https://www.linkedin.com/",
         icon:"fa-linkedin-in",
       },
       {
-        title:"",
+        title:"dribbble",
         link:"https://www.dribbble.com/",
         icon:"fa-dribbble",
       },
@@ -64,7 +64,7 @@ function SocialMedia() {
               href={item.link}
               target="_blank" rel="noopener noreferrer" className={"BrandLinks-icon SocialMedia-icon brands "+item.icon}>
               <span className="label">
-
+                {item.title}
               </span>
             </a>
           )
