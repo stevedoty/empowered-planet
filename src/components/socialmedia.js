@@ -1,47 +1,74 @@
 import React from 'react';
 
-
+let socialmediaArray = [
+  {},
+  {
+    title:"SocialMedia",
+    list: [
+      {
+        title:"YouTube",
+        link:"https://www.youtube.com/channel/UCBxSUKp2UGcPHf44myf2o2Q",
+        icon:"fa-youtube",
+      },
+      {
+        title:"",
+        link:"https://www.tiktok.com/@empoweredplanet?lang=en",
+        icon:"fa-tiktok",
+      },
+      {
+        title:"",
+        link:"https://story.snapchat.com/u/empoweredplanet",
+        icon:"fa-snapchat",
+      },
+      {
+        title:"",
+        link:"https://www.pinterest.com/empoweredplanet/_saved/",
+        icon:"fa-pinterest",
+      },
+      {
+        title:"",
+        link:"https://www.instagram.com/empoweredplanet/",
+        icon:"fa-instagram",
+      },
+      {
+        title:"",
+        link:"https://twitter.com/empoweredplane1",
+        icon:"fa-twitter",
+      },
+      {
+        title:"",
+        link:"https://www.facebook.com/",
+        icon:"fa-facebook-f",
+      },
+      {
+        title:"",
+        link:"https://www.linkedin.com/",
+        icon:"fa-linkedin-in",
+      },
+      {
+        title:"",
+        link:"https://www.dribbble.com/",
+        icon:"fa-dribbble",
+      },
+    ]
+  }
+]
 
 function SocialMedia() {
   return (
     <div className="SocialMedia BrandLinks-column">
 
-        <a
-          href="https://www.youtube.com/channel/UCBxSUKp2UGcPHf44myf2o2Q"
-          target="_blank" rel="noopener noreferrer" className="BrandLinks-icon SocialMedia-icon brands fa-youtube">
-          <span className="label">YouTube</span></a>
-        <a
-          href="https://www.tiktok.com/@empoweredplanet?lang=en"
-          target="_blank" rel="noopener noreferrer" className="BrandLinks-icon SocialMedia-icon brands fa-tiktok">
-          <span className="label">TikTok</span></a>
-        <a
-          href="https://story.snapchat.com/u/empoweredplanet"
-          target="_blank" rel="noopener noreferrer" className="BrandLinks-icon SocialMedia-icon brands fa-snapchat">
-          <span className="label">Snapchat</span></a>
-        <a
-          href="https://www.pinterest.com/empoweredplanet/_saved/"
-          target="_blank" rel="noopener noreferrer" className="BrandLinks-icon SocialMedia-icon brands fa-pinterest">
-          <span className="label">Pinterest</span></a>
-        <a
-          href="https://www.instagram.com/empoweredplanet/"
-          target="_blank" rel="noopener noreferrer" className="BrandLinks-icon SocialMedia-icon brands fa-instagram">
-          <span className="label">Instagram</span></a>
-        <a
-          href="https://twitter.com/empoweredplane1"
-          target="_blank" rel="noopener noreferrer" className="BrandLinks-icon SocialMedia-icon brands fa-twitter">
-          <span className="label">Twitter</span></a>
-        <a
-          href="https://www.facebook.com/"
-          target="_blank" rel="noopener noreferrer" className="BrandLinks-icon SocialMedia-icon brands fa-facebook-f">
-          <span className="label">Facebook</span></a>
-        <a
-          href="https://www.linkedin.com/"
-          target="_blank" rel="noopener noreferrer" className="BrandLinks-icon SocialMedia-icon brands fa-linkedin-in">
-          <span className="label">LinkedIn</span></a>
-        <a
-          href="https://www.dribbble.com/"
-          target="_blank" rel="noopener noreferrer" className="BrandLinks-icon SocialMedia-icon brands fa-dribbble">
-          <span className="label">Dribbble</span></a>
+        {socialmediaArray[1].list.map(item=>{
+          return(
+            <a
+              href={item.link}
+              target="_blank" rel="noopener noreferrer" className={"BrandLinks-icon SocialMedia-icon brands "+item.icon}>
+              <span className="label">
+
+              </span>
+            </a>
+          )
+        })}
 
     </div>
   );
