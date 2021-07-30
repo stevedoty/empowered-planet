@@ -1,38 +1,190 @@
+
+/* -------------------------------- */
+:root{
+  --main-bg-color: lightblue;
+
+  --navbar-height: 6rem;
+}
+
+/* -------------------------------- */
 .App {
-  text-align: center;
+text-align: center;
+background-color: var(--main-bg-color);
+padding: none;
+margin: none;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* -------------------------------- */
+.Navbar{
+position: fixed;
+top:0;
+height: var(--navbar-height);
+width: 100vw;
+display: flex;
+flex-direction: row;
+background-color: white;
+padding: none;
+margin: none;
+}
+.Navbar-item{
+color: black;
+text-decoration: none;
+flex-grow: 2;
+align-self: center;
+padding: none;
+margin: none;
+}
+.Navbar-brand-icon{
+height: 5rem;
+width: 5rem;
+border-radius: 50%;
+top: 0;
+}
+.Navbar-brand-name{}
+
+/* -------------------------------- */
+.searchBar{
+border-radius: 1rem;
+text-align: center;
+}
+/* -------------------------------- */
+.Banner{
+height: 300px;
+width: 100vw;
+background-color: rgba(0,0,0,0);
+padding-top: 10rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* -------------------------------- */
+.BrandLinks{
+position: fixed;
+top: calc(var(--navbar-height)+10rem);
+width: 100px;
+}
+.SocialMedia{
+display: flex;
+flex-direction: column;
+background-color: rgba(0,0,0,0.38);
+border-radius: 0 5px 5px 0;
+}
+.SocialMedia-icon{
+height: 50px;
+width: 50px;
+border-radius: 5px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+/* -------------------------------- */
+.Donations{
+display: flex;
+flex-direction: column;
+background-color: rgba(0,0,0,0.38);
+border-radius: 5px 0 0 5px;
 }
 
-.App-link {
-  color: #61dafb;
+/* -------------------------------- */
+.Intro{
+font-variant: small-caps;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* -------------------------------- */
+.Seasons{;
+width: 100vw;
+background-color: rgba(255,255,255,1);
+}
+.Seasons-cell{
+border: 6px solid rgba(255,255,255,0.6);
+background-position: center;
+height: 38vh;
+}
+.Seasons-cell-one{
+background-size: 250%;
+background-image: url("./images/imports/marek-okon-tWWCqIMiUmg-unsplash.jpg");
+}
+.Seasons-cell-two{
+background-size: 250%;
+background-image: url("./images/imports/andrew-coelho-VB-w_3dnyvI-unsplash.jpg");
+}
+.Seasons-cell-three{
+background-size: 250%;
+background-image: url("./images/imports/kent-pilcher-87MIF4vqHWg-unsplash.jpg");
+}
+.Seasons-cell-four{
+background-size: 250%;
+background-image: url("./images/imports/ronaldo-de-oliveira-wngy5vxtZJg-unsplash.jpg");
+}
+
+/* -------------------------------- */
+.Library{
+
+}
+.Library-header{
+width: 100%;
+margin: 2rem 0;
+
+}
+.Library-articles{
+justify-content: center;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+padding-bottom: 38px;
+}
+.Library-youtube{
+justify-content: center;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+border-bottom: 16px solid white;
+padding-bottom: 38px;
+}
+.Library-item{
+height: 500px;
+width: 500px;
+border: 3px solid black;
+border-radius: 5px;
+padding: 10px 20px;
+overflow: hidden;
+margin: 5px;
+}
+.Library-item-image{}
+
+/* -------------------------------- */
+.Store{
+justify-content: center;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+border-bottom: 16px solid white;
+padding-bottom: 38px;
+}
+.Store-header{
+margin-bottom: 20px;
+}
+.Store-item{
+height: 500px;
+width: 500px;
+border: 3px solid black;
+border-radius: 5px;
+padding: 10px 20px;
+overflow: hidden;
+margin: 5px;
+}
+.Store-item-image{}
+
+/* -------------------------------- */
+.Messenger{
+justify-content: center;
+}
+.Messenger-body{
+zoom: 300%;
+border-radius: 5px;
+padding: 10px 20px;
+overflow: hidden;
+}
+.Messenger-buttons{}
+
+/* -------------------------------- */
+#footer{
+background-color: white;
+padding : 1rem;
 }

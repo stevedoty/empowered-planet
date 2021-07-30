@@ -1,22 +1,18 @@
 import React from 'react';
 
+import brandIcon from "../images/imports/planet.ico"
 
 
 function Navbar() {
   return (
-    <div className="navbar">
+    <div id="Navbar" className="Navbar">
 
-      <header id="header">
-        <h1>Empowered Planet</h1>
-        <nav>
-          <ul>
-            <li><a href="#intro">Introduction</a></li>
-            <li><a href="#focus">Pictorals</a></li>
-            <li><a href="#contact">Contact</a></li>
-            <li><a href="#store">Market</a></li>
-          </ul>
-        </nav>
-      </header>
+          <a href="#Navbar" className="Navbar-item"><img src={brandIcon} className="Navbar-brand-icon" alt=""/></a>
+          <a href="#Navbar" className="Navbar-item"><p className="Navbar-brand-name">Empowered Planet</p></a>
+          <a href="#Intro" className="Navbar-item">Introduction</a>
+          <a href="#Library" className="Navbar-item">Library</a>
+          <a href="#Store" className="Navbar-item">Store</a>
+          <a href="#Messenger" className="Navbar-item">Messenger</a>
 
 
     </div>

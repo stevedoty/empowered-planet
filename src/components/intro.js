@@ -4,25 +4,24 @@ import React from 'react';
 
 function Intro() {
   return (
-    <div className="intro">
+    <div id="Intro" className="Intro">
 
-      <section id="intro" className="main style1 dark fullscreen">
-        <div className="content">
-          <header>
-            <p
-              style={{fontWeight: "500", padding: "1em 0.5em 0 0.5em", fontSize: "2.618em", fontVariant: "small-caps",}}>
-                Empowered Planet</p>
-          </header>
-        <br />
-        ~
-        <br />
-          <footer>
-            <p
-              style={{fontWeight:"100", padding: "0 0.5em 1.618em 0.5em", fontSize: "1em", fontVariant: "small-caps"}}>
-                Global and Local Collaboration</p>
-          </footer>
-        </div>
-      </section>
+            <h1 style={{color:"darkorange",marginBottom:"100px"}}>&#60;---Follow Us<br/>Donate---&#62;</h1>
+
+            <p style={{fontSize:"10rem",marginBottom:"0"}}>Empowered Planet</p>
+
+            <p style={{fontSize:"4rem"}}>Global and Local Collaboration</p>
+
+            <table className="Seasons">
+              <tr className="Seasons-row">
+                <th className="Seasons-cell Seasons-cell-one"></th>
+                <th className="Seasons-cell Seasons-cell-two"></th>
+              </tr>
+              <tr className="Seasons-row Seasons-row2">
+                <th className="Seasons-cell Seasons-cell-three"></th>
+                <th className="Seasons-cell Seasons-cell-four"></th>
+              </tr>
+            </table>
 
     </div>
   );
