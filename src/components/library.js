@@ -91,6 +91,11 @@ let youtubeArray = [
     title: "Youtube",
     list: [
       {
+        title:"Psych2Go",
+        description:"Psychology",
+        link:"https://www.youtube.com/channel/UCkJEpR7JmS36tajD34Gp4VA",
+      },
+      {
         title:"The Jimmy Dore Show",
         description:"Independent Media",
         link:"https://www.youtube.com/channel/UC3M7l8ved_rYQ45AVzS0RGA",
@@ -189,7 +194,23 @@ let youtubeArray = [
         title:"The People's Party",
         description:"Independent Media",
         link:"https://www.youtube.com/channel/UCtdXoMN0UNmtNgFrUMAdW-g",
-      }
+      },
+      {
+        title:"Mindprovement",
+        description:"Psychology",
+        link:"https://www.youtube.com/channel/UCc3fuJSiPknuPI7SUtX7Bng",
+      },
+      {
+        title:"Meditative Mind",
+        description:"Music",
+        link:"https://www.youtube.com/channel/UCM0YvsRfYfsniGAhjvYFOSA",
+      },
+      {
+        title:"The Lune INNATE",
+        description:"Health",
+        link:"https://www.youtube.com/channel/UCPCHuLiHbhG3s_YxhMLOn6Q",
+      },
+
     ]
   }
 ]

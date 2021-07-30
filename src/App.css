@@ -5,7 +5,9 @@
 
   --navbar-height: 6rem;
 }
-
+body{
+;
+}
 /* -------------------------------- */
 .App {
 text-align: center;
@@ -58,28 +60,34 @@ padding-top: 10rem;
 /* -------------------------------- */
 .BrandLinks{
 position: fixed;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
 top: calc(var(--navbar-height)+10rem);
-width: 100px;
+width: 100%;
 }
-.SocialMedia{
+.BrandLinks-column{
+background-color: rgba(0,0,0,0.38);
 display: flex;
 flex-direction: column;
-background-color: rgba(0,0,0,0.38);
-border-radius: 0 5px 5px 0;
+justify-content: center;
+align-items: center;
+width: 100px;
 }
-.SocialMedia-icon{
+.BrandLinks-icon{
 height: 50px;
 width: 50px;
 border-radius: 5px;
 }
-
-/* -------------------------------- */
-.Donations{
-display: flex;
-flex-direction: column;
-background-color: rgba(0,0,0,0.38);
-border-radius: 5px 0 0 5px;
+.SocialMedia{
+border-radius: 0 5px 5px 0;
 }
+.SocialMedia-icon{}
+.Donations{
+border-radius: 5px 0 0 5px;
+
+}
+.Donations-icon{}
 
 /* -------------------------------- */
 .Intro{
