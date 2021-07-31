@@ -6,11 +6,9 @@ function Intro() {
   return (
     <div id="Intro" className="Intro">
 
-            <h1 style={{color:"darkorange",marginBottom:"100px"}}>&#60;---Follow Us<br/>Donate---&#62;</h1>
-
-            <p style={{fontSize:"10rem",marginBottom:"0"}}>Empowered Planet</p>
-
-            <p style={{fontSize:"4rem"}}>Global and Local Collaboration</p>
+            <div className="Intro-header">              <p style={{marginBottom:"0"}}>Empowered Planet</p>
+              <p style={{}}>Global and Local Collaboration</p>
+            </div>
 
             <table className="Seasons">
               <tr className="Seasons-row">

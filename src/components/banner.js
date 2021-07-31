@@ -1,15 +1,31 @@
 import React from 'react';
 
-
+let quotesArray = [
+  {
+    quote: "If you quit, that's a guaranteed failure",
+    author: "Steve Harvey",
+    publisher: ""
+  }
+]
 
 function Banner() {
   return (
     <div className="Banner">
 
-      <h1>" Quote "</h1>
-      <h2>by Author</h2>
-      <p>provided by Author</p>
+      <div className="">
+        {quotesArray.map(item=>{
+          return(
 
+            <div>
+              <h1>" {item.quote} "</h1>
+              <h2>by {item.author}</h2>
+              <p>provided by {item.publisher}</p>
+            </div>
+
+          )
+        })}
+
+      </div>
     </div>
   );
 }

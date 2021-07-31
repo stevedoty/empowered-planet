@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Banner from "./banner.js"
+
 
 import brandIcon from "../images/imports/planet.ico"
 
