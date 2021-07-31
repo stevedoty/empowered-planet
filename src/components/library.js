@@ -14,67 +14,67 @@ let articlesArray = [
       {
         image: image,
         title: "Community & Respect",
-        subtitle: "How do we make it work? What have we been missing? What is necessary? What is the most important thing to remember? Is this the way nature was intended?",
+        header: "How do we make it work? What have we been missing? What is necessary? What is the most important thing to remember? Is this the way nature was intended?",
         body: "a;lsjdlj alsjdflj aljdkj aljdfj  a;slkjdfj alsdj asdfjloij a;lsjdlj alsjdflj aljdkj aljdfj  a;slkjdfj alsdj asdfjloij a;lsjdlj alsjdflj aljdkj aljdfj  a;slkjdfj alsdj asdfjloij a;lsjdlj alsjdflj aljdkj aljdfj  a;slkjdfj alsdj asdfjloij a;lsjdlj alsjdflj aljdkj aljdfj  a;slkjdfj alsdj asdfjloij a;lsjdlj alsjdflj aljdkj aljdfj  a;slkjdfj alsdj asdfjloij a;lsjdlj alsjdflj aljdkj aljdfj  a;slkjdfj alsdj asdfjloij a;lsjdlj alsjdflj aljdkj aljdfj  a;slkjdfj alsdj asdfjloij a;lsjdlj alsjdflj aljdkj aljdfj  a;slkjdfj alsdj asdfjloij"
       },
       {
         image: image,
         title: "Nature & Technology",
-        subtitle: "Is there a balance? What's this whole automation thing?",
+        header: "Is there a balance? What's this whole automation thing?",
         body: "a;lsjdlj alsjdflj aljdkj aljdfj  a;slkjdfj alsdj asdfjloij"
       },
       {
         image: image,
         title: "Responsibilities",
-        subtitle: "What are we missing? What is not being taken care of?",
+        header: "What are we missing? What is not being taken care of?",
         body: "a;lsjdlj alsjdflj aljdkj aljdfj  a;slkjdfj alsdj asdfjloij"
       },
       {
         image: image,
         title: "Education",
-        subtitle: "Is it really that important? Is this the problem? How can we make it accessible?",
+        header: "Is it really that important? Is this the problem? How can we make it accessible?",
         body: "a;lsjdlj alsjdflj aljdkj aljdfj  a;slkjdfj alsdj asdfjloij"
       },
       {
         image: image,
         title: "Nutrition",
-        subtitle: "Is it that big of a deal? Can it be made simpler? What about all-in-ones? Is organic really worth it?",
+        header: "Is it that big of a deal? Can it be made simpler? What about all-in-ones? Is organic really worth it?",
         body: "a;lsjdlj alsjdflj aljdkj aljdfj  a;slkjdfj alsdj asdfjloij"
       },
       {
         image: image,
         title: "Food & Agriculture",
-        subtitle: "?",
+        header: "?",
         body: "a;lsjdlj alsjdflj aljdkj aljdfj  a;slkjdfj alsdj asdfjloij"
       },
       {
         image: image,
         title: "Inspiration",
-        subtitle: "Where did we go wrong? What has already started? What should we do next? What is getting in the way?",
+        header: "Where did we go wrong? What has already started? What should we do next? What is getting in the way?",
         body: "a;lsjdlj alsjdflj aljdkj aljdfj  a;slkjdfj alsdj asdfjloij"
       },
       {
         image: image,
         title: "Ecosystem & Economy",
-        subtitle: "Can we balance the two? What is going on right now? What should we do next? What is getting in the way?",
+        header: "Can we balance the two? What is going on right now? What should we do next? What is getting in the way?",
         body: "a;lsjdlj alsjdflj aljdkj aljdfj  a;slkjdfj alsdj asdfjloij"
       },
       {
         image: image,
         title: "Justice",
-        subtitle: "Is empathy the key? What can we do right now? More or less punishment? What is our plan for prevention?",
+        header: "Is empathy the key? What can we do right now? More or less punishment? What is our plan for prevention?",
         body: "a;lsjdlj alsjdflj aljdkj aljdfj  a;slkjdfj alsdj asdfjloij"
       },
       {
         image: image,
         title: "Water",
-        subtitle: "Should it be privatized? Who has the right to drinking water?",
+        header: "Should it be privatized? Who has the right to drinking water?",
         body: "a;lsjdlj alsjdflj aljdkj aljdfj  a;slkjdfj alsdj asdfjloij"
       },
       {
         image: image,
         title: "Love & Fear",
-        subtitle: "Can the two coexist? Can one exist without the other?",
+        header: "Can the two coexist? Can one exist without the other?",
         body: "a;lsjdlj alsjdflj aljdkj aljdfj  a;slkjdfj alsdj asdfjloij"
       },
 
@@ -228,10 +228,10 @@ function Library() {
             {articlesArray[1].list.map(item=>{
               return(
                 <div className="Library-item">
-                      <img className="Library-item-image" src={item.image} alt="yo" style={{height:"200px"}}/>
-                      <h2>{item.title}</h2>
-                      <h6 >{item.subtitle}</h6>
-                      <p>{item.body}</p>
+                      <img className="Library-item-image" src={item.image} alt="yo"/>
+                      <p className="Library-item-title">{item.title}</p>
+                      <p className="Library-item-header" >{item.subtitle}</p>
+                      <p className="Library-item-body">{item.body}</p>
                 </div>
               )
             })}
@@ -246,9 +246,9 @@ function Library() {
             {youtubeArray[1].list.map(item=>{
               return(
                 <div className="Library-item">
-                      <h2>{item.title}</h2>
-                      <h6 >{item.description}</h6>
-                      <p>{item.link}</p>
+                      <p className="Library-item-title">{item.title}</p>
+                      <p className="Library-item-header" >{item.description}</p>
+                      <p className="Library-item-body">{item.link}</p>
                 </div>
               )
             })}

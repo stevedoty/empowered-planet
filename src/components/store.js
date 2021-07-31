@@ -72,9 +72,9 @@ function Vision() {
             {storeArray[0].productList.map(item=>{
               return(
                 <div className="Store-item">
-                      <img className="Store-item-image" src={item.image} alt="yo" style={{height:"200px"}}/>
-                      <h2>{item.name}</h2>
-                      <h6>{item.description}</h6>
+                      <img className="Store-item-image" src={item.image} alt="yo"/>
+                      <p>{item.name}</p>
+                      <p>{item.description}</p>
                       <p>{item.name}</p>
                 </div>
               )
