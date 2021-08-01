@@ -9,8 +9,8 @@ function Navbar() {
   return (
     <div id="Navbar" className="Navbar">
 
-          <a href="#Navbar" className="Navbar-item"><img src={brandIcon} className="Navbar-brand-icon" alt=""/></a>
-          <a href="#Navbar" className="Navbar-item"><p className="Navbar-brand-name">Empowered Planet</p></a>
+          <a href="#" className="Navbar-item"><img src={brandIcon} className="Navbar-brand-icon" alt=""/></a>
+          <a href="#" className="Navbar-item"><p className="Navbar-brand-name">Empowered Planet</p></a>
           <a href="#Intro" className="Navbar-item">Introduction</a>
           <a href="#Library" className="Navbar-item">Library</a>
           <a href="#Store" className="Navbar-item">Store</a>
