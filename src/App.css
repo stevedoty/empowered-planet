@@ -3,10 +3,20 @@
 :root{
   --main-bg-color: lightblue;
 
-  --navbar-height: 50px;
+  --navbar-height: 33px;
 }
 body{
-width:100vw;
+/* text-align: center; */
+/* justify-content: center; */
+/* align-items: center; */
+/* align-self: center; */
+/* align-content: center; */
+/* position: center; */
+/* width: 100%; */
+/* width: 100vw; */
+/* vertical-align: middle;
+display: table-cell; */
+margin: auto;
 }
 /* -------------------------------- */
 .App {
@@ -15,6 +25,7 @@ text-align: center;
 align-items: center;
 padding: none;
 margin: none;
+background-color: var(--main-bg-color);
 }
 
 /* -------------------------------- */
@@ -27,13 +38,14 @@ width: 100%;
 display: flex;
 flex-direction: row;
 justify-content: space-between;
-background-color: rgba(255,255,255,1);
+background-color: rgba(0,0,0,0.62);
 padding-top: 1.25rem;
 padding-right: 6rem;
+padding-bottom: 0.38rem;
 margin: none;
 }
 .Navbar-item{
-color: black;
+color: white;
 text-decoration: none;
 flex-grow: 2;
 align-self: center;
@@ -41,6 +53,8 @@ padding: none;
 margin: none;
 }
 .Navbar-brand-icon{
+box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 1);
+  margin-top: 1rem;
 height: 5rem;
 width: 5rem;
 border-radius: 50%;
@@ -53,10 +67,10 @@ top: 0;
 border-radius: 1rem;
 text-align: center;
 }
+
 /* -------------------------------- */
 .Banner{
 width: 100vw;
-background-color: white;
 margin: auto;
 margin-top: calc(var(--Navbar-height)+8rem);
 margin-bottom: calc(var(--Navbar-height)6rem);
@@ -105,14 +119,16 @@ font-variant: small-caps;
 
 /* -------------------------------- */
 .Seasons{
-margin: auto;
+left:-10%;
 margin-top: 5rem;
 width: 100vw;
 height: 100vh;
 }
 .Seasons-cell{
-background-size: 100%;
+height: 20vh;
+width: 20vw;
 background-position: center;
+background-size: 300%;
 }
 .Seasons-cell-one{
 background-image: url("./images/imports/marek-okon-tWWCqIMiUmg-unsplash.jpg");
@@ -156,11 +172,11 @@ padding-bottom: 38px;
 .Library-item{
 height: 162px;
 width: 100px;
-border: 3px solid black;
 border-radius: 5px;
+box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.38);
 padding: 10px 20px;
 overflow: hidden;
-margin: 5px;
+margin: 0.62rem;
 }
 
 .Library-item-image{
@@ -197,7 +213,6 @@ margin: 5px;
 justify-content: center;
 }
 .Messenger-body{
-zoom: 300%;
 border-radius: 5px;
 padding: 10px 20px;
 overflow: hidden;
