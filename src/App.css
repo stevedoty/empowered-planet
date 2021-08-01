@@ -170,6 +170,8 @@ flex-wrap: wrap;
 padding-bottom: 38px;
 }
 .Library-item{
+  background-color: lightblue;
+  color: rgba(0,0,0,0.62);
 height: 162px;
 width: 100px;
 border-radius: 5px;

@@ -248,7 +248,7 @@ function Library() {
                 <div className="Library-item">
                       <p className="Library-item-title">{item.title}</p>
                       <p className="Library-item-header" >{item.description}</p>
-                      <p className="Library-item-body">{item.link}</p>
+                      <a href={item.link} target="_blank" rel="noopener noreferrer"><p className="Library-item-body">youtube</p></a>
                 </div>
               )
             })}
