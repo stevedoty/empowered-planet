@@ -6,8 +6,11 @@
   --autumn-sunset:rgb(243,133,84);
   --sunset-gold:rgb(232,179,25);
   --honey:rgb(235,169,55);
+  --coral:rgb(255,127,80);
   --ocean-green:rgb(72,191,145);
+  --dark-ocean-green:rgb(48,148,103);
   --fresh-mint:rgb(149,232,163);
+  --grass: rgb(52,140,49);
   --fern-green:rgb(79,121,66);
   --dark-moss-green: rgb(12, 36, 11);
   --deep-aqua:rgb(0,188,188);
@@ -15,9 +18,12 @@
   --pure-blue:rgb(0,0,255);
 
 
-  --main-bg-color: var(--deep-aqua);
-  --secondary-bg-color: var(--honey);
+  --main-bg-color: var(--dark-ocean-green);
+  --secondary-bg-color: var(--coral);
   --main-text-color: rgb(255,255,255);
+
+  --Navbar-main-bg-color: var(--matte-dark-blue);
+  --Footer-main-bg-color: var(--matte-dark-blue);
 }
 body{
 /* text-align: center; */
@@ -53,7 +59,7 @@ width: 100%;
 display: flex;
 flex-direction: row;
 justify-content: space-between;
-background-color: rgba(0,0,0,0.62);
+background-color: var(--Navbar-main-bg-color);
 padding-top: 1.25rem;
 padding-right: 6rem;
 padding-bottom: 0.38rem;
@@ -152,16 +158,17 @@ background-position: center;
 background-size: 300%;
 }
 .Seasons-cell-one{
-background-image: url("./images/imports/marek-okon-tWWCqIMiUmg-unsplash.jpg");
+background-image: url("./images/imports/ronaldo-de-oliveira-wngy5vxtZJg-unsplash.jpg");
+
 }
 .Seasons-cell-two{
-background-image: url("./images/imports/andrew-coelho-VB-w_3dnyvI-unsplash.jpg");
-}
-.Seasons-cell-three{
 background-image: url("./images/imports/kent-pilcher-87MIF4vqHWg-unsplash.jpg");
 }
+.Seasons-cell-three{
+background-image: url("./images/imports/andrew-coelho-VB-w_3dnyvI-unsplash.jpg");
+}
 .Seasons-cell-four{
-background-image: url("./images/imports/ronaldo-de-oliveira-wngy5vxtZJg-unsplash.jpg");
+background-image: url("./images/imports/marek-okon-tWWCqIMiUmg-unsplash.jpg");
 }
 
 /* -------------------------------- */
@@ -170,7 +177,6 @@ background-image: url("./images/imports/ronaldo-de-oliveira-wngy5vxtZJg-unsplash
   display: flex;
   flex-direction: column;
   justify-content: center;
-  border-bottom: 16px solid white;
 }
 .Library-header{
 width: 100%;
@@ -211,7 +217,6 @@ justify-content: center;
 display: flex;
 flex-direction: row;
 flex-wrap: wrap;
-border-bottom: 16px solid white;
 padding-bottom: 38px;
 }
 .Store-header{
@@ -243,7 +248,7 @@ overflow: hidden;
 .Messenger-buttons{}
 
 /* -------------------------------- */
-#footer{
-background-color: white;
+.Footer{
+background-color: var(--Footer-main-bg-color);
 padding : 1rem;
 }

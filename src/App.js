@@ -21,7 +21,7 @@ function App() {
       <Library />
       <Store />
       <Messenger />
-      <footer id="footer">
+      <footer id="footer" className="Footer">
             <p>&copy; empoweredplanet</p>
       </footer>
     </div>
