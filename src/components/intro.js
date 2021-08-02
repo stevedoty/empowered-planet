@@ -6,8 +6,9 @@ function Intro() {
   return (
     <div id="Intro" className="Intro">
 
-            <div className="Intro-header">              <p style={{marginBottom:"0"}}>Empowered Planet</p>
-              <p style={{}}>Global and Local Collaboration</p>
+            <div className="Intro-header">
+              <p style={{fontSize:"2rem"}}>Empowered Planet</p>
+              <p style={{fontSize:"1rem"}}>Global and Local Collaboration</p>
             </div>
 
             <table className="Seasons">
