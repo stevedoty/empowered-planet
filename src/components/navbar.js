@@ -11,7 +11,6 @@ function Navbar() {
 
           <a href="#" className="Navbar-item"><img src={brandIcon} className="Navbar-brand-icon" alt=""/></a>
           <a href="#" className="Navbar-item"><p className="Navbar-brand-name">Empowered Planet</p></a>
-          <a href="#Intro" className="Navbar-item">Introduction</a>
           <a href="#Library" className="Navbar-item">Library</a>
           <a href="#Store" className="Navbar-item">Store</a>
           <a href="#Messenger" className="Navbar-item">Messenger</a>

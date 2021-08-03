@@ -3,6 +3,7 @@
 :root{
   --navbar-height: 33px;
 
+  --natural-rose:rgb(210,37,67);
   --autumn-sunset:rgb(243,133,84);
   --sunset-gold:rgb(232,179,25);
   --honey:rgb(235,169,55);
@@ -14,16 +15,20 @@
   --fern-green:rgb(79,121,66);
   --dark-moss-green: rgb(12, 36, 11);
   --deep-aqua:rgb(0,188,188);
+  --sea-foam-blue:rgb(42,134,138);
   --matte-dark-blue:rgb(11,11,96);
   --pure-blue:rgb(0,0,255);
 
 
-  --main-bg-color: var(--dark-ocean-green);
-  --secondary-bg-color: var(--coral);
+  --main-bg-color: var(--sea-foam-blue);
+  --secondary-bg-color: var(--natural-rose);
   --main-text-color: rgb(255,255,255);
 
   --Navbar-main-bg-color: var(--matte-dark-blue);
   --Footer-main-bg-color: var(--matte-dark-blue);
+
+  --Item-height: calc(0.6218*62vh);
+    --Item-width: calc(50vw);
 }
 body{
 /* text-align: center; */
@@ -67,6 +72,7 @@ margin: none;
 }
 .Navbar-item{
 color: white;
+font-size: 10px;
 text-decoration: none;
 flex-grow: 2;
 align-self: center;
@@ -91,7 +97,7 @@ text-align: center;
 
 /* -------------------------------- */
 .Banner{
-
+font-style: italic;
 width: 100vw;
 margin: auto;
 margin-top: calc(var(--Navbar-height)+6rem);
@@ -224,14 +230,18 @@ margin-bottom: 20px;
 .Store-item{
 background-color: var(--secondary-bg-color);
 box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.38);
-height: 162px;
-width: 100px;
+height: var(--Item-height);
+width: var(--Item-height);
 border-radius: 5px;
 overflow: hidden;
 margin: 0.62rem;
 }
 .Store-item-image{
-  width: 100%;
+  zoom:5%;
+}
+.Store-item-title{
+  font-size: 168%;
+  margin: none;
 }
 
 /* -------------------------------- */
