@@ -7,8 +7,8 @@ function Intro() {
     <div id="Intro" className="Intro">
 
             <div className="Intro-header">
-              <p style={{fontSize:"2rem"}}>Empowered Planet</p>
-              <p style={{fontSize:"1rem"}}>Global and Local Collaboration</p>
+              <p>Empowered Planet</p>
+              <p>Global and Local Collaboration</p>
             </div>
 
             <table className="Seasons">

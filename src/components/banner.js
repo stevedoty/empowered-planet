@@ -4,7 +4,7 @@ let quotesArray = [
   {
     quote: "If you quit, that's a guaranteed failure",
     author: "Steve Harvey",
-    publisher: ""
+    publisher: "E. P."
   }
 ]
 

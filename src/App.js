@@ -2,6 +2,8 @@
 import './App.css';
 import './assets/css/main.css';
 
+import image from "./images/imports/oceantides.jpg"
+
 import Navbar from './components/navbar.js';
 import Banner from './components/banner.js';
 import BrandLinks from './components/brandlinks.js';
@@ -14,6 +16,7 @@ import Messenger from './components/messenger.js';
 function App() {
   return (
     <div className="App">
+
       <Navbar />
       <Banner />
       <BrandLinks />

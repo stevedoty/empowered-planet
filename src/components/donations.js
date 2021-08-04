@@ -30,6 +30,11 @@ let donationsArray = [
         link:"https://www.paypal.com/login",
         icon:"fa-paypal",
       },
+      {
+        title:"eBay",
+        link:"https://www.ebay.com/login",
+        icon:"fa-ebay",
+      },
     ]
   }
 ]

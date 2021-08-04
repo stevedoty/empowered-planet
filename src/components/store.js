@@ -73,7 +73,7 @@ function Vision() {
               return(
                 <div className="Store-item">
                       <img className="Store-item-image" src={item.image} alt="yo"/>
-                      <p className="Store-item-title" style={{margin:"none"}}>{item.name}</p>
+                      <p className="Store-item-title">{item.name}</p>
                       <p>{item.description}</p>
                       <p>{item.name}</p>
                 </div>
