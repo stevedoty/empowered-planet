@@ -8,7 +8,8 @@ function Library() {
     <div id="Library" className="Library">
 
         <header  className="Library-header">
-          <h2>{MAINDATA.LIBRARYDATA.ARTICLEDATA[1].title}</h2>
+          <h2>{MAINDATA.LIBRARYDATA.ARTICLEDATA[0].title}</h2>
+          <p>{MAINDATA.LIBRARYDATA.ARTICLEDATA[0].subtitle}</p>
           <input className="searchBar" type="text" name="search" placeholder="Search"/>
         </header>
 
@@ -26,7 +27,8 @@ function Library() {
         </div>
 
         <header  className="Library-header">
-          <h2>{MAINDATA.LIBRARYDATA.YOUTUBEDATA[1].title}</h2>
+          <h2>{MAINDATA.LIBRARYDATA.YOUTUBEDATA[0].title}</h2>
+          <p>{MAINDATA.LIBRARYDATA.YOUTUBEDATA[0].subtitle}</p>
           <input className="searchBar" type="text" name="search" placeholder="Search"/>
         </header>
 

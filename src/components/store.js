@@ -10,7 +10,7 @@ function Vision() {
 
           <header  className="Store-header" style={{width:"100%"}}>
             <h2>{MAINDATA.STOREDATA[0].title}</h2>
-            <p>{MAINDATA.STOREDATA[0].title}</p>
+            <p>{MAINDATA.STOREDATA[0].subtitle}</p>
             <input className="searchBar" type="text" name="search" placeholder="Search"/>
           </header>
 

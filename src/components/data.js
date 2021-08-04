@@ -2,8 +2,8 @@ export const MAINDATA = {
   LIBRARYDATA:{
     ARTICLEDATA:[
       {
-        title: "Bringing Communities Together",
-        subtitle: "Offering Information and Products"
+        title: "A List of our Articles",
+        subtitle: "Here's where we are looking"
       },
       {
         title: "Articles",
@@ -81,8 +81,8 @@ export const MAINDATA = {
     ],
     YOUTUBEDATA:[
       {
-        title: "Bringing Communities Together",
-        subtitle: "Offering Information and Products"
+        title: "Our YouTube List",
+        subtitle: "Just some helpful channels"
       },
       {
         title: "Youtube",
@@ -217,6 +217,7 @@ export const MAINDATA = {
       subtitle: "We strive to bring the best products for everone and our environment"
     },
     {
+      title: "Store",
       list: [
         {
           identification:"",
