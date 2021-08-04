@@ -12,14 +12,14 @@ function Banner() {
   return (
     <div className="Banner">
 
-      <div className="">
+      <div className="Banner-body">
         {quotesArray.map(item=>{
           return(
 
-            <div>
-              <h1>" {item.quote} "</h1>
-              <h2>by {item.author}</h2>
-              <p>provided by {item.publisher}</p>
+            <div className="Banner-body-quote">
+              <h1 className="Banner-body-quote-main">" {item.quote} "</h1>
+              <h2 className="Banner-body-quote-author">by {item.author}</h2>
+              <p className="Banner-body-quote-publisher">provided by {item.publisher}</p>
             </div>
 
           )

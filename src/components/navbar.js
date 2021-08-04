@@ -1,8 +1,6 @@
 import React from 'react';
-
-
-
 import brandIcon from "../images/imports/planet.ico"
+
 
 
 function Navbar() {
@@ -14,7 +12,6 @@ function Navbar() {
           <a href="#Library" className="Navbar-item">Library</a>
           <a href="#Store" className="Navbar-item">Store</a>
           <a href="#Messenger" className="Navbar-item">Messenger</a>
-
 
     </div>
   );

@@ -5,6 +5,7 @@ import './assets/css/main.css';
 import image from "./images/imports/oceantides.jpg"
 
 import Navbar from './components/navbar.js';
+import Searchbar from "./components/searchbar.js"
 import Banner from './components/banner.js';
 import BrandLinks from './components/brandlinks.js';
 import Intro from './components/intro.js';
@@ -18,6 +19,7 @@ function App() {
     <div className="App">
 
       <Navbar />
+      <Searchbar />
       <Banner />
       <BrandLinks />
       <Intro />
