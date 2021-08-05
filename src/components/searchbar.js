@@ -2,8 +2,6 @@ import React from 'react';
 
 
 
-import brandIcon from "../images/imports/planet.ico"
-
 
 function Searchbar() {
   return (

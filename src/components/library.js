@@ -10,7 +10,7 @@ function Library() {
         <header  className="Library-header">
           <h2>{MAINDATA.LIBRARYDATA.ARTICLEDATA[0].title}</h2>
           <p>{MAINDATA.LIBRARYDATA.ARTICLEDATA[0].subtitle}</p>
-          <input className="searchBar" type="text" name="search" placeholder="Search"/>
+          
         </header>
 
         <div className="Library-articles">

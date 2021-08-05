@@ -86,26 +86,30 @@ margin: none;
 }
 .Navbar-brand-icon{
 box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 1);
-  margin-top: 1rem;
+margin-top: 1rem;
 height: 5rem;
 width: 5rem;
 border-radius: 50%;
 top: 0;
+left: 10%;
 }
 .Navbar-brand-name{}
 
 /* -------------------------------- */
 .Searchbar{
 position: fixed;
+left: 10%;
 top: 55px;
-right: 0;
+width: 65vw;
 }
 .Searchbar-content{
-  width: 84vw;
-  text-align: center;
-  border: none;
-  color: var(--main-text-color);
-  background-color: var(--Navbar-main-bg-color);
+width: 100%;
+text-align: center;
+padding-left: 4rem;
+padding-right: 35vw;
+border: none;
+color: var(--main-text-color);
+background-color: var(--Navbar-main-bg-color);
 }
 
 /* -------------------------------- */
@@ -117,13 +121,13 @@ margin-top: calc(var(--Navbar-height)+6rem);
 margin-bottom: calc(var(--Navbar-height)+6rem);
 }
 .Banner-body-quote-main{
-  font-size: 162%;
+font-size: 162%;
 }
 .Banner-body-quote-author{
-  font-size: 100%;
+font-size: 100%;
 }
 .Banner-body-quote-publisher{
-  font-size: 62.18%;
+font-size: 62.18%;
 }
 /* -------------------------------- */
 .BrandLinks{
