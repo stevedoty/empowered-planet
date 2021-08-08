@@ -17,7 +17,6 @@ import Messenger from './components/messenger.js';
 function App() {
   return (
     <div className="App">
-
       <Navbar />
       <Searchbar />
       <Banner />
