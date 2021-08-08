@@ -88,6 +88,11 @@ export const MAINDATA = {
         title: "Youtube",
         list: [
           {
+            title:"Empowered Planet",
+            description:"Empowerment",
+            link:"https://www.youtube.com/channel/UCBxSUKp2UGcPHf44myf2o2Q",
+          },
+          {
             title:"Psych2Go",
             description:"Psychology",
             link:"https://www.youtube.com/channel/UCkJEpR7JmS36tajD34Gp4VA",
