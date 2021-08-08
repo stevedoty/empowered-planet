@@ -196,17 +196,20 @@ background-position: center;
 background-size: 300%;
 }
 .Seasons-cell-one{
-background-image: url("./images/imports/ronaldo-de-oliveira-wngy5vxtZJg-unsplash.jpg");
-
+background-image:
+url("./images/imports/ronaldo-de-oliveira-wngy5vxtZJg-unsplash.jpg");
 }
 .Seasons-cell-two{
-background-image: url("./images/imports/kent-pilcher-87MIF4vqHWg-unsplash.jpg");
+background-image:
+url("./images/imports/kent-pilcher-87MIF4vqHWg-unsplash.jpg");
 }
 .Seasons-cell-three{
-background-image: url("./images/imports/andrew-coelho-VB-w_3dnyvI-unsplash.jpg");
+background-image:
+url("./images/imports/andrew-coelho-VB-w_3dnyvI-unsplash.jpg");
 }
 .Seasons-cell-four{
-background-image: url("./images/imports/marek-okon-tWWCqIMiUmg-unsplash.jpg");
+background-image:
+url("./images/imports/marek-okon-tWWCqIMiUmg-unsplash.jpg");
 }
 
 /* -------------------------------- */

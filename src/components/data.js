@@ -93,6 +93,11 @@ export const MAINDATA = {
             link:"https://www.youtube.com/channel/UCkJEpR7JmS36tajD34Gp4VA",
           },
           {
+            title:"Dr. Eric Berg DC",
+            description:"Health",
+            link:"https://www.youtube.com/channel/UC3w193M5tYPJqF0Hi-7U-2g",
+          },
+          {
             title:"The Jimmy Dore Show",
             description:"Independent Media",
             link:"https://www.youtube.com/channel/UC3M7l8ved_rYQ45AVzS0RGA",
@@ -108,14 +113,14 @@ export const MAINDATA = {
             link:"https://www.youtube.com/channel/UCDRIjKy6eZOvKtOELtTdeUA",
           },
           {
-            title:"Dr. Eric Berg DC",
-            description:"Health",
-            link:"https://www.youtube.com/channel/UC3w193M5tYPJqF0Hi-7U-2g",
-          },
-          {
             title:"Einzelgänger",
             description:"Philosophy",
             link:"https://www.youtube.com/channel/UCybBViio_TH_uiFFDJuz5tg",
+          },
+          {
+            title:"andrewnef",
+            description:"Independent Media",
+            link:"https://www.youtube.com/channel/UC3vpdyeYFQPLWY7fABkXaaA",
           },
           {
             title:"Face Body Reading",
