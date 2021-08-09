@@ -3,7 +3,6 @@ margin: auto;
 }
 :root{
   --navbar-height: 33px;
-
   --red-velvet:rgb(127,42,60);
   --natural-rose:rgb(210,37,67);
   --natural-red:rgb(155,31,33);
@@ -22,18 +21,14 @@ margin: auto;
   --sea-foam-blue:rgb(42,134,138);
   --matte-dark-blue:rgb(11,11,96);
   --pure-blue:rgb(0,0,255);
-
   --cactus-green:rgb(46,96,33);
-
   --main-bg-color: var(--cactus-green);
   --secondary-bg-color: var(--natural-red);
   --main-text-color: rgb(255,255,255);
-
   --Navbar-main-bg-color: var(--matte-dark-blue);
   --Footer-main-bg-color: var(--matte-dark-blue);
-
-  --Item-height: calc(1.6128*8.5rem);
-  --Item-width: calc(1*8.5rem);
+  --Item-height: calc(1.6128 * 8.5rem);
+  --Item-width: calc(1 * 8.5rem);
 }
 /* -------------------------------- */
 .App {
@@ -105,8 +100,8 @@ background-color: var(--Navbar-main-bg-color);
 font-style: italic;
 width: 100vw;
 margin: auto;
-margin-top: calc(calc(var(--Navbar-height)+6rem));
-margin-bottom: calc(calc(var(--Navbar-height)+6rem));
+margin-top: calc(calc(var(--Navbar-height) + 6rem));
+margin-bottom: calc(calc(var(--Navbar-height) + 6rem));
 }
 .Banner-body-quote-main{
 font-size: 162%;
@@ -121,7 +116,7 @@ font-size: 62.18%;
 .BrandLinks{
 color: var(--main-text-color);
 position: fixed;
-top: calc(calc(var(--navbar-height)+20rem));
+top: calc(calc(var(--navbar-height) + 20rem));
 zoom:60%;
 right: 0;
 top: 62.18%;
