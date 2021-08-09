@@ -165,6 +165,11 @@ export const MAINDATA = {
             link:"https://www.youtube.com/channel/UC3w193M5tYPJqF0Hi-7U-2g",
           },
           {
+            title:"Yoga With Adriene",
+            description:"Yoga",
+            link:"https://www.youtube.com/channel/UCFKE7WVJfvaHW5q283SxchA",
+          },
+          {
             title:"The Jimmy Dore Show",
             description:"Independent Media",
             link:"https://www.youtube.com/channel/UC3M7l8ved_rYQ45AVzS0RGA",
