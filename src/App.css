@@ -116,7 +116,7 @@ font-size: 62.18%;
 .BrandLinks{
 color: var(--main-text-color);
 position: fixed;
-top: calc(var(--navbar-height) + 20remå);
+top: calc(var(--navbar-height) + 20rem);
 zoom:60%;
 right: 0;
 top: 62.18%;
