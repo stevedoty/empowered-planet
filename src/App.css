@@ -24,12 +24,12 @@ margin: auto;
   --main-bg-color: var(--cactus-green);
   --secondary-bg-color: var(--natural-red);
   --main-text-color: rgb(255,255,255);
-  --Navbar-main-bg-color: var(--matte-dark-blue);
-  --Footer-main-bg-color: var(--matte-dark-blue);
+  --navbar-main-bg-color: var(--matte-dark-blue);
+  --footer-main-bg-color: var(--matte-dark-blue);
 
-  --Navbar-height: 33px;
-  --Item-height: calc(1.6128 * 8.5rem);
-  --Item-width: calc(1 * 8.5rem);
+  --navbar-height: 33px;
+  --item-height: calc(1.6128 * 8.5rem);
+  --item-width: calc(1 * 8.5rem);
 }
 /* -------------------------------- */
 .App {
@@ -48,12 +48,12 @@ background-color: var(--main-bg-color);
 position: fixed;
 top: 0;
 left: -1px;
-height: var(--Navbar-height);
+height: var(--navbar-height);
 width: 100%;
 display: flex;
 flex-direction: row;
 justify-content: space-between;
-background-color: var(--Navbar-main-bg-color);
+background-color: var(--navbar-main-bg-color);
 padding-top: 1.25rem;
 padding-right: 6rem;
 padding-bottom: 0.38rem;
@@ -93,7 +93,7 @@ padding-left: 4rem;
 padding-right: 35vw;
 border: none;
 color: var(--main-text-color);
-background-color: var(--Navbar-main-bg-color);
+background-color: var(--navbar-main-bg-color);
 }
 
 /* -------------------------------- */
@@ -101,8 +101,8 @@ background-color: var(--Navbar-main-bg-color);
 font-style: italic;
 width: 100vw;
 margin: auto;
-margin-top: calc(var(--Navbar-height) + 6rem);
-margin-bottom: calc(var(--Navbar-height) + 6rem);
+margin-top: calc(var(--navbar-height) + 6rem);
+margin-bottom: calc(var(--navbar-height) + 6rem);
 }
 .Banner-body-quote-main{
 font-size: 162%;
@@ -223,8 +223,8 @@ padding-bottom: 38px;
 }
 .Library-item{
   background-color: var(--secondary-bg-color);
-height: var(--Item-height);
-width: var(--Item-width);
+height: var(--item-height);
+width: var(--item-width);
 border-radius: 5px;
 box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.38);
 overflow: hidden;
@@ -249,8 +249,8 @@ margin-bottom: 20px;
 .Store-item{
 background-color: var(--secondary-bg-color);
 box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.38);
-height: var(--Item-height);
-width: var(--Item-width);
+height: var(--item-height);
+width: var(--item-width);
 border-radius: 5px;
 overflow: hidden;
 margin: 0.38rem;
@@ -276,6 +276,6 @@ overflow: hidden;
 
 /* -------------------------------- */
 .Footer{
-background-color: var(--Footer-main-bg-color);
+background-color: var(--footer-main-bg-color);
 padding : 1rem;
 }
