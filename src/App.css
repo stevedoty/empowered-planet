@@ -2,7 +2,6 @@ body{
 margin: auto;
 }
 :root{
-  --navbar-height: 33px;
   --red-velvet:rgb(127,42,60);
   --natural-rose:rgb(210,37,67);
   --natural-red:rgb(155,31,33);
@@ -27,6 +26,8 @@ margin: auto;
   --main-text-color: rgb(255,255,255);
   --Navbar-main-bg-color: var(--matte-dark-blue);
   --Footer-main-bg-color: var(--matte-dark-blue);
+
+  --NNavbar-height: 33px;
   --Item-height: calc(1.6128 * 8.5rem);
   --Item-width: calc(1 * 8.5rem);
 }
@@ -47,7 +48,7 @@ background-color: var(--main-bg-color);
 position: fixed;
 top: 0;
 left: -1px;
-height: var(--navbar-height);
+height: var(--Navbar-height);
 width: 100%;
 display: flex;
 flex-direction: row;
