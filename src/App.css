@@ -27,7 +27,7 @@ margin: auto;
   --Navbar-main-bg-color: var(--matte-dark-blue);
   --Footer-main-bg-color: var(--matte-dark-blue);
 
-  --NNavbar-height: 33px;
+  --Navbar-height: 33px;
   --Item-height: calc(1.6128 * 8.5rem);
   --Item-width: calc(1 * 8.5rem);
 }
