@@ -100,7 +100,7 @@ background-color: var(--Navbar-main-bg-color);
 font-style: italic;
 width: 100vw;
 margin: auto;
-margin-top: 30rem;
+margin-top: calc(var(--Navbar-height) + 6rem);
 margin-bottom: calc(var(--Navbar-height) + 6rem);
 }
 .Banner-body-quote-main{
