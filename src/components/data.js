@@ -8,13 +8,14 @@ export const MAIN_DATA = {
       {
       title:"",
       list:[
+        "Uninhabitable Climates Caused By Humans"
         "Privatization and Pollution of Life’s Essential Resources",
         "Genocide",
         "Slavery",
         "Sex Slavery and Kidnapping",
         "Child Rape and Molestation",
         "International Stealing of Resources",
-        "Oppression of Population Through Military",
+        "Oppression of Population Through Military Or Private Interest Groups",
         "Private Control of Information Through Propaganda, Misinformation, and Censorship",
         "Irreversible Damage to Our Public Environment By Private Interest Groups"
         ]
