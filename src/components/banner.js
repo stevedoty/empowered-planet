@@ -13,7 +13,7 @@ function Banner() {
     <div className="Banner">
 
       <div className="Banner-body">
-        {quotesArray.map(item=>{
+        {quotesArray.map((item, key)=>{
           return(
 
             <div className="Banner-body-quote">

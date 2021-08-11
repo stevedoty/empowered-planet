@@ -1,7 +1,7 @@
 import MAIN_DATA from "./data.js"
 import React from 'react';
 
-let currentIssues = MAIN_DATA.CURRENTISSUESDATA
+let currentIssues = MAIN_DATA.CURRENT_ISSUES_DATA
 
 function Intro() {
   return (

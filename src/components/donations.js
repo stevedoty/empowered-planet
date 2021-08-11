@@ -43,7 +43,7 @@ function Donations() {
   return (
     <div className="Donations BrandLinks-column">
 
-        {donationsArray[1].list.map(item=>{
+        {donationsArray[1].list.map((item, key)=>{
           return(
             <a
               href={item.link}

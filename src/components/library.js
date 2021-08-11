@@ -14,7 +14,7 @@ function Library() {
         </header>
 
         <div className="Library-articles">
-            {MAIN_DATA.LIBRARYDATA.ARTICLEDATA[1].list.map((item, key))=>{
+            {MAIN_DATA.LIBRARYDATA.ARTICLEDATA[1].list.map((item, key)=>{
               return(
                 <div className="Library-item">
                       <img className="Library-item-image" src={image} alt="yo"/>

@@ -1,5 +1,5 @@
 export const MAIN_DATA = {
-  CURRENTISSUESDATA:{
+  CURRENT_ISSUES_DATA:{
     globalIssues:[
       {
         heading:"Global Issues",

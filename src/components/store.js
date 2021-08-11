@@ -14,7 +14,7 @@ function Vision() {
 
           </header>
 
-            {MAIN_DATA.STOREDATA[1].list.map(item=>{
+            {MAIN_DATA.STOREDATA[1].list.map((item, key)=>{
               return(
                 <div className="Store-item">
                       <img className="Store-item-image" src={image} alt="yo"/>
