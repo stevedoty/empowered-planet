@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-
+import MAIN_DATA from "./data.js"
 
 
 

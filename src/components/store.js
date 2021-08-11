@@ -1,5 +1,5 @@
 import React from 'react';
-import MAINDATA from "./data.js";
+import MAIN_DATA from "./data.js";
 import image from "../images/imports/Lorem-Ipsum-example.jpg"
 
 
@@ -9,12 +9,12 @@ function Vision() {
 
 
           <header  className="Store-header" style={{width:"100%"}}>
-            <h2>{MAINDATA.STOREDATA[0].title}</h2>
-            <p>{MAINDATA.STOREDATA[0].subtitle}</p>
-          
+            <h2>{MAIN_DATA.STOREDATA[0].title}</h2>
+            <p>{MAIN_DATA.STOREDATA[0].subtitle}</p>
+
           </header>
 
-            {MAINDATA.STOREDATA[1].list.map(item=>{
+            {MAIN_DATA.STOREDATA[1].list.map(item=>{
               return(
                 <div className="Store-item">
                       <img className="Store-item-image" src={image} alt="yo"/>

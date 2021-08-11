@@ -1,4 +1,4 @@
-export const MAINDATA = {
+export const MAIN_DATA = {
   CURRENTISSUESDATA:{
     globalIssues:[
       {
@@ -129,7 +129,7 @@ export const MAINDATA = {
             image: "",
             title: "Water",
             header: "Should it be privatized? Who has the right to drinking water?",
-            body: "a;lsjdlj alsjdflj aljdkj aljdfj  a;slkjdfj alsdj asdfjloij"
+            body: "If companies can drain water from the water, doesn't that also deprive the soil as well as all plant life from the essential ingredients they need to produce our oxygen? Should we be removing water from the environments that are being kept alive bby that water? Is it really in the best interest to ship water outside of its local",
           },
           {
             image: "",
@@ -349,4 +349,4 @@ export const MAINDATA = {
     }
   ]
 };
-export default MAINDATA;
+export default MAIN_DATA;

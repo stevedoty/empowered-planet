@@ -1,7 +1,7 @@
-import MAINDATA from "./data.js"
+import MAIN_DATA from "./data.js"
 import React from 'react';
 
-let currentIssues = MAINDATA.CURRENTISSUESDATA
+let currentIssues = MAIN_DATA.CURRENTISSUESDATA
 
 function Intro() {
   return (
