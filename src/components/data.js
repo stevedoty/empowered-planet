@@ -148,7 +148,7 @@ export const MAIN_DATA = {
         subtitle: "Just some helpful channels"
       },
       {
-        title: "Youtube",
+        title: "Youtube-channels",
         list: [
           {
             title:"Empowered Planet",
@@ -286,9 +286,35 @@ export const MAIN_DATA = {
             link:"https://www.youtube.com/channel/UCPCHuLiHbhG3s_YxhMLOn6Q",
           },
         ]
-      }
+      },
+      {
+        title: "Free Movies",
+        list: [
+          {
+            title: "4 Minute Mile",
+            link: "https://www.youtube.com/watch?v=GTaqQsmvAB8"
+          },
+          {
+            title: "Idiocray",
+            link: "hhttps://www.youtube.com/watch?v=0Tv5shB4Gg0
+          },
+          {
+            title: "Fat, Sick, and Nearly Dead",
+            link: "https://www.youtube.com/watch?v=q1z5WjjVL5c"
+          },
+          {
+            title: "12 Angry Men",
+            link: ""
+          },
+          {
+            title: "The Man From Earth",
+            link: "https://www.youtube.com/watch?v=DZC-o6FmkNE"
+          }
+        ]
+      },
     ]
   },
+
   STOREDATA:[
     {
       title: "Welcome to the Marketplace",
