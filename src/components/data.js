@@ -309,6 +309,14 @@ export const MAIN_DATA = {
           {
             title: "The Man From Earth",
             link: "https://www.youtube.com/watch?v=DZC-o6FmkNE"
+          },
+          {
+            title: "Earthlings",
+            link: "https://www.youtube.com/watch?v=8gqwpfEcBjI"
+          },
+          {
+            title: "Planet Of The Humans",
+            link: "https://www.youtube.com/watch?v=Zk11vI-7czE"
           }
         ]
       },
