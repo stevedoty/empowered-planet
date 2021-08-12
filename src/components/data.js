@@ -296,7 +296,7 @@ export const MAIN_DATA = {
           },
           {
             title: "Idiocray",
-            link: "hhttps://www.youtube.com/watch?v=0Tv5shB4Gg0
+            link: "hhttps://www.youtube.com/watch?v=0Tv5shB4Gg0"
           },
           {
             title: "Fat, Sick, and Nearly Dead",
