@@ -8,7 +8,7 @@ export const MAIN_DATA = {
       {
       title:"",
       list:[
-        "Uninhabitable Climates Caused By Humans"
+        "Uninhabitable Climates Caused By Humans",
         "Privatization and Pollution of Life’s Essential Resources",
         "Genocide",
         "Slavery",
