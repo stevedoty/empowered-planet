@@ -29,7 +29,7 @@ function Intro() {
               <h2>{currentIssues.globalIssues[0].subheading}</h2>
               {currentIssues.globalIssues[1].list.map((item, key)=>{
                 return(
-                  <p>{item}</p>
+                  <p className="globalIssues-item">{item}</p>
                 )
               })}
             </div>

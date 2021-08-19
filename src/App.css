@@ -160,11 +160,16 @@ text-shadow:
 font-variant: small-caps;
 font-weight: bolder;
 }
-.Intro-header-title{
-
-}
-.Intro-header-subtitle{
-
+.globalIssues-item{
+color: black;
+text-shadow:
+0 0 1px red,
+0 0 4px red,
+0 0 6px red,
+0 0 10px red,
+0 0 16px red,
+0 0 26px red,
+0 0 42px red;
 }
 
 /* -------------------------------- */
