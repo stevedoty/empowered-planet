@@ -176,11 +176,6 @@ export const MAIN_DATA = {
             link:"https://www.youtube.com/channel/UCzQUP1qoWDoEbmsQxvdjxgQ",
           },
           {
-            title:"Breaking Points",
-            description:"Independent Media",
-            link:"https://www.youtube.com/channel/UCDRIjKy6eZOvKtOELtTdeUA",
-          },
-          {
             title:"Einzelgänger",
             description:"Philosophy",
             link:"https://www.youtube.com/channel/UCybBViio_TH_uiFFDJuz5tg",
