@@ -24,6 +24,7 @@ function App() {
       <Intro />
       <Library />
       <Store />
+      <img src={image} style={{width:"100vw"}} alt="..."/>
       <Messenger />
       <footer id="footer" className="Footer">
             <p>&copy; empoweredplanet</p>

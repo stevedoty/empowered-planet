@@ -3,7 +3,7 @@ export const MAIN_DATA = {
     globalIssues:[
       {
         heading:"Global Issues",
-        subheading:""
+        subheading:"What The Population Is Currently Up Against..."
       },
       {
       title:"",
@@ -144,17 +144,12 @@ export const MAIN_DATA = {
     ],
     YOUTUBEDATA:[
       {
-        title: "Our YouTube List",
+        title: "Youtube List",
         subtitle: "Just some helpful channels"
       },
       {
-        title: "Youtube-channels",
+        title: "Helpful Youtube Channels",
         list: [
-          {
-            title:"Empowered Planet",
-            description:"Empowerment",
-            link:"https://www.youtube.com/channel/UCBxSUKp2UGcPHf44myf2o2Q",
-          },
           {
             title:"Psych2Go",
             description:"Psychology",
@@ -189,11 +184,6 @@ export const MAIN_DATA = {
             title:"Einzelgänger",
             description:"Philosophy",
             link:"https://www.youtube.com/channel/UCybBViio_TH_uiFFDJuz5tg",
-          },
-          {
-            title:"andrewnef",
-            description:"Independent Media",
-            link:"https://www.youtube.com/channel/UC3vpdyeYFQPLWY7fABkXaaA",
           },
           {
             title:"Face Body Reading",
@@ -288,7 +278,7 @@ export const MAIN_DATA = {
         ]
       },
       {
-        title: "Free Movies",
+        title: "Some Interesting Free Movies & Documentaries",
         list: [
           {
             title: "4 Minute Mile",

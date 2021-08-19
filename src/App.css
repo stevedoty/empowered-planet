@@ -17,11 +17,12 @@ margin: auto;
   --leaf-green:rgb(45,90,39);
   --dark-moss-green: rgb(12, 36, 11);
   --deep-aqua:rgb(0,188,188);
+  --dark-teal-green:rgba(24,97,91,0.9);
   --sea-foam-blue:rgb(42,134,138);
   --matte-dark-blue:rgb(11,11,96);
   --pure-blue:rgb(0,0,255);
   --cactus-green:rgb(46,96,33);
-  --main-bg-color: var(--cactus-green);
+  --main-bg-color: var(--dark-teal-green);
   --secondary-bg-color: var(--natural-red);
   --main-text-color: rgb(255,255,255);
   --navbar-main-bg-color: var(--matte-dark-blue);
@@ -160,10 +161,10 @@ font-variant: small-caps;
 font-weight: bolder;
 }
 .Intro-header-title{
-  font-size: 260%;
+
 }
 .Intro-header-subtitle{
-  font-size: 160%;
+
 }
 
 /* -------------------------------- */
@@ -266,8 +267,10 @@ margin: 0.38rem;
 /* -------------------------------- */
 .Messenger{
 justify-content: center;
+
 }
 .Messenger-body{
+
 border-radius: 5px;
 padding: 10px 20px;
 overflow: hidden;
