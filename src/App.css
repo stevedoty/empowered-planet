@@ -19,7 +19,7 @@ margin: auto;
   --deep-aqua:rgb(0,188,188);
   --dark-teal-green:rgba(24,97,91,0.9);
   --sea-foam-blue:rgb(42,134,138);
-  --matte-dark-blue:rgba(11,11,96,0.62);
+  --matte-dark-blue:rgba(11,11,96,0.8);
   --pure-blue:rgb(0,0,255);
   --cactus-green:rgb(46,96,33);
   --main-bg-color: var(--dark-teal-green);
@@ -45,8 +45,8 @@ background-color: var(--main-bg-color);
 
 /* -------------------------------- */
 .Navbar-filter{
-  filter: blur(32px);
-  height: var(--navbar-height);
+  filter: blur(20px);
+  height: calc(var(--navbar-height) / 2);
   width: 100%;
   position: fixed;
   top: 0;
