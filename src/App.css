@@ -19,7 +19,7 @@ margin: auto;
   --deep-aqua:rgb(0,188,188);
   --dark-teal-green:rgba(24,97,91,0.9);
   --sea-foam-blue:rgb(42,134,138);
-  --matte-dark-blue:rgb(11,11,96);
+  --matte-dark-blue:rgba(11,11,96,0.62);
   --pure-blue:rgb(0,0,255);
   --cactus-green:rgb(46,96,33);
   --main-bg-color: var(--dark-teal-green);
@@ -44,6 +44,15 @@ background-color: var(--main-bg-color);
 }
 
 /* -------------------------------- */
+.Navbar-filter{
+  filter: blur(32px);
+  height: calc(var(--navbar-height) * 2);
+  width: 100%;
+  position: fixed;
+  top: 0;
+  background-color: var(--navbar-main-bg-color);
+    z-index: -1;
+}
 .Navbar{
   z-index: 1;
 position: fixed;
@@ -86,6 +95,7 @@ position: fixed;
 left: 10%;
 top: 55px;
 width: 65vw;
+border: none;
 }
 .Searchbar-content{
 width: 100%;
@@ -94,7 +104,7 @@ padding-left: 4rem;
 padding-right: 35vw;
 border: none;
 color: var(--main-text-color);
-background-color: var(--navbar-main-bg-color);
+background-color: black;
 }
 
 /* -------------------------------- */

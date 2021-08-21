@@ -9,7 +9,7 @@ export const MAIN_DATA = {
       title:"",
       list:[
         "Uninhabitable Climates Caused By Humans",
-        "Privatization and Pollution of Life’s Essential Resources",
+        "Privatization and Pollution of Life’s Essential Resources (Wwater)",
         "Genocide",
         "Slavery",
         "Sex Slavery and Kidnapping",
@@ -76,67 +76,67 @@ export const MAIN_DATA = {
             image: "",
             title: "Community & Respect",
             header: "How do we make it work? What have we been missing? What is necessary? What is the most important thing to remember? Is this the way nature was intended?",
-            body: "a;lsjdlj alsjdflj aljdkj aljdfj  a;slkjdfj alsdj asdfjloij a;lsjdlj alsjdflj aljdkj aljdfj  a;slkjdfj alsdj asdfjloij a;lsjdlj alsjdflj aljdkj aljdfj  a;slkjdfj alsdj asdfjloij a;lsjdlj alsjdflj aljdkj aljdfj  a;slkjdfj alsdj asdfjloij a;lsjdlj alsjdflj aljdkj aljdfj  a;slkjdfj alsdj asdfjloij a;lsjdlj alsjdflj aljdkj aljdfj  a;slkjdfj alsdj asdfjloij a;lsjdlj alsjdflj aljdkj aljdfj  a;slkjdfj alsdj asdfjloij a;lsjdlj alsjdflj aljdkj aljdfj  a;slkjdfj alsdj asdfjloij a;lsjdlj alsjdflj aljdkj aljdfj  a;slkjdfj alsdj asdfjloij"
+            body: ""
           },
           {
             image: "",
             title: "Nature & Technology",
             header: "Is there a balance? What's this whole automation thing?",
-            body: "a;lsjdlj alsjdflj aljdkj aljdfj  a;slkjdfj alsdj asdfjloij"
+            body: ""
           },
           {
             image: "",
             title: "Responsibilities",
             header: "What are we missing? What is not being taken care of?",
-            body: "a;lsjdlj alsjdflj aljdkj aljdfj  a;slkjdfj alsdj asdfjloij"
+            body: ""
           },
           {
             image: "",
             title: "Education",
             header: "Is it really that important? Is this the problem? How can we make it accessible?",
-            body: "a;lsjdlj alsjdflj aljdkj aljdfj  a;slkjdfj alsdj asdfjloij"
+            body: ""
           },
           {
             image: "",
             title: "Nutrition",
             header: "Is it that big of a deal? Can it be made simpler? What about all-in-ones? Is organic really worth it?",
-            body: "a;lsjdlj alsjdflj aljdkj aljdfj  a;slkjdfj alsdj asdfjloij"
+            body: ""
           },
           {
             image: "",
             title: "Food & Agriculture",
             header: "?",
-            body: "a;lsjdlj alsjdflj aljdkj aljdfj  a;slkjdfj alsdj asdfjloij"
+            body: ""
           },
           {
             image: "",
             title: "Inspiration",
             header: "Where did we go wrong? What has already started? What should we do next? What is getting in the way?",
-            body: "a;lsjdlj alsjdflj aljdkj aljdfj  a;slkjdfj alsdj asdfjloij"
+            body: ""
           },
           {
             image: "",
             title: "Ecosystem & Economy",
             header: "Can we balance the two? What is going on right now? What should we do next? What is getting in the way?",
-            body: "a;lsjdlj alsjdflj aljdkj aljdfj  a;slkjdfj alsdj asdfjloij"
+            body: ""
           },
           {
             image: "",
             title: "Justice",
             header: "Is empathy the key? What can we do right now? More or less punishment? What is our plan for prevention?",
-            body: "a;lsjdlj alsjdflj aljdkj aljdfj  a;slkjdfj alsdj asdfjloij"
+            body: ""
           },
           {
             image: "",
             title: "Water",
             header: "Should it be privatized? Who has the right to drinking water?",
-            body: "If companies can drain water from the water, doesn't that also deprive the soil as well as all plant life from the essential ingredients they need to produce our oxygen? Should we be removing water from the environments that are being kept alive bby that water? Is it really in the best interest to ship water outside of its local",
+            body: "If companies can drain water from the earth, doesn't that also deprive the soil as well as all plant life from the essential ingredients they need to produce our oxygen? Should we be removing water from the environments that are being kept alive by that water? Is it really in the best interest to ship water outside of its natural area",
           },
           {
             image: "",
             title: "Love & Fear",
             header: "Can the two coexist? Can one exist without the other?",
-            body: "a;lsjdlj alsjdflj aljdkj aljdfj  a;slkjdfj alsdj asdfjloij"
+            body: ""
           },
 
         ]
@@ -324,49 +324,49 @@ export const MAIN_DATA = {
           identification:"",
           image:"",
           name:"Soap",
-          description:"a;lsjdlj alsjdflj aljdkj aljdfj  a;slkjdfj alsdj asdfjloij a;lsjdlj alsjdflj aljdkj aljdfj  a;slkjdfj alsdj asdfjloij a;lsjdlj alsjdflj aljdkj aljdfj  a;slkjdfj alsdj asdfjloij a;lsjdlj alsjdflj aljdkj aljdfj  a;slkjdfj alsdj asdfjloij a;lsjdlj alsjdflj aljdkj aljdfj",
+          description:"",
           price:"",
         },
         {
           identification:"",
           image:"",
           name:"Toothbrush",
-          description:"a;lsjdlj alsjdflj aljdkj aljdfj  a;slkjdfj alsdj asdfjloij a;lsjdlj alsjdflj aljdkj aljdfj  a;slkjdfj alsdj asdfjloij a;lsjdlj alsjdflj aljdkj aljdfj  a;slkjdfj alsdj asdfjloij a;lsjdlj alsjdflj aljdkj aljdfj  a;slkjdfj alsdj asdfjloij a;lsjdlj alsjdflj aljdkj aljdfj",
+          description:"",
           price:"",
         },
         {
           identification:"",
           image:"",
           name:"Tooth Paste",
-          description:"a;lsjdlj alsjdflj aljdkj aljdfj  a;slkjdfj alsdj asdfjloij a;lsjdlj alsjdflj aljdkj aljdfj  a;slkjdfj alsdj asdfjloij a;lsjdlj alsjdflj aljdkj aljdfj  a;slkjdfj alsdj asdfjloij a;lsjdlj alsjdflj aljdkj aljdfj  a;slkjdfj alsdj asdfjloij a;lsjdlj alsjdflj aljdkj aljdfj",
+          description:"",
           price:"",
         },
         {
           identification:"",
           image:"",
           name:"Energy Snack",
-          description:"a;lsjdlj alsjdflj aljdkj aljdfj  a;slkjdfj alsdj asdfjloij a;lsjdlj alsjdflj aljdkj aljdfj  a;slkjdfj alsdj asdfjloij a;lsjdlj alsjdflj aljdkj aljdfj  a;slkjdfj alsdj asdfjloij a;lsjdlj alsjdflj aljdkj aljdfj  a;slkjdfj alsdj asdfjloij a;lsjdlj alsjdflj aljdkj aljdfj",
+          description:"",
           price:"",
         },
         {
           identification:"",
           image:"",
           name:"Mouthwash",
-          description:"a;lsjdlj alsjdflj aljdkj aljdfj  a;slkjdfj alsdj asdfjloij a;lsjdlj alsjdflj aljdkj aljdfj  a;slkjdfj alsdj asdfjloij a;lsjdlj alsjdflj aljdkj aljdfj  a;slkjdfj alsdj asdfjloij a;lsjdlj alsjdflj aljdkj aljdfj  a;slkjdfj alsdj asdfjloij a;lsjdlj alsjdflj aljdkj aljdfj",
+          description:"",
           price:"",
         },
         {
           identification:"",
           image:"",
           name:"Organic Natural Produce",
-          description:"a;lsjdlj alsjdflj aljdkj aljdfj  a;slkjdfj alsdj asdfjloij a;lsjdlj alsjdflj aljdkj aljdfj  a;slkjdfj alsdj asdfjloij a;lsjdlj alsjdflj aljdkj aljdfj  a;slkjdfj alsdj asdfjloij a;lsjdlj alsjdflj aljdkj aljdfj  a;slkjdfj alsdj asdfjloij a;lsjdlj alsjdflj aljdkj aljdfj",
+          description:"",
           price:"",
         },
         {
           identification:"",
           image:"",
           name:"Book",
-          description:"a;lsjdlj alsjdflj aljdkj aljdfj  a;slkjdfj alsdj asdfjloij a;lsjdlj alsjdflj aljdkj aljdfj  a;slkjdfj alsdj asdfjloij a;lsjdlj alsjdflj aljdkj aljdfj  a;slkjdfj alsdj asdfjloij a;lsjdlj alsjdflj aljdkj aljdfj  a;slkjdfj alsdj asdfjloij a;lsjdlj alsjdflj aljdkj aljdfj",
+          description:"",
           price:"",
         },
       ]
