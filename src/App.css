@@ -46,7 +46,7 @@ background-color: var(--main-bg-color);
 /* -------------------------------- */
 .Navbar-filter{
   filter: blur(32px);
-  height: calc(var(--navbar-height) * 2);
+  height: var(--navbar-height);
   width: 100%;
   position: fixed;
   top: 0;
