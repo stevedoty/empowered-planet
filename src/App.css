@@ -246,11 +246,15 @@ box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.38);
 overflow: hidden;
 margin: 0.38rem;
 }
-
 .Library-item-image{
   height: 50%;
 }
-
+.Library-item-title{
+  font-size: 1rem;
+}
+.Library-item-subtitle{
+  font-size: 0.6128rem;
+}
 /* -------------------------------- */
 .Store{
 justify-content: center;

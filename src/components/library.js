@@ -15,7 +15,7 @@ function Library() {
 
         <header  className="Library-header">
           <h2>{MAIN_DATA.LIBRARYDATA.YOUTUBEDATA[0].title}</h2>
-          <p>{MAIN_DATA.LIBRARYDATA.YOUTUBEDATA[1].title}</p>
+          <p>{MAIN_DATA.LIBRARYDATA.YOUTUBEDATA[0].subtitle}</p>
           <input className="searchBar" type="text" name="search" placeholder="Search"/>
         </header>
 
@@ -24,8 +24,9 @@ function Library() {
               return(
                 <div className="Library-item">
                       <p className="Library-item-title">{item.title}</p>
-                      <p className="Library-item-header" >{item.description}</p>
+                      <p className="Library-item-subtitle" >{item.description}</p>
                       <a href={item.link} target="_blank" rel="noopener noreferrer"><p className="Library-item-body">youtube</p></a>
+                      <a href={item.link} target="_blank" rel="noopener noreferrer"><p className="Library-item-body">website</p></a>
                 </div>
               )
             })}
@@ -41,7 +42,7 @@ function Library() {
               return(
                 <div className="Library-item">
                       <p className="Library-item-title">{item.title}</p>
-                      <p className="Library-item-header" >{item.description}</p>
+                      <p className="Library-item-subtitle" >{item.description}</p>
                       <a href={item.link} target="_blank" rel="noopener noreferrer"><p className="Library-item-body">youtube</p></a>
                 </div>
               )

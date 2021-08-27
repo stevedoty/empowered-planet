@@ -145,7 +145,7 @@ export const MAIN_DATA = {
     YOUTUBEDATA:[
       {
         title: "Youtube List",
-        subtitle: "Just some helpful channels"
+        subtitle: "All of these channels have been chosen to improve some aspect of your life and help you find your most empowered, healthy, and informed self."
       },
       {
         title: "Helpful Youtube Channels",
