@@ -1,4 +1,57 @@
 export const MAIN_DATA = {
+  SOCIAL_MEDIA_DATA:[
+    {},
+    {
+      title:"SocialMedia",
+      list: [
+        {
+          title:"YouTube",
+          link:"https://www.youtube.com/channel/UCBxSUKp2UGcPHf44myf2o2Q",
+          icon:"fa-youtube",
+        },
+        {
+          title:"tiktok",
+          link:"https://www.tiktok.com/@empoweredplanet?lang=en",
+          icon:"fa-tiktok",
+        },
+        {
+          title:"snapchat",
+          link:"https://story.snapchat.com/u/empoweredplanet",
+          icon:"fa-snapchat",
+        },
+        {
+          title:"Pinterest",
+          link:"https://www.pinterest.com/empoweredplanet/_saved/",
+          icon:"fa-pinterest",
+        },
+        {
+          title:"Instagram",
+          link:"https://www.instagram.com/empoweredplanet/",
+          icon:"fa-instagram",
+        },
+        {
+          title:"twitter",
+          link:"https://twitter.com/planetempowered",
+          icon:"fa-twitter",
+        },
+        {
+          title:"facebook",
+          link:"https://www.facebook.com/",
+          icon:"fa-facebook-f",
+        },
+        {
+          title:"linkedin",
+          link:"https://www.linkedin.com/",
+          icon:"fa-linkedin-in",
+        },
+        {
+          title:"dribbble",
+          link:"https://www.dribbble.com/",
+          icon:"fa-dribbble",
+        },
+      ]
+    }
+  ],
   CURRENT_ISSUES_DATA:{
     globalIssues:[
       {
@@ -280,7 +333,7 @@ export const MAIN_DATA = {
             link: "https://www.youtube.com/watch?v=GTaqQsmvAB8"
           },
           {
-            title: "Idiocray",
+            title: "Idiocracy",
             link: "hhttps://www.youtube.com/watch?v=0Tv5shB4Gg0"
           },
           {
