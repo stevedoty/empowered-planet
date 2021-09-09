@@ -9,6 +9,7 @@ function Intro() {
 
             <div className="Intro-header">
               <h1 className="Intro-header-title">Empowered Planet</h1>
+              <h2 className="Intro-header-subtitle" style={{fontStyle:"italic"}}>Saving You Time, Money, Etc.</h2>
               <h2 className="Intro-header-subtitle">Global and Local Collaboration</h2>
               <h3 className="Intro-header-description">We Can Accomplish More When We Work Together</h3>
             </div>
