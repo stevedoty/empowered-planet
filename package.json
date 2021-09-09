@@ -20,7 +20,7 @@
       "predeploy":"npm run build",
       "deploy":"gh-pages -d build",
       "build":"rm -r docs && react-scripts build && mv build docs",
-      "deploy:gcloud":"yarn build && gsutil -m rsync -R docs",
+      "deploy:gcloud":"yarn build & gsutil -m rsync -R docs gs://www.empoweredplanet.net/",
       "test":"react-scripts test",
       "eject":"react-scripts eject"
    },
