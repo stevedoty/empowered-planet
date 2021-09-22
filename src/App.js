@@ -25,7 +25,6 @@ function App() {
       <Banner />
       <BrandLinks />
 
-      <LibraryCarousel />
       <Library />
       <Store />
       <img src={image} style={{width:"100vw"}} alt="..."/>
