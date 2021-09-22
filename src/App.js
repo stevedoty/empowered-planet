@@ -9,6 +9,9 @@ import Searchbar from "./components/searchbar.js"
 import Banner from './components/banner.js';
 import BrandLinks from './components/brandlinks.js';
 import Intro from './components/intro.js';
+
+
+import LibraryCarousel from './components/carousel.js';
 import Library from './components/library.js';
 import Store from './components/store.js';
 import Messenger from './components/messenger.js';
@@ -21,6 +24,8 @@ function App() {
       <Searchbar />
       <Banner />
       <BrandLinks />
+
+      <LibraryCarousel />
       <Library />
       <Store />
       <img src={image} style={{width:"100vw"}} alt="..."/>

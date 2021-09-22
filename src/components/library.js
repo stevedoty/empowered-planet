@@ -1,6 +1,5 @@
 import React from 'react';
 import MAIN_DATA from "./data.js";
-import Tile from './tile.js';
 import image from "../images/imports/Lorem-Ipsum-example.jpg"
 
 

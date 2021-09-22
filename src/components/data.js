@@ -329,6 +329,10 @@ export const MAIN_DATA = {
         title: "Some Interesting Free Movies & Documentaries",
         list: [
           {
+            title: "Dead Poets Society",
+            link: "https://www.youtube.com/watch?v=JfJLsWMpTkM"
+          },
+          {
             title: "4 Minute Mile",
             link: "https://www.youtube.com/watch?v=GTaqQsmvAB8"
           },
