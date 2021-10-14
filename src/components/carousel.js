@@ -11,11 +11,11 @@ const mapDispatchToProps = (_, {data}) => {
   };
 };
 
-export const LibraryCarousel = compose(
+export const Carousel = compose(
   connect(
     null,
     mapDispatchToProps
   )(CarouselItem)
 )
 
-export default LibraryCarousel;
+export default Carousel;

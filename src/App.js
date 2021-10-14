@@ -1,4 +1,4 @@
-
+import React, { Component } from "react";
 import './App.css';
 import './assets/css/main.css';
 
@@ -9,31 +9,43 @@ import Searchbar from "./components/searchbar.js"
 import Banner from './components/banner.js';
 import BrandLinks from './components/brandlinks.js';
 import Intro from './components/intro.js';
-
-
 import LibraryCarousel from './components/carousel.js';
 import Library from './components/library.js';
 import Store from './components/store.js';
 import Messenger from './components/messenger.js';
 
 
-function App() {
-  return (
-    <div className="App">
-      <Navbar />
-      <Searchbar />
-      <Banner />
-      <BrandLinks />
 
-      <Library />
-      <Store />
-      <img src={image} style={{width:"100vw"}} alt="..."/>
-      <Messenger />
-      <footer id="footer" className="Footer">
-            <p>&copy; empoweredplanet</p>
-      </footer>
-    </div>
-  );
+import ToDO from "./components/todo";
+import Carousel from "./components/carousel";
+
+import { Provider as ReduxProvider } from "react-redux";
+import configureStore from "./modules/store";
+
+const reduxStore = configureStore(window.REDUX_INITIAL_DATA);
+
+class App extends Component {
+  render() {
+    return (
+      <ReduxProvider store={reduxStore}>
+        <div className="App">
+          <Navbar />
+          <Searchbar />
+          <Banner />
+          <ToDO />
+          <BrandLinks />
+
+          <Library />
+          <Store />
+          <img src={image} style={{width:"100vw"}} alt="..."/>
+          <Messenger />
+          <footer id="footer" className="Footer">
+                <p>&copy; empoweredplanet</p>
+          </footer>
+        </div>
+      </ReduxProvider>
+    );
+  }
 }
 
 export default App;
