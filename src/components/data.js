@@ -362,13 +362,89 @@ export const MAIN_DATA = {
           },
           {
             title: "Just Eat It: A Food Waste Story",
-            link: "https://www.youtube.com/watch?v=BR1Y-ieyfjU"
+            link: "https://www.youtube.com/watch?v=KUHdTDwdq8U"
           }
         ]
       },
     ]
   },
-
+  MOVIELIST:[
+    {
+      title:"The 12th Man",
+      time:"time",
+      description:"description"
+    },
+    {
+      title:"Indian",
+      time:"time",
+      description:"description"
+    },
+    {
+      title:"Braveheart",
+      time:"time",
+      description:"description"
+    },
+    {
+      title:"Hunt For The Wilderpeople",
+      time:"time",
+      description:"description"
+    },
+    {
+      title:"Men Of Honor",
+      time:"time",
+      description:"description"
+    },
+    {
+      title:"Remember The Titans",
+      time:"time",
+      description:"description"
+    },
+    {
+      title:"Experimenter",
+      time:"time",
+      description:"description"
+    },
+    {
+      title:"",
+      time:"time",
+      description:"description"
+    },
+    {
+      title:"",
+      time:"time",
+      description:"description"
+    },
+    {
+      title:"",
+      time:"time",
+      description:"description"
+    },
+    {
+      title:"",
+      time:"time",
+      description:"description"
+    },
+    {
+      title:"",
+      time:"time",
+      description:"description"
+    },
+    {
+      title:"",
+      time:"time",
+      description:"description"
+    },
+    {
+      title:"",
+      time:"time",
+      description:"description"
+    },
+    {
+      title:"",
+      time:"time",
+      description:"description"
+    },
+  ],
   STOREDATA:[
     {
       title: "Welcome to the Marketplace",
@@ -429,5 +505,5 @@ export const MAIN_DATA = {
       ]
     }
   ]
-};
+}
 export default MAIN_DATA;

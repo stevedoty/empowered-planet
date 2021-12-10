@@ -1,10 +1,16 @@
 import React from 'react';
-import SliderContainer from './sliderContainer'
+import SliderItem from './sliderItem'
 import './slider.scss'
 
-const Slider = ({  }) => (
+const Slider = ({ props }) => (
 <div>
-  <SliderContainer />
+
+{props.map((props, key) => (
+  <SliderItem
+    title={props.title}
+    time={props.time}
+    description={props.description}
+  />))}
 </div>
 )
 
