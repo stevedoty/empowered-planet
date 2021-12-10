@@ -3,13 +3,13 @@ import SliderItem from './sliderItem'
 import './slider.scss'
 
 const Slider = ({ props }) => (
-<div>
+<div className="slider">
 
 {props.map((props, key) => (
   <SliderItem
-    title={props.title}
-    time={props.time}
-    description={props.description}
+    header={props.title}
+    subheader={props.time}
+    info={props.description}
   />))}
 </div>
 )

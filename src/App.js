@@ -36,9 +36,6 @@ class App extends Component {
           <Searchbar />
           <Banner />
 
-          <Slider props={MOVIELIST}/>
-
-          
           <BrandLinks />
 
           <Library />

@@ -2,10 +2,10 @@ import React from 'react';
 import MAIN_DATA from "./data.js";
 import image from "../images/imports/Lorem-Ipsum-example.jpg"
 
+import Slider from './Slider/slider.js'
 
-
-
-let youtubeData = MAIN_DATA.YOUTUBEDATA
+let movieData = MAIN_DATA.MOVIELIST
+let youtubeData = MAIN_DATA.LIBRARYDATA.YOUTUBEDATA[1].list
 
 function Library() {
   return (
@@ -17,6 +17,9 @@ function Library() {
           <p>{MAIN_DATA.LIBRARYDATA.YOUTUBEDATA[0].subtitle}</p>
           <input className="searchBar" type="text" name="search" placeholder="Search"/>
         </header>
+
+        <Slider props={movieData}/>
+        <Slider props={youtubeData}/>
 
         <div className="Library-youtube">
             {MAIN_DATA.LIBRARYDATA.YOUTUBEDATA[1].list.map((item, key)=>{

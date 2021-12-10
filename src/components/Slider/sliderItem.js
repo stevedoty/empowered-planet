@@ -2,11 +2,13 @@ import React from 'react';
 import './sliderItem.scss'
 
 
-const SliderItem = ({ props, title, time, description }) => (
+const SliderItem = ({ props, header, subheader, info, link, footnote }) => (
 <div className="sliderItem">
-  <div className="sliderItem_title">{title}</div>
-  <div className="sliderItem_time">{time}</div>
-  <div className="sliderItem_description">{description}</div>
+  <div className="sliderItem_header">{header}</div>
+  <div className="sliderItem_subheader">{subheader}</div>
+  <div className="sliderItem_info">{info}</div>
+  <div className="sliderItem_link">{info}</div>
+  <div className="sliderItem_footnote">{info}</div>
 </div>
 )
 

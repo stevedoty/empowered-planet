@@ -1,11 +1,16 @@
 .sliderItem {
+  display: inline-block;
+  height: 130px;
+  width: 100px;
+  margin: 5px;
   background-color: black;
-  height: 200px;
-  width: 19.6%;
+  &_header {background: green}
 
-  &_title {background: green}
+  &_subheader {background: blue}
 
-  &_time {background: blue}
+  &_info {background: green}
 
-  &_description {background: red}
+  &_link {background: blue}
+
+  &_footnote {background: red}
 }

@@ -405,42 +405,42 @@ export const MAIN_DATA = {
       description:"description"
     },
     {
-      title:"",
+      title:"yo",
       time:"time",
       description:"description"
     },
     {
-      title:"",
+      title:"yo",
       time:"time",
       description:"description"
     },
     {
-      title:"",
+      title:"yo",
       time:"time",
       description:"description"
     },
     {
-      title:"",
+      title:"yo",
       time:"time",
       description:"description"
     },
     {
-      title:"",
+      title:"yo",
       time:"time",
       description:"description"
     },
     {
-      title:"",
+      title:"yo",
       time:"time",
       description:"description"
     },
     {
-      title:"",
+      title:"yo",
       time:"time",
       description:"description"
     },
     {
-      title:"",
+      title:"yo",
       time:"time",
       description:"description"
     },
