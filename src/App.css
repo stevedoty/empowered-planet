@@ -232,19 +232,22 @@ flex-wrap: wrap;
 padding-bottom: 38px;
 }
 .Library-youtube{
+  overflow: auto;
+  white-space: nowrap;
 justify-content: center;
-display: flex;
+/* display: flex;
 flex-direction: row;
-flex-wrap: wrap;
+flex-wrap: wrap; */
 padding-bottom: 38px;
 }
 .Library-item{
+  display: inline-block;
+  overflow: hidden;
   background-color: var(--secondary-bg-color);
 height: var(--item-height);
 width: var(--item-width);
 border-radius: 5px;
 box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.38);
-overflow: hidden;
 margin: 0.38rem;
 }
 .Library-item-image{

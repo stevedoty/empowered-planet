@@ -126,67 +126,67 @@ export const MAIN_DATA = {
         list: [
 
           {
-            image: "",
+            image: "../images/thumbs/02.jpg",
             title: "Community & Respect",
             header: "How do we make it work? What have we been missing? What is necessary? What is the most important thing to remember? Is this the way nature was intended?",
             body: ""
           },
           {
-            image: "",
+            image: "../images/thumbs/02.jpg",
             title: "Nature & Technology",
             header: "Is there a balance? What's this whole automation thing?",
             body: ""
           },
           {
-            image: "",
+            image: "../images/thumbs/02.jpg",
             title: "Responsibilities",
             header: "What are we missing? What is not being taken care of?",
             body: ""
           },
           {
-            image: "",
+            image: "../images/thumbs/02.jpg",
             title: "Education",
             header: "Is it really that important? Is this the problem? How can we make it accessible?",
             body: ""
           },
           {
-            image: "",
+            image: "../images/thumbs/02.jpg",
             title: "Nutrition",
             header: "Is it that big of a deal? Can it be made simpler? What about all-in-ones? Is organic really worth it?",
             body: ""
           },
           {
-            image: "",
+            image: "../images/thumbs/02.jpg",
             title: "Food & Agriculture",
             header: "?",
             body: ""
           },
           {
-            image: "",
+            image: "../images/thumbs/02.jpg",
             title: "Inspiration",
             header: "Where did we go wrong? What has already started? What should we do next? What is getting in the way?",
             body: ""
           },
           {
-            image: "",
+            image: "../images/thumbs/02.jpg",
             title: "Ecosystem & Economy",
             header: "Can we balance the two? What is going on right now? What should we do next? What is getting in the way?",
             body: ""
           },
           {
-            image: "",
+            image: "../images/thumbs/02.jpg",
             title: "Justice",
             header: "Is empathy the key? What can we do right now? More or less punishment? What is our plan for prevention?",
             body: ""
           },
           {
-            image: "",
+            image: "../images/thumbs/02.jpg",
             title: "Water",
             header: "Should it be privatized? Who has the right to drinking water?",
             body: "If companies can drain water from the earth, doesn't that also deprive the soil as well as all plant life from the essential ingredients they need to produce our oxygen? Should we be removing water from the environments that are being kept alive by that water? Is it really in the best interest to ship water outside of its natural area",
           },
           {
-            image: "",
+            image: "../images/thumbs/02.jpg",
             title: "Love & Fear",
             header: "Can the two coexist? Can one exist without the other?",
             body: ""
@@ -207,121 +207,145 @@ export const MAIN_DATA = {
             title:"Psych2Go",
             description:"Psychology",
             link:"https://www.youtube.com/channel/UCkJEpR7JmS36tajD34Gp4VA",
+            image:"/images/imports/Lorem-Ipsum-example.jpg"
           },
           {
             title:"Dr. Eric Berg DC",
             description:"Health",
             link:"https://www.youtube.com/channel/UC3w193M5tYPJqF0Hi-7U-2g",
+            image:"../images/thumbs/02.jpg"
           },
           {
             title:"Yoga With Adriene",
             description:"Yoga",
             link:"https://www.youtube.com/channel/UCFKE7WVJfvaHW5q283SxchA",
+            image:"/02.jpg"
           },
           {
             title:"The Jimmy Dore Show",
             description:"Independent Media",
             link:"https://www.youtube.com/channel/UC3M7l8ved_rYQ45AVzS0RGA",
+            image:"/images/thumbs/02.jpg"
           },
           {
             title:"The Joe Rogan Experience",
             description:"Independent Media",
             link:"https://www.youtube.com/channel/UCzQUP1qoWDoEbmsQxvdjxgQ",
+            image:"./images/thumbs/02.jpg"
           },
           {
             title:"Einzelgänger",
             description:"Philosophy",
             link:"https://www.youtube.com/channel/UCybBViio_TH_uiFFDJuz5tg",
+            image:"../images/thumbs/02.jpg"
           },
           {
             title:"Face Body Reading",
             description:"Psychology",
             link:"https://www.youtube.com/channel/UCZE0-RaqLq7haO7O0uFbcFg",
+            image:"../images/thumbs/02.jpg"
           },
           {
             title:"What You Will Learn",
             description:"Audiobooks",
             link:"https://www.youtube.com/channel/UCWUoZKhHOrQ-7hyqMxpTFqw",
+            image:"../images/thumbs/02.jpg"
           },
           {
             title:"Cancer Rehab PT",
             description:"Health",
             link:"https://www.youtube.com/channel/UCTCQKg24OrarFSLw1kymxJw",
+            image:"../images/thumbs/02.jpg"
           },
           {
             title:"Jack Chapple",
             description:"Independent Media",
             link:"https://www.youtube.com/channel/UCsdJxGA27BSz7IiPMn9VV1g",
+            image:"../images/thumbs/02.jpg"
           },
           {
             title:"FoundMyFitness",
             description:"Health",
             link:"https://www.youtube.com/channel/UCWF8SqJVNlx-ctXbLswcTcA",
+            image:"../images/thumbs/02.jpg"
           },
           {
             title:"Therapy in a Nutshell",
             description:"Psychology",
             link:"https://www.youtube.com/channel/UCpuqYFKLkcEryEieomiAv3Q",
+            image:"../images/thumbs/02.jpg"
           },
           {
             title:"Swimming Lessons",
             description:"Survival",
             link:"https://www.youtube.com/channel/UCkhCUIrVO5s8DdmpYoZeVqA",
+            image:"../images/thumbs/02.jpg"
           },
           {
             title:"Academy of Ideas",
             description:"Philosophy",
             link:"https://www.youtube.com/channel/UCiRiQGCHGjDLT9FQXFW0I3A",
+            image:"../images/thumbs/02.jpg"
           },
           {
             title:"BullyJuice",
             description:"Health",
             link:"https://www.youtube.com/channel/UCK9JEqf7LBBx3tkrPx2xvbQ",
+            image:"../images/thumbs/02.jpg"
           },
           {
             title:"The Bioneer",
             description:"Health",
             link:"https://www.youtube.com/channel/UCIh_TPYPqjJuS_-nOfAIlfg",
+            image:"../images/thumbs/02.jpg"
           },
           {
             title:"QuickTalks",
             description:"Health",
             link:"https://www.youtube.com/channel/UC7I2tPHtve2GtBKJwvhF1Wg",
+            image:"../images/thumbs/02.jpg"
           },
           {
             title:"Matt DiMaio",
             description:"Health",
             link:"https://www.youtube.com/channel/UCfzLlzRGxSL487ZsK1Q9M4Q",
+            image:"../images/thumbs/02.jpg"
           },
           {
             title:"Our Changing Climate",
             description:"Independent Media",
             link:"https://www.youtube.com/channel/UCNXvxXpDJXp-mZu3pFMzYHQ",
+            image:"../images/thumbs/02.jpg"
           },
           {
             title:"Primitive Technology",
             description:"Survival",
             link:"https://www.youtube.com/channel/UCAL3JXZSzSm8AlZyD3nQdBA",
+            image:"../images/thumbs/02.jpg"
           },
           {
             title:"The People's Party",
             description:"Independent Media",
             link:"https://www.youtube.com/channel/UCtdXoMN0UNmtNgFrUMAdW-g",
+            image:"../images/thumbs/02.jpg"
           },
           {
             title:"Mindprovement",
             description:"Psychology",
             link:"https://www.youtube.com/channel/UCc3fuJSiPknuPI7SUtX7Bng",
+            image:"../images/thumbs/02.jpg"
           },
           {
             title:"Meditative Mind",
             description:"Music",
             link:"https://www.youtube.com/channel/UCM0YvsRfYfsniGAhjvYFOSA",
+            image:"../images/thumbs/02.jpg"
           },
           {
             title:"The Lune INNATE",
             description:"Health",
             link:"https://www.youtube.com/channel/UCPCHuLiHbhG3s_YxhMLOn6Q",
+            image:"../images/thumbs/02.jpg"
           },
         ]
       },
@@ -455,49 +479,49 @@ export const MAIN_DATA = {
       list: [
         {
           identification:"",
-          image:"",
+          image:"../images/thumbs/02.jpg",
           name:"Soap",
           description:"",
           price:"",
         },
         {
           identification:"",
-          image:"",
+          image:"../images/thumbs/02.jpg",
           name:"Toothbrush",
           description:"",
           price:"",
         },
         {
           identification:"",
-          image:"",
+          image:"../images/thumbs/02.jpg",
           name:"Tooth Paste",
           description:"",
           price:"",
         },
         {
           identification:"",
-          image:"",
+          image:"../images/thumbs/02.jpg",
           name:"Energy Snack",
           description:"",
           price:"",
         },
         {
           identification:"",
-          image:"",
+          image:"../images/thumbs/02.jpg",
           name:"Mouthwash",
           description:"",
           price:"",
         },
         {
           identification:"",
-          image:"",
+          image:"../images/thumbs/02.jpg",
           name:"Organic Natural Produce",
           description:"",
           price:"",
         },
         {
           identification:"",
-          image:"",
+          image:"../images/thumbs/02.jpg",
           name:"Book",
           description:"",
           price:"",

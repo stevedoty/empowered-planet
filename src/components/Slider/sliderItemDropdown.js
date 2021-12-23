@@ -7,4 +7,4 @@ const SliderItemDropdown = ({  }) => (
 </div>
 )
 
-export const SliderItemDropdown;
+export default SliderItemDropdown;

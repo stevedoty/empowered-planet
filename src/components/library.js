@@ -1,11 +1,9 @@
 import React from 'react';
 import MAIN_DATA from "./data.js";
-import image from "../images/imports/Lorem-Ipsum-example.jpg"
+
+import yo from "../images/thumbs/02.jpg"
 
 import Slider from './Slider/slider.js'
-
-let movieData = MAIN_DATA.MOVIELIST
-let youtubeData = MAIN_DATA.LIBRARYDATA.YOUTUBEDATA[1].list
 
 function Library() {
   return (
@@ -18,13 +16,12 @@ function Library() {
           <input className="searchBar" type="text" name="search" placeholder="Search"/>
         </header>
 
-        <Slider props={movieData}/>
-        <Slider props={youtubeData}/>
 
         <div className="Library-youtube">
             {MAIN_DATA.LIBRARYDATA.YOUTUBEDATA[1].list.map((item, key)=>{
               return(
                 <div className="Library-item">
+                    <img className="Library-item-image" src={require("../images/thumbs/02.jpg")} alt="alt"/>
                       <p className="Library-item-title">{item.title}</p>
                       <p className="Library-item-subtitle" >{item.description}</p>
                       <a href={item.link} target="_blank" rel="noopener noreferrer"><p className="Library-item-body">youtube</p></a>
@@ -43,6 +40,7 @@ function Library() {
             {MAIN_DATA.LIBRARYDATA.YOUTUBEDATA[2].list.map((item, key)=>{
               return(
                 <div className="Library-item">
+                      <img className="Library-item-image" src={"/02.jpg"} alt="alt"/>
                       <p className="Library-item-title">{item.title}</p>
                       <p className="Library-item-subtitle" >{item.description}</p>
                       <a href={item.link} target="_blank" rel="noopener noreferrer"><p className="Library-item-body">youtube</p></a>
@@ -62,7 +60,7 @@ function Library() {
             {MAIN_DATA.LIBRARYDATA.ARTICLEDATA[1].list.map((item, key)=>{
               return(
                 <div className="Library-item">
-                      <img className="Library-item-image" src={''} alt="alt"/>
+                      <img className="Library-item-image" src={"/02.jpg"} alt="alt"/>
                       <p className="Library-item-title">{item.title}</p>
                       <p className="Library-item-header" >{item.subtitle}</p>
                       <p className="Library-item-body">{item.body}</p>

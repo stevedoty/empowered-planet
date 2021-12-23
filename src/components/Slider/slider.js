@@ -7,9 +7,10 @@ const Slider = ({ props }) => (
 
 {props.map((props, key) => (
   <SliderItem
-    header={props.title}
-    subheader={props.time}
-    info={props.description}
+    title={props.title}
+    time={props.time}
+    description={props.description}
+    link={props.link}
   />))}
 </div>
 )

@@ -17,7 +17,7 @@ function Vision() {
             {MAIN_DATA.STOREDATA[1].list.map((item, key)=>{
               return(
                 <div className="Store-item">
-                      <img className="Store-item-image" src={image} alt="yo"/>
+                      <img className="Store-item-image" src={item.image} alt="yo"/>
                       <p className="Store-item-title">{item.name}</p>
                       <p>{item.description}</p>
                       <p>{item.name}</p>
