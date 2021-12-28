@@ -31,7 +31,7 @@ margin: auto;
 
   --navbar-height: 33px;
   --item-height: calc(1 * 7rem);
-  --item-width: calc(1 * 9rem);
+  --item-width: calc(1.6218 * 7rem);
   --item-image-height: 62%;
   --item-image-width: 100%;
 }
@@ -263,17 +263,15 @@ transform: translateY(-10px);
   height: var(--item-image-height);
   width: var(--item-image-width);
 }
-.Library-item-hr{
-width: 25%;
-transform: translateX(-100%);
-}
 .Library-item-title{
-  font-size: 0.75rem;
+  font-size: 0.8rem;
   margin: 0 auto;
   padding-left: 10px;
 }
 .Library-item-subtitle{
-  font-size: 0.6128rem;
+  font-size: 0.6rem;
+  margin: 0 auto;
+  padding-left: 10px;
 }
 /* -------------------------------- */
 .Store{
