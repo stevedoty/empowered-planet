@@ -31,7 +31,7 @@ margin: auto;
 
   --navbar-height: 33px;
   --item-height: calc(1 * 7rem);
-  --item-width: calc(1 * 8.5rem);
+  --item-width: calc(1 * 9rem);
   --item-image-height: 62%;
   --item-image-width: 100%;
 }
@@ -222,14 +222,12 @@ url("./images/imports/marek-okon-tWWCqIMiUmg-unsplash.jpg");
 width: 100vw;
 display: flex;
 flex-direction: column;
-justify-content: center;
 }
 .Library-header{
 width: 100%;
 margin: 2rem 0;
 }
 .Library-articles{
-justify-content: center;
 display: flex;
 flex-direction: row;
 flex-wrap: wrap;
@@ -238,19 +236,20 @@ padding-bottom: 38px;
 .Library-youtube{
   overflow: auto;
   white-space: nowrap;
-justify-content: center;
 /* display: flex;
 flex-direction: row;
 flex-wrap: wrap; */
 padding-bottom: 38px;
+padding-top: 38px;
 }
 .Library-item{
-    font-family: 'Playfair Display';
-    font-weight: 400;
-    font-variant: small-caps;
-  display: inline-block;
-  overflow: hidden;
-  background-color: var(--secondary-bg-color);
+  text-align: left;
+
+font-family: 'Playfair Display';
+font-variant: small-caps;
+display: inline-block;
+overflow: hidden;
+background-color: var(--secondary-bg-color);
 height: var(--item-height);
 width: var(--item-width);
 border-radius: 5px;
@@ -264,8 +263,14 @@ transform: translateY(-10px);
   height: var(--item-image-height);
   width: var(--item-image-width);
 }
+.Library-item-hr{
+width: 25%;
+transform: translateX(-100%);
+}
 .Library-item-title{
-  font-size: 1rem;
+  font-size: 0.75rem;
+  margin: 0 auto;
+  padding-left: 10px;
 }
 .Library-item-subtitle{
   font-size: 0.6128rem;
