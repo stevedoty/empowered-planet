@@ -3,37 +3,37 @@ margin: auto;
 
 }
 :root{
-  --red-velvet:rgb(127,42,60);
-  --natural-rose:rgb(210,37,67);
-  --natural-red:rgb(155,31,33);
-  --autumn-sunset:rgb(243,133,84);
-  --sunset-gold:rgb(232,179,25);
-  --honey:rgb(235,169,55);
-  --coral:rgb(255,127,80);
-  --ocean-green:rgb(72,191,145);
-  --dark-ocean-green:rgb(48,148,103);
-  --fresh-mint:rgb(149,232,163);
-  --grass: rgb(52,140,49);
-  --fern-green:rgb(79,121,66);
-  --leaf-green:rgb(45,90,39);
-  --dark-moss-green: rgb(12, 36, 11);
-  --deep-aqua:rgb(0,188,188);
-  --dark-teal-green:rgba(24,97,91,0.9);
-  --sea-foam-blue:rgb(42,134,138);
-  --matte-dark-blue:rgba(11,11,96,0.8);
-  --pure-blue:rgb(0,0,255);
-  --cactus-green:rgb(46,96,33);
-  --main-bg-color: var(--dark-teal-green);
-  --secondary-bg-color: var(--natural-red);
-  --main-text-color: rgb(255,255,255);
-  --navbar-main-bg-color: var(--matte-dark-blue);
-  --footer-main-bg-color: var(--matte-dark-blue);
+--red-velvet:rgb(127,42,60);
+--natural-rose:rgb(210,37,67);
+--natural-red:rgb(155,31,33);
+--autumn-sunset:rgb(243,133,84);
+--sunset-gold:rgb(232,179,25);
+--honey:rgb(235,169,55);
+--coral:rgb(255,127,80);
+--ocean-green:rgb(72,191,145);
+--dark-ocean-green:rgb(48,148,103);
+--fresh-mint:rgb(149,232,163);
+--grass: rgb(52,140,49);
+--fern-green:rgb(79,121,66);
+--leaf-green:rgb(45,90,39);
+--dark-moss-green: rgb(12, 36, 11);
+--deep-aqua:rgb(0,188,188);
+--dark-teal-green:rgba(24,97,91,0.9);
+--sea-foam-blue:rgb(42,134,138);
+--matte-dark-blue:rgba(11,11,96,0.8);
+--pure-blue:rgb(0,0,255);
+--cactus-green:rgb(46,96,33);
+--main-bg-color: var(--dark-teal-green);
+--secondary-bg-color: var(--natural-red);
+--main-text-color: rgb(255,255,255);
+--navbar-main-bg-color: var(--matte-dark-blue);
+--footer-main-bg-color: var(--matte-dark-blue);
 
-  --navbar-height: 33px;
-  --item-height: calc(1 * 7rem);
-  --item-width: calc(1.6218 * 7rem);
-  --item-image-height: 62%;
-  --item-image-width: 100%;
+--navbar-height: 33px;
+--item-height: calc(1 * 7rem);
+--item-width: calc(1.6218 * 7rem);
+--item-image-height: 62%;
+--item-image-width: 100%;
 }
 /* -------------------------------- */
 .App {
@@ -49,16 +49,16 @@ width: 100vw;
 
 /* -------------------------------- */
 .Navbar-filter{
-  filter: blur(20px);
-  height: calc(var(--navbar-height) / 2);
-  width: 100%;
-  position: fixed;
-  top: 0;
-  background-color: var(--navbar-main-bg-color);
-    z-index: -1;
+filter: blur(20px);
+height: calc(var(--navbar-height) / 2);
+width: 100%;
+position: fixed;
+top: 0;
+background-color: var(--navbar-main-bg-color);
+z-index: -1;
 }
 .Navbar{
-  z-index: 1;
+z-index: 1;
 position: fixed;
 top: 0;
 left: -1px;
@@ -218,7 +218,6 @@ url("./images/imports/marek-okon-tWWCqIMiUmg-unsplash.jpg");
 
 /* -------------------------------- */
 .Library{
-
 width: 100vw;
 display: flex;
 flex-direction: column;
@@ -228,23 +227,25 @@ width: 100%;
 margin: 2rem 0;
 }
 .Library-articles{
-display: flex;
-flex-direction: row;
-flex-wrap: wrap;
-padding-bottom: 38px;
-}
-.Library-youtube{
   overflow: auto;
   white-space: nowrap;
-/* display: flex;
-flex-direction: row;
-flex-wrap: wrap; */
+  padding-bottom: 38px;
+  padding-top: 38px;
+}
+.Library-articles > :hover{
+transform: translateY(-10px);
+}
+.Library-youtube{
+overflow: auto;
+white-space: nowrap;
 padding-bottom: 38px;
 padding-top: 38px;
 }
+.Library-youtube > :hover{
+transform: translateY(-10px);
+}
 .Library-item{
-  text-align: left;
-
+text-align: left;
 font-family: 'Playfair Display';
 font-variant: small-caps;
 display: inline-block;
@@ -256,22 +257,19 @@ border-radius: 5px;
 box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.38);
 margin: 0.38rem;
 }
-.Library :hover{
-transform: translateY(-10px);
-}
 .Library-item-image{
-  height: var(--item-image-height);
-  width: var(--item-image-width);
+height: var(--item-image-height);
+width: var(--item-image-width);
 }
 .Library-item-title{
-  font-size: 0.8rem;
-  margin: 0 auto;
-  padding-left: 10px;
+font-size: 0.8rem;
+margin: 0 auto;
+padding-left: 10px;
 }
 .Library-item-subtitle{
-  font-size: 0.6rem;
-  margin: 0 auto;
-  padding-left: 10px;
+font-size: 0.6rem;
+margin: 0 auto;
+padding-left: 10px;
 }
 /* -------------------------------- */
 .Store{
@@ -285,7 +283,7 @@ padding-bottom: 38px;
 margin-bottom: 20px;
 }
 .Store-item{
-  font-family: 'Playfair Display';
+font-family: 'Playfair Display';
 background-color: var(--secondary-bg-color);
 box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.38);
 height: var(--item-height);
@@ -295,11 +293,11 @@ overflow: hidden;
 margin: 0.38rem;
 }
 .Store-item-image{
-  zoom:5%;
+zoom:5%;
 }
 .Store-item-title{
-  font-size: 168%;
-  margin: 0;
+font-size: 168%;
+margin: 0;
 }
 
 /* -------------------------------- */

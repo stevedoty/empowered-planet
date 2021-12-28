@@ -21,12 +21,11 @@ function Library() {
             {MAIN_DATA.LIBRARYDATA.YOUTUBEDATA[1].list.map((item, key)=>{
               return(
                 <div className="Library-item">
-                    <img className="Library-item-image" src={yo} alt="alt"/>
-                    
-                      <p className="Library-item-title">{item.title}</p>
-                      <p className="Library-item-subtitle" >{item.description}</p>
-                      <a href={item.link} target="_blank" rel="noopener noreferrer"><p className="Library-item-body">youtube</p></a>
-                      <a href={item.link} target="_blank" rel="noopener noreferrer"><p className="Library-item-body">website</p></a>
+                  <img className="Library-item-image" src={yo} alt="alt"/>
+                  <p className="Library-item-title">{item.title}</p>
+                  <p className="Library-item-subtitle" >{item.description}</p>
+                  <a href={item.link} target="_blank" rel="noopener noreferrer"><p className="Library-item-body">youtube</p></a>
+                  <a href={item.link} target="_blank" rel="noopener noreferrer"><p className="Library-item-body">website</p></a>
                 </div>
               )
             })}
@@ -41,11 +40,10 @@ function Library() {
             {MAIN_DATA.LIBRARYDATA.YOUTUBEDATA[2].list.map((item, key)=>{
               return(
                 <div className="Library-item">
-                      <img className="Library-item-image" src={"/02.jpg"} alt="alt"/>
-                      <div>-</div>
-                      <p className="Library-item-title">{item.title}</p>
-                      <p className="Library-item-subtitle" >{item.description}</p>
-                      <a href={item.link} target="_blank" rel="noopener noreferrer"><p className="Library-item-body">youtube</p></a>
+                  <img className="Library-item-image" src={yo} alt="alt"/>
+                  <p className="Library-item-title">{item.title}</p>
+                  <p className="Library-item-subtitle" >{item.description}</p>
+                  <a href={item.link} target="_blank" rel="noopener noreferrer"><p className="Library-item-body">youtube</p></a>
                 </div>
               )
             })}
@@ -62,7 +60,7 @@ function Library() {
             {MAIN_DATA.LIBRARYDATA.ARTICLEDATA[1].list.map((item, key)=>{
               return(
                 <div className="Library-item">
-                      <img className="Library-item-image" src={"/02.jpg"} alt="alt"/>
+                      <img className="Library-item-image" src={yo} alt="alt"/>
                       <p className="Library-item-title">{item.title}</p>
                       <p className="Library-item-header" >{item.subtitle}</p>
                       <p className="Library-item-body">{item.body}</p>
