@@ -32,6 +32,7 @@ class App extends Component {
     return (
       <ReduxProvider store={reduxStore}>
         <div className="App">
+        
           <Navbar />
           <Searchbar />
           <Banner />
