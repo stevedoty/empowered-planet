@@ -227,7 +227,7 @@ width: 100%;
 margin: 2rem 0;
 }
 .Library-articles{
-overflow: hidden;
+overflow: auto;
 white-space: nowrap;
 padding-bottom: 38px;
 padding-top: 38px;
@@ -236,7 +236,7 @@ padding-top: 38px;
 transform: translateY(-10px);
 }
 .Library-youtube{
-overflow: hidden;
+overflow: auto;
 white-space: nowrap;
 padding-bottom: 38px;
 padding-top: 38px;
