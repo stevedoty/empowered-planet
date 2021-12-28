@@ -21,7 +21,7 @@ function Library() {
             {MAIN_DATA.LIBRARYDATA.YOUTUBEDATA[1].list.map((item, key)=>{
               return(
                 <div className="Library-item">
-                    <img className="Library-item-image" src={require("../images/thumbs/02.jpg")} alt="alt"/>
+                    <img className="Library-item-image" src={yo} alt="alt"/>
                       <p className="Library-item-title">{item.title}</p>
                       <p className="Library-item-subtitle" >{item.description}</p>
                       <a href={item.link} target="_blank" rel="noopener noreferrer"><p className="Library-item-body">youtube</p></a>
