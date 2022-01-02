@@ -32,7 +32,7 @@ class App extends Component {
     return (
       <ReduxProvider store={reduxStore}>
         <div className="App">
-        
+
           <Navbar />
           <Searchbar />
           <Banner />
@@ -41,8 +41,6 @@ class App extends Component {
 
           <Library />
           <Store />
-          <img src={image} style={{width:"100vw"}} alt="..."/>
-          <Messenger />
           <footer id="footer" className="Footer">
                 <p>&copy; empoweredplanet</p>
           </footer>

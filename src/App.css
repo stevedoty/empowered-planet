@@ -284,6 +284,7 @@ margin-bottom: 20px;
 }
 .Store-item{
 font-family: 'Playfair Display';
+font-variant: small-caps;
 background-color: var(--secondary-bg-color);
 box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.38);
 height: var(--item-height);
@@ -296,7 +297,15 @@ margin: 0.38rem;
 zoom:5%;
 }
 .Store-item-title{
-font-size: 168%;
+font-size: 1.2rem;
+margin: 0;
+}
+.Store-item-description{
+font-size: 0.6rem;
+margin: 0;
+}
+.Store-item-subtitle{
+font-size: 0.8rem;
 margin: 0;
 }
 

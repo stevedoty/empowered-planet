@@ -13,7 +13,6 @@ function Library() {
         <header  className="Library-header">
           <h2>{MAIN_DATA.LIBRARYDATA.YOUTUBEDATA[0].title}</h2>
           <p>{MAIN_DATA.LIBRARYDATA.YOUTUBEDATA[0].subtitle}</p>
-          <input className="searchBar" type="text" name="search" placeholder="Search"/>
         </header>
 
 
@@ -34,7 +33,6 @@ function Library() {
 
         <header  className="Library-header">
           <p>{MAIN_DATA.LIBRARYDATA.YOUTUBEDATA[2].title}</p>
-          <input className="searchBar" type="text" name="search" placeholder="Search"/>
         </header>
         <div className="Library-youtube">
             {MAIN_DATA.LIBRARYDATA.YOUTUBEDATA[2].list.map((item, key)=>{
