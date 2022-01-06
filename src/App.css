@@ -30,8 +30,8 @@ margin: auto;
 --footer-main-bg-color: var(--matte-dark-blue);
 
 --navbar-height: 33px;
---item-height: calc(1 * 7rem);
---item-width: calc(1.6218 * 7rem);
+--item-height: calc(0.38 * 20rem);
+--item-width: calc(0.62 * 20rem);
 --item-image-height: 62%;
 --item-image-width: 100%;
 }
@@ -262,7 +262,7 @@ height: var(--item-image-height);
 width: var(--item-image-width);
 }
 .Library-item-title{
-font-size: 0.8rem;
+font-size: 0.7rem;
 margin: 0 auto;
 padding-left: 10px;
 }
