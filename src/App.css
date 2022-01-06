@@ -233,7 +233,7 @@ padding-bottom: 38px;
 padding-top: 38px;
 }
 .Library-articles > :hover{
-transform: translateY(-10px);
+transform: scale(120%);
 }
 .Library-youtube{
 overflow: auto;
@@ -242,7 +242,7 @@ padding-bottom: 38px;
 padding-top: 38px;
 }
 .Library-youtube > :hover{
-transform: translateY(-10px);
+transform: scale(120%);
 }
 .Library-item{
 text-align: left;
@@ -271,7 +271,7 @@ font-size: 0.6rem;
 margin: 0 auto;
 padding-left: 10px;
 }
-.Library-item-body{
+.Library-item-link{
 margin: 0;
 margin-top: 1px;
 margin-left: 10px;
@@ -282,7 +282,7 @@ border-radius: 3px;
 background-color: blue;
 color: white;
 }
-.Library-item-body> :hover{
+.Library-item-link> :hover{
 cursor: pointer;
 }
 /* -------------------------------- */

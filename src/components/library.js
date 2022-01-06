@@ -23,8 +23,8 @@ function Library() {
                   <img className="Library-item-image" src={yo} alt="alt"/>
                   <p className="Library-item-title">{item.title}</p>
                   <p className="Library-item-subtitle" >{item.description}</p>
-                  <a href={item.link} target="_blank" rel="noopener noreferrer"><p className="Library-item-body">youtube</p></a>
-                  <a href={item.link} target="_blank" rel="noopener noreferrer"><p className="Library-item-body">website</p></a>
+                  <a href={item.link} target="_blank" rel="noopener noreferrer"><p className="Library-item-link">youtube</p></a>
+                  <a href={item.link} target="_blank" rel="noopener noreferrer"><p className="Library-item-link">website</p></a>
                 </div>
               )
             })}
@@ -41,7 +41,7 @@ function Library() {
                   <img className="Library-item-image" src={yo} alt="alt"/>
                   <p className="Library-item-title">{item.title}</p>
                   <p className="Library-item-subtitle" >{item.description}</p>
-                  <a href={item.link} target="_blank" rel="noopener noreferrer"><p className="Library-item-body">youtube</p></a>
+                  <a href={item.link} target="_blank" rel="noopener noreferrer"><p className="Library-item-link">youtube</p></a>
                 </div>
               )
             })}
