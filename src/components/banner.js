@@ -13,9 +13,7 @@ let quotesArray = [
   },
 ]
 let quotesArrayIndex = Math.floor( Math.random()*(quotesArray.length)  )
-console.log(quotesArrayIndex);
 let quotesArrayItem = quotesArray[quotesArrayIndex]
-console.log(quotesArrayItem);
 function Banner() {
   return (
     <div className="Banner">
