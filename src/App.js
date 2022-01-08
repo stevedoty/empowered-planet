@@ -3,7 +3,7 @@ import MAIN_DATA from './components/data'
 import './App.css';
 import './assets/css/main.css';
 
-import image from "./images/imports/oceantides.jpg"
+import mainBackground from "./images/imports/space-trinity.jpg"
 
 import Navbar from './components/navbar.js';
 import Searchbar from "./components/searchbar.js"
@@ -31,20 +31,23 @@ class App extends Component {
 
     return (
       <ReduxProvider store={reduxStore}>
+
+
         <div className="App">
+            <Navbar />
+            <Searchbar />
+            <BrandLinks />
 
-          <Navbar />
-          <Searchbar />
-          <Banner />
+            <Banner />
+            <Library />
+            <Store />
 
-          <BrandLinks />
-
-          <Library />
-          <Store />
-          <footer id="footer" className="Footer">
-                <p>&copy; empoweredplanet</p>
-          </footer>
+            <footer id="footer" className="Footer">
+                  <p>&copy; empoweredplanet</p>
+            </footer>
         </div>
+
+
       </ReduxProvider>
     );
   }

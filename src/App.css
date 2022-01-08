@@ -46,7 +46,9 @@ color: var(--main-text-color);
 background-color: var(--main-bg-color);
 width: 100vw;
 }
-
+.App-body{
+  margin: 1rem;
+}
 /* -------------------------------- */
 .Navbar-filter{
 filter: blur(20px);
@@ -113,6 +115,7 @@ background-color: black;
 
 /* -------------------------------- */
 .Banner{
+
 font-style: italic;
 width: 100vw;
 margin: auto;
@@ -162,7 +165,7 @@ border-radius: 5px 0 0 5px;
 
 /* -------------------------------- */
 .Intro{
-color: var(--main-bg-color);
+
 text-shadow:
 0 0 1px white,
 0 0 4px white,
