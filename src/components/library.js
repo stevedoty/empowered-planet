@@ -3,8 +3,6 @@ import MAIN_DATA from "./data.js";
 
 import yo from "../images/thumbs/02.jpg"
 
-import Slider from './Slider/slider.js'
-
 function Library() {
   return (
     <div id="Library" className="Library">
@@ -19,7 +17,7 @@ function Library() {
         <div className="Library-youtube">
             {MAIN_DATA.LIBRARYDATA.YOUTUBEDATA[1].list.map((item, key)=>{
               return(
-                <div className="Library-item">
+                <div className="Library-item" key={key}>
                   <img className="Library-item-image" src={yo} alt="alt"/>
                   <p className="Library-item-title">{item.title}</p>
                   <p className="Library-item-subtitle" >{item.description}</p>
@@ -37,7 +35,7 @@ function Library() {
         <div className="Library-youtube">
             {MAIN_DATA.LIBRARYDATA.YOUTUBEDATA[2].list.map((item, key)=>{
               return(
-                <div className="Library-item">
+                <div className="Library-item" key={key}>
                   <img className="Library-item-image" src={yo} alt="alt"/>
                   <p className="Library-item-title">{item.title}</p>
                   <p className="Library-item-subtitle" >{item.description}</p>
@@ -57,7 +55,7 @@ function Library() {
         <div className="Library-articles">
             {MAIN_DATA.LIBRARYDATA.ARTICLEDATA[1].list.map((item, key)=>{
               return(
-                <div className="Library-item">
+                <div className="Library-item" key={key}>
                       <img className="Library-item-image" src={yo} alt="alt"/>
                       <p className="Library-item-title">{item.title}</p>
                       <p className="Library-item-header" >{item.subtitle}</p>

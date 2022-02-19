@@ -6,11 +6,12 @@ function SocialMedia() {
   return (
     <div className="SocialMedia BrandLinks-column">
 
-        {socialmediaArray[1].list.map(item=>{
+        {socialmediaArray[1].list.map((item, key)=>{
           return(
             <a
               href={item.link}
-              target="_blank" rel="noopener noreferrer" className={"BrandLinks-icon SocialMedia-icon brands "+item.icon}>
+              target="_blank" rel="noopener noreferrer" className={"BrandLinks-icon SocialMedia-icon brands"}
+              key={key}>
               <span className="label">
                 {item.title}
               </span>

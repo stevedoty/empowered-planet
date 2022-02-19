@@ -3,7 +3,7 @@ import MAIN_DATA from "./data.js";
 import image from "../images/imports/Lorem-Ipsum-example.jpg"
 
 
-function Vision() {
+function Store() {
   return (
     <div id="Store" className="Store">
 
@@ -16,7 +16,7 @@ function Vision() {
 
             {MAIN_DATA.STOREDATA[1].list.map((item, key)=>{
               return(
-                <div className="Store-item">
+                <div className="Store-item"  key={key}>
                       <img className="Store-item-image" src={item.image} alt="yo"/>
                       <p className="Store-item-title">{item.name}</p>
                       <p className="Store-item-description">{item.description}</p>
@@ -30,4 +30,4 @@ function Vision() {
   );
 }
 
-export default Vision;
+export default Store;

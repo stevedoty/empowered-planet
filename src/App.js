@@ -6,11 +6,9 @@ import './assets/css/main.css';
 import mainBackground from "./images/imports/space-trinity.jpg"
 
 import Navbar from './components/navbar.js';
-import Searchbar from "./components/searchbar.js"
 import Banner from './components/banner.js';
 import BrandLinks from './components/brandlinks.js';
 import Intro from './components/intro.js';
-import Slider from './components/Slider/slider.js'
 import Library from './components/library.js';
 import Store from './components/store.js';
 import Messenger from './components/messenger.js';
@@ -35,7 +33,6 @@ class App extends Component {
 
         <div className="App">
             <Navbar />
-            <Searchbar />
             <BrandLinks />
 
             <Banner />

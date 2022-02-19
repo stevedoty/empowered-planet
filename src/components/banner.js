@@ -109,6 +109,7 @@ function Banner() {
               <h1 className="Banner-body-quote-main">" {quotesArrayItem.quote} "</h1>
               <h2 className="Banner-body-quote-author">by {quotesArrayItem.author}</h2>
               <p className="Banner-body-quote-publisher">provided by {quotesArrayItem.publisher}</p>
+              <p className="Banner-body-quote-publisher">Refresh the page for more quotes</p>
             </div>
           }
         </div>

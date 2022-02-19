@@ -47,7 +47,8 @@ function Donations() {
           return(
             <a
               href={item.link}
-              target="_blank" rel="noopener noreferrer" className={"BrandLinks-icon Donations-icon brands "+item.icon}>
+              target="_blank" rel="noopener noreferrer" className={"BrandLinks-icon Donations-icon brands "+item.icon}
+              key={key}>
               <span className="label">
                 {item.title}
               </span>

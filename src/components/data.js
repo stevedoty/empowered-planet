@@ -44,11 +44,6 @@ export const MAIN_DATA = {
           link:"https://www.linkedin.com/",
           icon:"fa-linkedin-in",
         },
-        {
-          title:"dribbble",
-          link:"https://www.dribbble.com/",
-          icon:"fa-dribbble",
-        },
       ]
     }
   ],
