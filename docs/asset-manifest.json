@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/empowered-planet/static/css/main.4379c8b2.chunk.css",
+    "main.js": "/empowered-planet/static/js/main.881d36d9.chunk.js",
+    "main.js.map": "/empowered-planet/static/js/main.881d36d9.chunk.js.map",
+    "runtime-main.js": "/empowered-planet/static/js/runtime-main.be41d0dc.js",
+    "runtime-main.js.map": "/empowered-planet/static/js/runtime-main.be41d0dc.js.map",
+    "static/js/2.de8595ba.chunk.js": "/empowered-planet/static/js/2.de8595ba.chunk.js",
+    "static/js/2.de8595ba.chunk.js.map": "/empowered-planet/static/js/2.de8595ba.chunk.js.map",
+    "static/js/3.2b5e15da.chunk.js": "/empowered-planet/static/js/3.2b5e15da.chunk.js",
+    "static/js/3.2b5e15da.chunk.js.map": "/empowered-planet/static/js/3.2b5e15da.chunk.js.map",
+    "index.html": "/empowered-planet/index.html",
+    "static/css/main.4379c8b2.chunk.css.map": "/empowered-planet/static/css/main.4379c8b2.chunk.css.map",
+    "static/js/2.de8595ba.chunk.js.LICENSE.txt": "/empowered-planet/static/js/2.de8595ba.chunk.js.LICENSE.txt",
+    "static/media/02.67655d41.jpg": "/empowered-planet/static/media/02.67655d41.jpg",
+    "static/media/Lorem-Ipsum-example.b49fcaa5.jpg": "/empowered-planet/static/media/Lorem-Ipsum-example.b49fcaa5.jpg",
+    "static/media/App.css": "/empowered-planet/static/media/ronaldo-de-oliveira-wngy5vxtZJg-unsplash.511f369d.jpg",
+    "static/media/main.css": "/empowered-planet/static/media/fa-solid-900.efbd5d20.eot",
+    "static/media/planet.b3656d59.ico": "/empowered-planet/static/media/planet.b3656d59.ico",
+    "static/media/space-trinity.08ac15d2.jpg": "/empowered-planet/static/media/space-trinity.08ac15d2.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.be41d0dc.js",
+    "static/js/2.de8595ba.chunk.js",
+    "static/css/main.4379c8b2.chunk.css",
+    "static/js/main.881d36d9.chunk.js"
+  ]
+}
