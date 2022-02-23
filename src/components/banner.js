@@ -4,6 +4,9 @@ import React from 'react';
 
 let quotesArray = [
   {
+    quote: "You may have a fresh start any moment you choose, for this thing that we call 'failure' is not the falling down, but the staying down.", author: "Mary Pickford", publisher: "E. P."
+  },
+  {
     quote: "If you quit, that's a guaranteed failure", author: "Steve Harvey", publisher: "E. P."
   },
   {
