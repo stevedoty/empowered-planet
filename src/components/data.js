@@ -565,6 +565,24 @@ export const MAIN_DATA = {
       description:"description"
     },
   ],
+  MUSIC_LIST:[
+    {},
+    {
+      ttile:"Music List",
+      list:[
+        "https://www.youtube.com/watch?v=PWBlFUnnqY4",
+        "https://www.youtube.com/watch?v=oBoGcB1FKk8",
+        "https://www.youtube.com/watch?v=Yfc9nrAj2bo",
+        "https://www.youtube.com/watch?v=ApXoWvfEYVU",
+        "https://www.youtube.com/watch?v=SnRfgCkJrJ8",
+        "https://www.youtube.com/watch?v=NOMa56y_Was",
+        "https://www.youtube.com/watch?v=F1B9Fk_SgI0",
+        "https://www.youtube.com/watch?v=hC8CH0Z3L54",
+        "https://www.youtube.com/watch?v=1hJKhiew2O0",
+        "https://www.youtube.com/watch?v=MwV7gCp7KBw",
+      ]
+    }
+  ]
   STOREDATA:[
     {
       title: "Welcome to the Marketplace",
