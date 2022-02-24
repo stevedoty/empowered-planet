@@ -582,7 +582,7 @@ export const MAIN_DATA = {
         "https://www.youtube.com/watch?v=MwV7gCp7KBw",
       ]
     }
-  ]
+  ],
   STOREDATA:[
     {
       title: "Welcome to the Marketplace",
