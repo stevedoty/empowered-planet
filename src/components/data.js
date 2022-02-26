@@ -566,7 +566,7 @@ export const MAIN_DATA = {
     },
   ],
   MUSIC_LIST:[
-    {},
+    {ttile:"Here is some recommended music"},
     {
       ttile:"Music List",
       list:[
