@@ -13,24 +13,11 @@ import Library from './components/library.js';
 import Store from './components/store.js';
 import Messenger from './components/messenger.js';
 
-import ToDO from "./components/todo";
-
-import { Provider as ReduxProvider } from "react-redux";
-import configureStore from "./modules/store";
-
-
-
-const reduxStore = configureStore(window.REDUX_INITIAL_DATA);
-
-let MOVIELIST = MAIN_DATA.MOVIELIST;
 
 class App extends Component {
   render() {
 
     return (
-      <ReduxProvider store={reduxStore}>
-
-
         <div className="App">
             <Navbar />
             <BrandLinks />
@@ -43,9 +30,6 @@ class App extends Component {
                   <p>&copy; empoweredplanet</p>
             </footer>
         </div>
-
-
-      </ReduxProvider>
     );
   }
 }
