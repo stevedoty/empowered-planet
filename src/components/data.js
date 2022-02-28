@@ -303,6 +303,7 @@ export const MAIN_DATA = {
             title:"Psych2Go",
             description:"Psychology",
             link:"https://www.youtube.com/channel/UCkJEpR7JmS36tajD34Gp4VA",
+            linkArray:[{href:"https://www.youtube.com/channel/UCkJEpR7JmS36tajD34Gp4VA", text:"YouTube"}],
             image:"/images/imports/Lorem-Ipsum-example.jpg"
           },
           {

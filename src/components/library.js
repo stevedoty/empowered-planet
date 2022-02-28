@@ -3,32 +3,22 @@ import MAIN_DATA from "./data.js";
 
 import yo from "../images/thumbs/02.jpg"
 
-let properties =
-  {title:"title", subtitle:"subtitle", mainText:"mainText", image:"image", linkOne:"linkOne", linkTwo:"linkTwo"}
-
-function LibraryItem(properties){
-  console.log(properties);
+const LibraryItem = props => {
+  console.log(props);
   return (
-    <div props={properties}>
-      <p>generic component</p>
-      <div>
-        <p >{properties.title}</p>
-        <p>{properties.subtitle}</p>
-        <p>{properties.mainText}</p>
-        <p>{properties.image}</p>
-        <p>{properties.linkOne}</p>
-        <p>{properties.linkTwo}</p>
-      </div>
+    <div className="Library-item">
+      <img className="Library-item-image" src={props.image} alt="alt"/>
+      <p className="Library-item-title">{props.title}</p>
+      <p className="Library-item-subtitle" >{props.description}</p>
+      <a href={props.link} target="_blank" rel="noopener noreferrer"><p className="Library-item-link">youtube</p></a>
+      <a href={props.link} target="_blank" rel="noopener noreferrer"><p className="Library-item-link">website</p></a>
     </div>
   )
 }
 
-
 function Library() {
   return (
     <div id="Library" className="Library">
-
-        <LibraryItem/>
 
         <header  className="Library-header">
           <h2>{MAIN_DATA.LIBRARYDATA.YOUTUBEDATA[0].title}</h2>
@@ -38,13 +28,7 @@ function Library() {
         <div className="Library-youtube">
             {MAIN_DATA.LIBRARYDATA.YOUTUBEDATA[1].list.map((item, key)=>{
               return(
-                <div className="Library-item" key={key}>
-                  <img className="Library-item-image" src={yo} alt="alt"/>
-                  <p className="Library-item-title">{item.title}</p>
-                  <p className="Library-item-subtitle" >{item.description}</p>
-                  <a href={item.link} target="_blank" rel="noopener noreferrer"><p className="Library-item-link">youtube</p></a>
-                  <a href={item.link} target="_blank" rel="noopener noreferrer"><p className="Library-item-link">website</p></a>
-                </div>
+                <LibraryItem {...item} key={key}/>
               )
             })}
         </div>
