@@ -13,7 +13,6 @@ import Library from './components/library.js';
 import Store from './components/store.js';
 import Messenger from './components/messenger.js';
 
-
 class App extends Component {
   render() {
 
