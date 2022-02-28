@@ -4,20 +4,18 @@ import MAIN_DATA from "./data.js";
 import yo from "../images/thumbs/02.jpg"
 
 function LibraryItem(){
-  let propertiesArray = [
+  let properties =
     {title:"title", subtitle:"subtitle", mainText:"mainText", image:"image", linkOne:"linkOne", linkTwo:"linkTwo"}
-  ]
-  let prop1 = propertiesArray[0]
   return (
     <div>
       <p>generic component</p>
       <div>
-        <p>{prop1.title}</p>
-        <p>{prop1.subtitle}</p>
-        <p>{prop1.mainText}</p>
-        <p>{prop1.image}</p>
-        <p>{prop1.linkOne}</p>
-        <p>{prop1.linkTwo}</p>
+        <p>{properties.title}</p>
+        <p>{properties.subtitle}</p>
+        <p>{properties.mainText}</p>
+        <p>{properties.image}</p>
+        <p>{properties.linkOne}</p>
+        <p>{properties.linkTwo}</p>
       </div>
     </div>
   )
