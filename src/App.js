@@ -21,11 +21,9 @@ class App extends Component {
         <div className="App">
             <Navbar />
             <BrandLinks />
-
             <Banner />
             <Library />
             <Store />
-
             <footer id="footer" className="Footer">
                   <p>&copy; empoweredplanet</p>
             </footer>
