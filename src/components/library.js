@@ -3,9 +3,32 @@ import MAIN_DATA from "./data.js";
 
 import yo from "../images/thumbs/02.jpg"
 
+function LibraryItem(){
+  let propertiesArray = [
+    {title:"title", subtitle:"subtitle", mainText:"mainText", image:"image", linkOne:"linkOne", linkTwo:"linkTwo"}
+  ]
+  let prop1 = propertiesArray[0]
+  return (
+    <div>
+      <p>generic component</p>
+      <div>
+        <p>{prop1.title}</p>
+        <p>{prop1.subtitle}</p>
+        <p>{prop1.mainText}</p>
+        <p>{prop1.image}</p>
+        <p>{prop1.linkOne}</p>
+        <p>{prop1.linkTwo}</p>
+      </div>
+    </div>
+  )
+}
+
+
 function Library() {
   return (
     <div id="Library" className="Library">
+
+        <LibraryItem/>
 
         <header  className="Library-header">
           <h2>{MAIN_DATA.LIBRARYDATA.YOUTUBEDATA[0].title}</h2>
