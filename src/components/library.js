@@ -3,14 +3,16 @@ import MAIN_DATA from "./data.js";
 
 import yo from "../images/thumbs/02.jpg"
 
-function LibraryItem(){
-  let properties =
-    {title:"title", subtitle:"subtitle", mainText:"mainText", image:"image", linkOne:"linkOne", linkTwo:"linkTwo"}
+let properties =
+  {title:"title", subtitle:"subtitle", mainText:"mainText", image:"image", linkOne:"linkOne", linkTwo:"linkTwo"}
+
+function LibraryItem(properties){
+  console.log(properties);
   return (
-    <div>
+    <div props={properties}>
       <p>generic component</p>
       <div>
-        <p>{properties.title}</p>
+        <p >{properties.title}</p>
         <p>{properties.subtitle}</p>
         <p>{properties.mainText}</p>
         <p>{properties.image}</p>
