@@ -8,12 +8,10 @@ function Library() {
   return (
     <div id="Library" className="Library">
 
-
         <header  className="Library-header">
           <h2>{MAIN_DATA.LIBRARYDATA.YOUTUBEDATA[0].title}</h2>
           <p>{MAIN_DATA.LIBRARYDATA.YOUTUBEDATA[0].subtitle}</p>
         </header>
-
 
         <div className="Library-youtube">
             {MAIN_DATA.LIBRARYDATA.YOUTUBEDATA[1].list.map((item, key)=>{
@@ -28,7 +26,6 @@ function Library() {
               )
             })}
         </div>
-
 
         <header  className="Library-header">
           <p>{MAIN_DATA.LIBRARYDATA.YOUTUBEDATA[2].title}</p>
@@ -46,11 +43,9 @@ function Library() {
             })}
         </div>
 
-
         <header  className="Library-header">
           <h2>{MAIN_DATA.LIBRARYDATA.ARTICLEDATA[0].title}</h2>
           <p>{MAIN_DATA.LIBRARYDATA.ARTICLEDATA[0].subtitle}</p>
-
         </header>
 
         <div className="Library-articles">
