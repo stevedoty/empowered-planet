@@ -1,7 +1,6 @@
 import React from 'react';
 import MAIN_DATA from "./data.js";
 
-
 let quotesArray = MAIN_DATA.QUOTES_ARRAY[1].list
 let quotesArrayIndex = Math.floor( Math.random()*(quotesArray.length)  )
 let quotesArrayItem = quotesArray[quotesArrayIndex]
@@ -11,7 +10,6 @@ function Banner() {
     <div className="Banner">
 
       <div className="Banner-body">
-
         <div className="Banner-body-quoteOfTheDay">
           {
             <div className="Banner-body-quote">
@@ -23,6 +21,7 @@ function Banner() {
           }
         </div>
       </div>
+      
     </div>
   );
 }
