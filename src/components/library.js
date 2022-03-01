@@ -52,12 +52,7 @@ function Library() {
         <div className="Library-articles">
             {MAIN_DATA.LIBRARYDATA.ARTICLEDATA[1].list.map((item, key)=>{
               return(
-                <div className="Library-item" key={key}>
-                      <img className="Library-item-image" src={yo} alt="alt"/>
-                      <p className="Library-item-title">{item.title}</p>
-                      <p className="Library-item-header" >{item.subtitle}</p>
-                      <p className="Library-item-body">{item.body}</p>
-                </div>
+                <LibraryItem {...item} key={key}/>
               )
             })}
         </div>
