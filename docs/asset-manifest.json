@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/empowered-planet/static/css/main.4379c8b2.chunk.css",
-    "main.js": "/empowered-planet/static/js/main.ce60bea9.chunk.js",
-    "main.js.map": "/empowered-planet/static/js/main.ce60bea9.chunk.js.map",
-    "runtime-main.js": "/empowered-planet/static/js/runtime-main.be41d0dc.js",
-    "runtime-main.js.map": "/empowered-planet/static/js/runtime-main.be41d0dc.js.map",
-    "static/js/2.de8595ba.chunk.js": "/empowered-planet/static/js/2.de8595ba.chunk.js",
-    "static/js/2.de8595ba.chunk.js.map": "/empowered-planet/static/js/2.de8595ba.chunk.js.map",
-    "static/js/3.2b5e15da.chunk.js": "/empowered-planet/static/js/3.2b5e15da.chunk.js",
-    "static/js/3.2b5e15da.chunk.js.map": "/empowered-planet/static/js/3.2b5e15da.chunk.js.map",
+    "main.css": "/empowered-planet/static/css/main.fe761a26.chunk.css",
+    "main.js": "/empowered-planet/static/js/main.ce2ea096.chunk.js",
+    "main.js.map": "/empowered-planet/static/js/main.ce2ea096.chunk.js.map",
+    "runtime-main.js": "/empowered-planet/static/js/runtime-main.08da1786.js",
+    "runtime-main.js.map": "/empowered-planet/static/js/runtime-main.08da1786.js.map",
+    "static/js/2.74e0fe2e.chunk.js": "/empowered-planet/static/js/2.74e0fe2e.chunk.js",
+    "static/js/2.74e0fe2e.chunk.js.map": "/empowered-planet/static/js/2.74e0fe2e.chunk.js.map",
+    "static/js/3.f1b416f7.chunk.js": "/empowered-planet/static/js/3.f1b416f7.chunk.js",
+    "static/js/3.f1b416f7.chunk.js.map": "/empowered-planet/static/js/3.f1b416f7.chunk.js.map",
     "index.html": "/empowered-planet/index.html",
-    "static/css/main.4379c8b2.chunk.css.map": "/empowered-planet/static/css/main.4379c8b2.chunk.css.map",
-    "static/js/2.de8595ba.chunk.js.LICENSE.txt": "/empowered-planet/static/js/2.de8595ba.chunk.js.LICENSE.txt",
+    "static/css/main.fe761a26.chunk.css.map": "/empowered-planet/static/css/main.fe761a26.chunk.css.map",
+    "static/js/2.74e0fe2e.chunk.js.LICENSE.txt": "/empowered-planet/static/js/2.74e0fe2e.chunk.js.LICENSE.txt",
     "static/media/02.67655d41.jpg": "/empowered-planet/static/media/02.67655d41.jpg",
     "static/media/Lorem-Ipsum-example.b49fcaa5.jpg": "/empowered-planet/static/media/Lorem-Ipsum-example.b49fcaa5.jpg",
     "static/media/App.css": "/empowered-planet/static/media/ronaldo-de-oliveira-wngy5vxtZJg-unsplash.511f369d.jpg",
@@ -20,9 +20,9 @@
     "static/media/space-trinity.08ac15d2.jpg": "/empowered-planet/static/media/space-trinity.08ac15d2.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.be41d0dc.js",
-    "static/js/2.de8595ba.chunk.js",
-    "static/css/main.4379c8b2.chunk.css",
-    "static/js/main.ce60bea9.chunk.js"
+    "static/js/runtime-main.08da1786.js",
+    "static/js/2.74e0fe2e.chunk.js",
+    "static/css/main.fe761a26.chunk.css",
+    "static/js/main.ce2ea096.chunk.js"
   ]
 }
