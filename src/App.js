@@ -20,8 +20,8 @@ class App extends Component {
         <div className="App">
             <Navbar />
             <BrandLinks />
-            <Banner />
             <img className="main-background" src={mainBackground}/>
+            <Banner />
             <Library />
             <Store />
             <footer id="footer" className="Footer">

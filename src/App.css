@@ -122,9 +122,9 @@ background-color: black;
 .Banner{
 font-style: italic;
 width: 100vw;
-margin: auto;
-margin-top: calc(var(--navbar-height) + 6rem);
+padding-top: 2rem;
 margin-bottom: 2rem;
+background-color: black;
 }
 .Banner-body-quote-main{
 font-size: 162%;
