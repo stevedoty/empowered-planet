@@ -114,13 +114,17 @@ background-color: black;
 }
 
 /* -------------------------------- */
-.Banner{
+.main-background{
+  width: 100vw;
+}
 
+/* -------------------------------- */
+.Banner{
 font-style: italic;
 width: 100vw;
 margin: auto;
 margin-top: calc(var(--navbar-height) + 6rem);
-margin-bottom: calc(var(--navbar-height) + 6rem);
+margin-bottom: 2rem;
 }
 .Banner-body-quote-main{
 font-size: 162%;
@@ -165,7 +169,6 @@ border-radius: 5px 0 0 5px;
 
 /* -------------------------------- */
 .Intro{
-
 text-shadow:
 0 0 1px white,
 0 0 4px white,
@@ -188,10 +191,7 @@ text-shadow:
 0 0 26px red,
 0 0 42px red;
 }
-/* -------------------------------- */
-.main-background{
-  width: 100vw;
-}
+
 /* -------------------------------- */
 .Seasons{
 left:-10%;
