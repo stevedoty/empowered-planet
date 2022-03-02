@@ -21,6 +21,7 @@ class App extends Component {
             <Navbar />
             <BrandLinks />
             <Banner />
+            <img className="main-background" src={mainBackground}/>
             <Library />
             <Store />
             <footer id="footer" className="Footer">
