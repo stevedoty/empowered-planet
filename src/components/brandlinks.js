@@ -6,7 +6,6 @@ import Donations from "./donations.js"
 function BrandLinks() {
   return (
     <div className="BrandLinks">
-
       <SocialMedia />
       <Donations />
 
