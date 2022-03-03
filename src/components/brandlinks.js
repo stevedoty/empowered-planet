@@ -8,7 +8,6 @@ function BrandLinks() {
     <div className="BrandLinks">
       <SocialMedia />
       <Donations />
-
     </div>
   );
 }
