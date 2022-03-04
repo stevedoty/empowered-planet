@@ -586,7 +586,7 @@ export const MAIN_DATA = {
   ],
   STOREDATA:[
     {
-      title: "Welcome to the Marketplace",
+      title: "Marketplace",
       subtitle: "We strive to bring the best products for everone and our environment"
     },
     {
