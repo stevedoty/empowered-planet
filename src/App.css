@@ -289,6 +289,14 @@ color: white;
 .Library-item-link> :hover{
 cursor: pointer;
 }
+
+@media only screen and (max-width: 600px) {
+  .Library-item {
+    height: calc(var(--item-height)/1.5);
+    width: calc(var(--item-width)/1.5);
+    font-size:60%;
+  }
+}
 /* -------------------------------- */
 .Store{
 justify-content: center;
