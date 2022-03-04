@@ -71,7 +71,6 @@ flex-direction: row;
 justify-content: space-between;
 background-color: var(--navbar-main-bg-color);
 padding-top: 1.25rem;
-padding-right: 6rem;
 padding-bottom: 0.38rem;
 margin: 0;
 }
