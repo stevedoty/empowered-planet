@@ -111,12 +111,12 @@ export const MAIN_DATA = {
           icon:"fa-youtube",
         },
         {
-          title:"tiktok",
+          title:"Tiktok",
           link:"https://www.tiktok.com/@empoweredplanet?lang=en",
           icon:"fa-tiktok",
         },
         {
-          title:"snapchat",
+          title:"Snapchat",
           link:"https://story.snapchat.com/u/empoweredplanet",
           icon:"fa-snapchat",
         },
@@ -131,17 +131,17 @@ export const MAIN_DATA = {
           icon:"fa-instagram",
         },
         {
-          title:"twitter",
+          title:"Twitter",
           link:"https://twitter.com/planetempowered",
           icon:"fa-twitter",
         },
         {
-          title:"facebook",
+          title:"Facebook",
           link:"https://www.facebook.com/",
           icon:"fa-facebook-f",
         },
         {
-          title:"linkedin",
+          title:"LinkedIn",
           link:"https://www.linkedin.com/",
           icon:"fa-linkedin-in",
         },
