@@ -148,7 +148,7 @@ export const MAIN_DATA = {
       ]
     }
   ],
-  DDONATIONS_DATA:[
+  DONATIONS_DATA:[
     {},
     {
       title:"SocialMedia",

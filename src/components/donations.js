@@ -1,43 +1,6 @@
 import React from 'react';
-
-let donationsArray = [
-  {},
-  {
-    title:"Donations",
-    list: [
-      {
-        title:"Patreon",
-        link:"https://www.patreon.com/login",
-        icon:"fa-patreon",
-      },
-      {
-        title:"KickStarter",
-        link:"https://www.kickstarter.com/login",
-        icon:"fa-kickstarter",
-      },
-      {
-        title:"GoFundMe",
-        link:"https://www.gofundme.com/login",
-        icon:"fa-patreon",
-      },
-      {
-        title:"Fundly",
-        link:"https://www.fundly.com/login",
-        icon:"fa-kickstarter",
-      },
-      {
-        title:"Paypal",
-        link:"https://www.paypal.com/login",
-        icon:"fa-paypal",
-      },
-      {
-        title:"eBay",
-        link:"https://www.ebay.com/login",
-        icon:"fa-ebay",
-      },
-    ]
-  }
-]
+import MAIN_DATA from "./data.js";
+let donationsArray = MAIN_DATA.DONATIONS_DATA
 
 function Donations() {
   return (
