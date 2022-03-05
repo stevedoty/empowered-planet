@@ -141,10 +141,11 @@ top: calc(var(--navbar-height) + 20rem);
 zoom:60%;
 right: 0;
 top: 62.18%;
+padding: 0.5rem;
+border-radius: 5px 0 0 5px;
+background-color: rgba(0,0,0,0.62);
 }
 .BrandLinks-column{
-background-color: rgba(0,0,0,0.62);
-padding: 0.5rem;
 }
 .BrandLinks-icon{
 display: block;
@@ -155,12 +156,10 @@ color: var(--main-text-color);
 text-decoration: none;
 }
 .SocialMedia{
-border-radius: 0 5px 5px 0;
 }
 .SocialMedia-icon{}
 .Donations{
 height: 25%;
-border-radius: 5px 0 0 5px;
 }
 .Donations-icon{}
 
