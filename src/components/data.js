@@ -148,6 +148,54 @@ export const MAIN_DATA = {
       ]
     }
   ],
+  DDONATIONS_DATA:[
+    {},
+    {
+      title:"SocialMedia",
+      list: [
+        {
+          title:"YouTube",
+          link:"https://www.youtube.com/channel/UCBxSUKp2UGcPHf44myf2o2Q",
+          icon:"fa-youtube",
+        },
+        {
+          title:"tiktok",
+          link:"https://www.tiktok.com/@empoweredplanet?lang=en",
+          icon:"fa-tiktok",
+        },
+        {
+          title:"snapchat",
+          link:"https://story.snapchat.com/u/empoweredplanet",
+          icon:"fa-snapchat",
+        },
+        {
+          title:"Pinterest",
+          link:"https://www.pinterest.com/empoweredplanet/_saved/",
+          icon:"fa-pinterest",
+        },
+        {
+          title:"Instagram",
+          link:"https://www.instagram.com/empoweredplanet/",
+          icon:"fa-instagram",
+        },
+        {
+          title:"twitter",
+          link:"https://twitter.com/planetempowered",
+          icon:"fa-twitter",
+        },
+        {
+          title:"facebook",
+          link:"https://www.facebook.com/",
+          icon:"fa-facebook-f",
+        },
+        {
+          title:"linkedin",
+          link:"https://www.linkedin.com/",
+          icon:"fa-linkedin-in",
+        },
+      ]
+    }
+  ],
   CURRENT_ISSUES_DATA:{
     globalIssues:[
       {
