@@ -144,10 +144,9 @@ top: 62.18%;
 }
 .BrandLinks-column{
 background-color: rgba(0,0,0,0.62);
-
+padding: 0.5rem;
 }
 .BrandLinks-icon{
-border-radius: 5px;
 display: block;
 vertical-align: middle;
 }
