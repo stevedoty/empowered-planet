@@ -151,47 +151,37 @@ export const MAIN_DATA = {
   DONATIONS_DATA:[
     {},
     {
-      title:"SocialMedia",
-      list: [
+      title:"Donations",
+      list:[
         {
-          title:"YouTube",
-          link:"https://www.youtube.com/channel/UCBxSUKp2UGcPHf44myf2o2Q",
-          icon:"fa-youtube",
+          title:"Patreon",
+          link:"https://www.patreon.com/login",
+          icon:"fa-patreon",
         },
         {
-          title:"tiktok",
-          link:"https://www.tiktok.com/@empoweredplanet?lang=en",
-          icon:"fa-tiktok",
+          title:"KickStarter",
+          link:"https://www.kickstarter.com/login",
+          icon:"fa-kickstarter",
         },
         {
-          title:"snapchat",
-          link:"https://story.snapchat.com/u/empoweredplanet",
-          icon:"fa-snapchat",
+          title:"GoFundMe",
+          link:"https://www.gofundme.com/login",
+          icon:"fa-patreon",
         },
         {
-          title:"Pinterest",
-          link:"https://www.pinterest.com/empoweredplanet/_saved/",
-          icon:"fa-pinterest",
+          title:"Fundly",
+          link:"https://www.fundly.com/login",
+          icon:"fa-kickstarter",
         },
         {
-          title:"Instagram",
-          link:"https://www.instagram.com/empoweredplanet/",
-          icon:"fa-instagram",
+          title:"Paypal",
+          link:"https://www.paypal.com/login",
+          icon:"fa-paypal",
         },
         {
-          title:"twitter",
-          link:"https://twitter.com/planetempowered",
-          icon:"fa-twitter",
-        },
-        {
-          title:"facebook",
-          link:"https://www.facebook.com/",
-          icon:"fa-facebook-f",
-        },
-        {
-          title:"linkedin",
-          link:"https://www.linkedin.com/",
-          icon:"fa-linkedin-in",
+          title:"eBay",
+          link:"https://www.ebay.com/login",
+          icon:"fa-ebay",
         },
       ]
     }
