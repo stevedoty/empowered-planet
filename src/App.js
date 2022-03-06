@@ -7,7 +7,7 @@ import mainBackground from "./images/imports/space-trinity.jpg"
 
 import Navbar from './components/navbar.js';
 import Banner from './components/banner.js';
-import BrandLinks from './components/brandlinks.js';
+import BrandLinks from './components/brandlinks/brandlinks.js';
 import Intro from './components/intro.js';
 import Library from './components/library.js';
 import Store from './components/store.js';

@@ -1,5 +1,5 @@
 import React from 'react';
-import MAIN_DATA from "./data.js";
+import MAIN_DATA from "../data.js";
 let donationsArray = MAIN_DATA.DONATIONS_DATA
 
 function Donations() {
