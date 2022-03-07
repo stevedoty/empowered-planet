@@ -274,7 +274,6 @@ color: white;
 .Library-item-link> :hover{
 cursor: pointer;
 }
-
 @media only screen and (max-width: 600px) {
   .Library-item {
     height: calc(var(--item-height)/1.5);
