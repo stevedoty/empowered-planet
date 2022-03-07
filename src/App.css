@@ -1,6 +1,5 @@
 body{
 margin: auto;
-
 }
 :root{
 --red-velvet:rgb(127,42,60);
@@ -149,7 +148,6 @@ vertical-align: middle;
 color: var(--main-text-color);
 text-decoration: none;
 }
-.SocialMedia-icon{}
 .Donations{
 height: 25%;
 }
