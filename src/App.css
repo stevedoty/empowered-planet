@@ -318,20 +318,15 @@ margin: 0;
 font-size: 0.8rem;
 margin: 0;
 }
-
 /* -------------------------------- */
 .Messenger{
 justify-content: center;
-
 }
 .Messenger-body{
-
 border-radius: 5px;
 padding: 10px 20px;
 overflow: hidden;
 }
-.Messenger-buttons{}
-
 /* -------------------------------- */
 .Footer{
 background-color: var(--footer-main-bg-color);
