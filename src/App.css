@@ -111,12 +111,10 @@ border: none;
 color: var(--main-text-color);
 background-color: black;
 }
-
 /* -------------------------------- */
 .main-background{
   width: 100vw;
 }
-
 /* -------------------------------- */
 .Banner{
 font-style: italic;
