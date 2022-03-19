@@ -1,10 +1,10 @@
 import React from 'react';
-import MAIN_DATA from "./data.js";
+import MAIN_DATA from "./data";
 
 import yo from "../images/thumbs/02.jpg"
 
 const LibraryItem = props => {
-  
+
   return (
     <div className="Library-item">
       <img className="Library-item-image" src={props.image} alt="alt"/>

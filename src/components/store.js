@@ -1,5 +1,5 @@
 import React from 'react';
-import MAIN_DATA from "./data.js";
+import MAIN_DATA from "./data";
 import image from "../images/imports/Lorem-Ipsum-example.jpg"
 
 

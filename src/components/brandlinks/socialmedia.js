@@ -1,5 +1,5 @@
 import React from 'react';
-import MAIN_DATA from "../data.js";
+import MAIN_DATA from "../data";
 let socialmediaArray = MAIN_DATA.SOCIAL_MEDIA_DATA
 
 function SocialMedia() {

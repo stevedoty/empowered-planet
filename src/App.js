@@ -1,17 +1,16 @@
 import React, { Component } from "react";
-import MAIN_DATA from './components/data'
 import './App.css';
 import './assets/css/main.css';
 
 import mainBackground from "./images/imports/space-trinity.jpg"
 
-import Navbar from './components/navbar.js';
-import Banner from './components/banner.js';
-import BrandLinks from './components/brandlinks/brandlinks.js';
-import Intro from './components/intro.js';
-import Library from './components/library.js';
-import Store from './components/store.js';
-import Messenger from './components/messenger.js';
+import Navbar from './components/navbar';
+import Banner from './components/banner';
+import BrandLinks from './components/brandlinks/brandlinks';
+import Intro from './components/intro';
+import Library from './components/library';
+import Store from './components/store';
+import Messenger from './components/messenger';
 
 class App extends Component {
   render() {

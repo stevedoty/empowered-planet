@@ -1,7 +1,7 @@
 import React from 'react';
 
-import SocialMedia from "./socialmedia.js"
-import Donations from "./donations.js"
+import SocialMedia from "./socialmedia"
+import Donations from "./donations"
 
 function BrandLinks() {
   return (
