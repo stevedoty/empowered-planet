@@ -544,7 +544,7 @@ export const MAIN_DATA = {
     {title:"The Pianist", time:"time", description:"description"},
     {title:"The Intouchables", time:"time", description:"description"},
     {title:"4 Minute Mile", time:"time", description:"description"},
-    {title:"title", time:"time", description:"description"},
+    {title:"Whiplash", time:"time", description:"description"},
     {title:"title", time:"time", description:"description"},
     {title:"title", time:"time", description:"description"},
     {title:"title", time:"time", description:"description"},
