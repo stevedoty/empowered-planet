@@ -560,7 +560,7 @@ export const MAIN_DATA = {
     {title:"12 Angry Men", time:"time", description:"description"},
     {title:"The Blind Side", time:"time", description:"description"},
     {title:"Earthlings", time:"time", description:"description"},
-    {title:"title", time:"time", description:"description"},
+    {title:"Dominion", time:"time", description:"description"},
     {title:"title", time:"time", description:"description"},
     {title:"title", time:"time", description:"description"},
     {title:"title", time:"time", description:"description"},
