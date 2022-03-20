@@ -21,7 +21,7 @@ function Movies() {
           <p>{MOVIELIST.subtitle}</p>
         </header>
 
-        <div className="Library-youtube">
+        <div className="Movies-list">
             {MOVIELIST.list.map((item, key)=>{
               return(
                 <Movie {...item} key={key}/>
