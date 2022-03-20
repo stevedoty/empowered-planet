@@ -539,7 +539,7 @@ export const MAIN_DATA = {
     {title:"Rocky", time:"time", description:"description"},
     {title:"Remember The Titans", time:"time", description:"description"},
     {title:"Hidden Figures", time:"time", description:"description"},
-    {title:"title", time:"time", description:"description"},
+    {title:"Julie & Julia", time:"time", description:"description"},
     {title:"title", time:"time", description:"description"},
     {title:"title", time:"time", description:"description"},
     {title:"title", time:"time", description:"description"},
