@@ -8,6 +8,7 @@ import Navbar from './components/navbar';
 import Banner from './components/banner';
 import BrandLinks from './components/brandlinks/brandlinks';
 import Intro from './components/intro';
+import Movies from './components/movies/movies'
 import Library from './components/library';
 import Store from './components/store';
 import Messenger from './components/messenger';
@@ -20,6 +21,7 @@ class App extends Component {
             <BrandLinks />
             <img className="main-background" src={mainBackground}/>
             <Banner />
+            <Movies />
             <Library />
             <Store />
             <footer id="footer" className="Footer">
