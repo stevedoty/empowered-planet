@@ -571,7 +571,7 @@ export const MAIN_DATA = {
     {title:"Eddie The Eagle", time:"time", description:"description"},
     {title:"Straight Outa Compton", time:"time", description:"description"},
     {title:"Gifted Hands", time:"time", description:"description"},
-    {title:"title", time:"time", description:"description"},
+    {title:"Experimenter", time:"time", description:"description"},
     {title:"title", time:"time", description:"description"},
     {title:"title", time:"time", description:"description"},
     {title:"title", time:"time", description:"description"},
