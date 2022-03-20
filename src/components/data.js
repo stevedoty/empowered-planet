@@ -564,7 +564,7 @@ export const MAIN_DATA = {
     {title:"Planet Of The Humans", time:"time", description:"description"},
     {title:"Shawshank Redemption", time:"time", description:"description"},
     {title:"The World's Fastest Indian", time:"time", description:"description"},
-    {title:"title", time:"time", description:"description"},
+    {title:"Joy", time:"time", description:"description"},
     {title:"title", time:"time", description:"description"},
     {title:"title", time:"time", description:"description"},
     {title:"title", time:"time", description:"description"},
