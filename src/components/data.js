@@ -568,7 +568,7 @@ export const MAIN_DATA = {
     {title:"My Left Foot", time:"time", description:"description"},
     {title:"October Sky", time:"time", description:"description"},
     {title:"The Hurricane", time:"time", description:"description"},
-    {title:"title", time:"time", description:"description"},
+    {title:"Eddie The Eagle", time:"time", description:"description"},
     {title:"title", time:"time", description:"description"},
     {title:"title", time:"time", description:"description"},
     {title:"title", time:"time", description:"description"},
