@@ -534,7 +534,7 @@ export const MAIN_DATA = {
     {title:"Garden State", time:"time", description:"description"},
     {title:"Cinderella Man", time:"time", description:"description"},
     {title:"Peaceful Warrior", time:"time", description:"description"},
-    {title:"title", time:"time", description:"description"},
+    {title:"Life Of Pi", time:"time", description:"description"},
     {title:"title", time:"time", description:"description"},
     {title:"title", time:"time", description:"description"},
     {title:"title", time:"time", description:"description"},
