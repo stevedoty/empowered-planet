@@ -24,9 +24,11 @@ margin: auto;
 --matte-dark-blue:rgba(11,11,96,0.8);
 --pure-blue:rgb(0,0,255);
 --cactus-green:rgb(46,96,33);
+
 --main-bg-color: var(--dark-teal-green);
 --secondary-bg-color: var(--natural-red);
---main-text-color: rgb(255,255,255);
+--main-text-color: var(--silver);
+--secondary-text-color: black;
 --navbar-main-bg-color: var(--matte-dark-blue);
 --footer-main-bg-color: var(--matte-dark-blue);
 
@@ -43,8 +45,8 @@ text-align: center;
 align-items: center;
 padding: 0;
 margin: 0;
-background-color: black;
-color: var(--main-text-color);
+background-color: var(--silver);
+color: var(--silver);
 width: 100vw;
 }
 .App-body{
@@ -76,7 +78,7 @@ padding-bottom: 0.38rem;
 margin: 0;
 }
 .Navbar-item{
-color: white;
+color: var(--silver);
 font-size: 10px;
 text-decoration: none;
 flex-grow: 2;
@@ -108,7 +110,7 @@ padding-left: 4rem;
 padding-right: 35vw;
 border: none;
 color: var(--main-text-color);
-background-color: black;
+background-color: var(--secondary-text-color);
 }
 /* -------------------------------- */
 .main-background{
@@ -119,7 +121,7 @@ background-color: black;
 font-style: italic;
 margin:-1.5rem 0 2rem 0;
 padding: 2rem 0.5rem 1rem 0.5rem;
-background-color: black;
+background-color: var(--secondary-text-color);
 }
 .Banner-body-quote-main{
 font-size: 162%;
@@ -132,7 +134,7 @@ font-size: 62.18%;
 }
 /* -------------------------------- */
 .BrandLinks{
-color: var(--main-text-color);
+color: var(--silver);
 position: fixed;
 top: calc(var(--navbar-height) + 20rem);
 zoom:60%;
@@ -167,7 +169,7 @@ font-variant: small-caps;
 font-weight: bolder;
 }
 .globalIssues-item{
-color: black;
+color: var(--secondary-text-color);
 text-shadow:
 0 0 1px red,
 0 0 4px red,
@@ -242,7 +244,7 @@ font-variant: small-caps;
 display: inline-block;
 overflow: hidden;
 background-color: var(--gold);
-color: black;
+color: var(--secondary-text-color);
 font-weight: bold;
 height: var(--item-height);
 width: var(--item-width);
@@ -299,7 +301,7 @@ margin-bottom: 20px;
 .Store-item{
 font-family: 'Playfair Display';
 font-variant: small-caps;
-color: black;
+color: var(--secondary-text-color);
 background-color: var(--gold);
 box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.38);
 height: calc(var(--item-height)*0.62);
