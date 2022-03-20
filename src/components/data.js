@@ -550,7 +550,7 @@ export const MAIN_DATA = {
     {title:"Hotel Rwanda", time:"time", description:"description"},
     {title:"Men Of Honor", time:"time", description:"description"},
     {title:"Invincible", time:"time", description:"description"},
-    {title:"title", time:"time", description:"description"},
+    {title:"Miracle", time:"time", description:"description"},
     {title:"title", time:"time", description:"description"},
     {title:"title", time:"time", description:"description"},
     {title:"title", time:"time", description:"description"},
