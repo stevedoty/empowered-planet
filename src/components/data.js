@@ -554,7 +554,7 @@ export const MAIN_DATA = {
     {title:"The Postman", time:"time", description:"description"},
     {title:"The Man From Earth", time:"time", description:"description"},
     {title:"7 Pounds", time:"time", description:"description"},
-    {title:"title", time:"time", description:"description"},
+    {title:"Hacksaw Ridge", time:"time", description:"description"},
     {title:"title", time:"time", description:"description"},
     {title:"title", time:"time", description:"description"},
     {title:"title", time:"time", description:"description"},
