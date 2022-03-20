@@ -562,7 +562,7 @@ export const MAIN_DATA = {
     {title:"Earthlings", time:"time", description:"description"},
     {title:"Dominion", time:"time", description:"description"},
     {title:"Planet Of The Humans", time:"time", description:"description"},
-    {title:"title", time:"time", description:"description"},
+    {title:"Shawshank Redemption", time:"time", description:"description"},
     {title:"title", time:"time", description:"description"},
     {title:"title", time:"time", description:"description"},
     {title:"title", time:"time", description:"description"},
