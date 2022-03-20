@@ -558,7 +558,7 @@ export const MAIN_DATA = {
     {title:"Blood Diamond", time:"time", description:"description"},
     {title:"Breaking Away", time:"time", description:"description"},
     {title:"12 Angry Men", time:"time", description:"description"},
-    {title:"title", time:"time", description:"description"},
+    {title:"The Blind Side", time:"time", description:"description"},
     {title:"title", time:"time", description:"description"},
     {title:"title", time:"time", description:"description"},
     {title:"title", time:"time", description:"description"},
