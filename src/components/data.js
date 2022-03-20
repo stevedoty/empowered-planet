@@ -528,81 +528,64 @@ export const MAIN_DATA = {
     ]
   },
   MOVIELIST:[
-    {
-      title:"The 12th Man",
-      time:"time",
-      description:"description"
-    },
-    {
-      title:"Indian",
-      time:"time",
-      description:"description"
-    },
-    {
-      title:"Braveheart",
-      time:"time",
-      description:"description"
-    },
-    {
-      title:"Hunt For The Wilderpeople",
-      time:"time",
-      description:"description"
-    },
-    {
-      title:"Men Of Honor",
-      time:"time",
-      description:"description"
-    },
-    {
-      title:"Remember The Titans",
-      time:"time",
-      description:"description"
-    },
-    {
-      title:"Experimenter",
-      time:"time",
-      description:"description"
-    },
-    {
-      title:"yo",
-      time:"time",
-      description:"description"
-    },
-    {
-      title:"yo",
-      time:"time",
-      description:"description"
-    },
-    {
-      title:"yo",
-      time:"time",
-      description:"description"
-    },
-    {
-      title:"yo",
-      time:"time",
-      description:"description"
-    },
-    {
-      title:"yo",
-      time:"time",
-      description:"description"
-    },
-    {
-      title:"yo",
-      time:"time",
-      description:"description"
-    },
-    {
-      title:"yo",
-      time:"time",
-      description:"description"
-    },
-    {
-      title:"yo",
-      time:"time",
-      description:"description"
-    },
+    {title:"The 12th Man", time:"time", description:"description"},
+    {title:"Greatest Game Ever Played", time:"time", description:"description"},
+    {title:"title", time:"time", description:"description"},
+    {title:"title", time:"time", description:"description"},
+    {title:"title", time:"time", description:"description"},
+    {title:"title", time:"time", description:"description"},
+    {title:"title", time:"time", description:"description"},
+    {title:"title", time:"time", description:"description"},
+    {title:"title", time:"time", description:"description"},
+    {title:"title", time:"time", description:"description"},
+    {title:"title", time:"time", description:"description"},
+    {title:"title", time:"time", description:"description"},
+    {title:"title", time:"time", description:"description"},
+    {title:"title", time:"time", description:"description"},
+    {title:"title", time:"time", description:"description"},
+    {title:"title", time:"time", description:"description"},
+    {title:"title", time:"time", description:"description"},
+    {title:"title", time:"time", description:"description"},
+    {title:"title", time:"time", description:"description"},
+    {title:"title", time:"time", description:"description"},
+    {title:"title", time:"time", description:"description"},
+    {title:"title", time:"time", description:"description"},
+    {title:"title", time:"time", description:"description"},
+    {title:"title", time:"time", description:"description"},
+    {title:"title", time:"time", description:"description"},
+    {title:"title", time:"time", description:"description"},
+    {title:"title", time:"time", description:"description"},
+    {title:"title", time:"time", description:"description"},
+    {title:"title", time:"time", description:"description"},
+    {title:"title", time:"time", description:"description"},
+    {title:"title", time:"time", description:"description"},
+    {title:"title", time:"time", description:"description"},
+    {title:"title", time:"time", description:"description"},
+    {title:"title", time:"time", description:"description"},
+    {title:"title", time:"time", description:"description"},
+    {title:"title", time:"time", description:"description"},
+    {title:"title", time:"time", description:"description"},
+    {title:"title", time:"time", description:"description"},
+    {title:"title", time:"time", description:"description"},
+    {title:"title", time:"time", description:"description"},
+    {title:"title", time:"time", description:"description"},
+    {title:"title", time:"time", description:"description"},
+    {title:"title", time:"time", description:"description"},
+    {title:"title", time:"time", description:"description"},
+    {title:"title", time:"time", description:"description"},
+    {title:"title", time:"time", description:"description"},
+    {title:"title", time:"time", description:"description"},
+    {title:"title", time:"time", description:"description"},
+    {title:"title", time:"time", description:"description"},
+    {title:"title", time:"time", description:"description"},
+    {title:"title", time:"time", description:"description"},
+    {title:"title", time:"time", description:"description"},
+    {title:"title", time:"time", description:"description"},
+    {title:"title", time:"time", description:"description"},
+    {title:"title", time:"time", description:"description"},
+    {title:"title", time:"time", description:"description"},
+    {title:"title", time:"time", description:"description"},
+
   ],
   MUSIC_LIST:[
     {ttile:"Here is some recommended music"},
