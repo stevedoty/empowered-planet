@@ -573,7 +573,7 @@ export const MAIN_DATA = {
     {title:"Gifted Hands", time:"time", description:"description"},
     {title:"Experimenter", time:"time", description:"description"},
     {title:"Lion", time:"time", description:"description"},
-    {title:"title", time:"time", description:"description"},
+    {title:"Pelé: Birth Of A Legend", time:"time", description:"description"},
     {title:"title", time:"time", description:"description"},
     {title:"title", time:"time", description:"description"},
     {title:"title", time:"time", description:"description"},
