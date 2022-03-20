@@ -531,7 +531,7 @@ export const MAIN_DATA = {
     {title:"The 12th Man", time:"time", description:"description"},
     {title:"Greatest Game Ever Played", time:"time", description:"description"},
     {title:"Pursuit Of Happiness", time:"time", description:"description"},
-    {title:"title", time:"time", description:"description"},
+    {title:"Garden State", time:"time", description:"description"},
     {title:"title", time:"time", description:"description"},
     {title:"title", time:"time", description:"description"},
     {title:"title", time:"time", description:"description"},
