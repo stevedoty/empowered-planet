@@ -213,7 +213,9 @@ url("./images/imports/marek-okon-tWWCqIMiUmg-unsplash.jpg");
 .Movies{
   color: var(--secondary-text-color);
 }
-
+.Movie{
+  background-color: var(--gold);
+}
 
 
 
