@@ -214,7 +214,7 @@ url("./images/imports/marek-okon-tWWCqIMiUmg-unsplash.jpg");
   color: var(--secondary-text-color);
 }
 .Movies-list-wrapper{
-  padding: 10px 0;
+  padding: 10px;
   overflow: scroll;
 }
 .Movies-list{
