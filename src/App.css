@@ -217,16 +217,24 @@ url("./images/imports/marek-okon-tWWCqIMiUmg-unsplash.jpg");
   display: flex;
   flex-direction: row;
 }
-.Movie{
+.Movies-list:hover{
+  transform: translateX(-5px);
+}
+.Movie-wrapper{
+  margin: 0 5px;
+  border: 0 5px;
+  border-color: var(--gold);
   background-color: var(--gold);
-  width: 50px;
-  margin-left: 1rem;
-  border-radius: 3px;
 }
-.Movie:hover{
-  border: 2px solid white;
+.Movie-wrapper:hover{
+  margin: 0 10px;
+  transform: scale(125%);
 }
+.Movie{
+  width: 100px;
+  height: 62px;
 
+}
 
 
 /* -------------------------------- */

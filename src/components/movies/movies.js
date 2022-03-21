@@ -5,8 +5,10 @@ let MOVIELIST = MAIN_DATA.MOVIELIST;
 
 const Movie = props => {
   return (
-    <div className="Movie">
-      <p className="Movie-title">{props.title}</p>
+    <div className="Movie-wrapper">
+      <div className="Movie">
+        <p className="Movie-title">{props.title}</p>
+      </div>
     </div>
   )
 }
