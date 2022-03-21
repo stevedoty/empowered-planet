@@ -21,12 +21,14 @@ function Movies() {
           <h3>{MOVIELIST.subtitle}</h3>
         </header>
 
-        <div className="Movies-list">
-            {MOVIELIST.list.map((item, key)=>{
-              return(
-                <Movie {...item} key={key}/>
-              )
-            })}
+        <div className="Movies-list-wrapper">
+          <div className="Movies-list">
+              {MOVIELIST.list.map((item, key)=>{
+                return(
+                  <Movie {...item} key={key}/>
+                )
+              })}
+          </div>
         </div>
     </div>
   );
