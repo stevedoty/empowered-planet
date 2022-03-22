@@ -231,7 +231,7 @@ url("./images/imports/marek-okon-tWWCqIMiUmg-unsplash.jpg");
   background-color: var(--gold);
 }
 .Movie-wrapper:hover{
-  margin: 0 14px;
+  margin: 0 12px;
   transform: scale(130%);
 }
 .Movie{
