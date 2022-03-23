@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './parallax.css'
 
 let twoDimensions = {
   position: "relative",
