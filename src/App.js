@@ -25,7 +25,6 @@ class App extends Component {
             <Movies />
             <Library />
             <Store />
-            <Parallax />
             <footer id="footer" className="Footer">
                   <p>&copy; empoweredplanet</p>
             </footer>
