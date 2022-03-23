@@ -11,6 +11,7 @@ import Intro from './components/intro';
 import Movies from './components/movies/movies'
 import Library from './components/library';
 import Store from './components/store';
+import Parallax from './components/parallax/parallax'
 import Messenger from './components/messenger';
 
 class App extends Component {
@@ -24,6 +25,7 @@ class App extends Component {
             <Movies />
             <Library />
             <Store />
+            <Parallax />
             <footer id="footer" className="Footer">
                   <p>&copy; empoweredplanet</p>
             </footer>
