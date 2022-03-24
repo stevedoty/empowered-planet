@@ -1,6 +1,11 @@
 import React, { Component } from 'react';
 import './parallax.css'
 
+import Intro from '../intro'
+import Banner from '../banner'
+import Movies from '../movies/movies'
+import Messenger from '../messenger'
+
 let twoDimensions = {
   position: "relative",
   height: "100vh",
@@ -47,7 +52,7 @@ class Parallax extends Component {
         <div id="group2" className="parallax__group" style={this.state.parallaxStyleToggle}>
           <div className="parallax__layer parallax__layer--base">
             <div className="title">
-              base layer
+              <Movies />
             </div>
           </div>
           <div className="parallax__layer parallax__layer--back">
@@ -64,7 +69,7 @@ class Parallax extends Component {
           </div>
           <div className="parallax__layer parallax__layer--base">
             <div className="title">
-              base layer
+              <Banner />
             </div>
           </div>
         </div>
@@ -112,7 +117,7 @@ class Parallax extends Component {
         <div id="group7" className="parallax__group" style={this.state.parallaxStyleToggle}>
           <div className="parallax__layer parallax__layer--base">
             <div className="title">
-              base layer
+              <Messenger />
             </div>
           </div>
         </div>
