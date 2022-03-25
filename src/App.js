@@ -6,6 +6,7 @@ import mainBackground from "./images/imports/space-trinity.jpg"
 
 import Navbar from './components/navbar';
 import Banner from './components/banner';
+import LightButton from './components/light-button/light-button.js';
 import BrandLinks from './components/brandlinks/brandlinks';
 import Intro from './components/intro';
 import Movies from './components/movies/movies'
@@ -21,6 +22,7 @@ class App extends Component {
             <BrandLinks />
             <img className="main-background" src={mainBackground}/>
             <Banner />
+            <LightButton />
             <Movies />
             <Library />
             <Store />>

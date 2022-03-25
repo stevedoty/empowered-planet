@@ -1,14 +1,23 @@
 import React from 'react';
 import MAIN_DATA from "../data";
+import './movies.css'
+
+
 
 let MOVIELIST = MAIN_DATA.MOVIELIST;
 
 const Movie = props => {
   return (
     <div className="Movie-wrapper">
-      <div className="Movie">
-        <p className="Movie-title">{props.title}</p>
-      </div>
+      <a href="#">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <div className="Movie">
+          <p className="Movie-title">{props.title}</p>
+        </div>
+      </a>
     </div>
   )
 }
