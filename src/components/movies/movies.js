@@ -8,16 +8,18 @@ let MOVIELIST = MAIN_DATA.MOVIELIST;
 
 const Movie = props => {
   return (
-    <div className="Movie-wrapper">
-      <a href="#">
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
+    <div className="Movie-container">
+    <a href="#">
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <div className="Movie-wrapper">
         <div className="Movie">
           <p className="Movie-title">{props.title}</p>
         </div>
-      </a>
+      </div>
+    </a>
     </div>
   )
 }

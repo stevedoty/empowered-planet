@@ -1,6 +1,6 @@
 
 .Movies{
-color: var(--secondary-text-color);
+
 }
 .Movies-list-wrapper{
 padding: 20px;
@@ -29,21 +29,18 @@ border: 1px solid white;
 width: 100px;
 height: 62px;
 }
-.Movie-wrapper a {
+.Movie-container a {
+  color: var(--secondary-text-color);
   position: relative;
   display: inline-block;
-  padding: 10px 20px;
-  color: #03e9f4;
-  font-size: 16px;
   text-decoration: none;
   text-transform: uppercase;
   overflow: hidden;
   transition: .5s;
   margin-top: 40px;
-  letter-spacing: 4px
 }
 
-.Movie-wrapper a:hover {
+.Movie-container a:hover {
   background: #03e9f4;
   color: #fff;
   border-radius: 5px;
@@ -53,12 +50,12 @@ height: 62px;
               0 0 100px #03e9f4;
 }
 
-.Movie-wrapper a span {
+.Movie-container a span {
   position: absolute;
   display: block;
 }
 
-.Movie-wrapper a span:nth-child(1) {
+.Movie-container a span:nth-child(1) {
   top: 0;
   left: -100%;
   width: 100%;
@@ -76,7 +73,7 @@ height: 62px;
   }
 }
 
-.Movie-wrapper a span:nth-child(2) {
+.Movie-container a span:nth-child(2) {
   top: -100%;
   right: 0;
   width: 2px;
@@ -95,7 +92,7 @@ height: 62px;
   }
 }
 
-.Movie-wrapper a span:nth-child(3) {
+.Movie-container a span:nth-child(3) {
   bottom: 0;
   right: -100%;
   width: 100%;
@@ -114,7 +111,7 @@ height: 62px;
   }
 }
 
-.Movie-wrapper a span:nth-child(4) {
+.Movie-container a span:nth-child(4) {
   bottom: -100%;
   left: 0;
   width: 2px;
