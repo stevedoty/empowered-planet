@@ -3,7 +3,7 @@
 
 }
 .Movies-list-wrapper{
-padding: 20px;
+padding: 100px 20px;
 overflow: scroll;
 }
 .Movies-list{
@@ -19,6 +19,7 @@ border-radius: 3px;
 width: 100px;
 height: 62px;
 padding: 10px 5px;
+margin: 1px 0 0 1px;
 }
 .Movie-container{
   margin: 2px;
@@ -48,9 +49,11 @@ transform: scale(128%);
 
 .Movie-container a span {
   position: absolute;
+  display: none;
+}
+.Movie-container:hover a span {
   display: block;
 }
-
 .Movie-container a span:nth-child(1) {
   top: 0;
   left: -100%;
