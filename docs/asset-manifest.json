@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/empowered-planet/static/css/main.ad6f0f05.chunk.css",
+    "main.css": "/empowered-planet/static/css/main.6f50c8e3.chunk.css",
     "main.js": "/empowered-planet/static/js/main.2acd23ee.chunk.js",
     "main.js.map": "/empowered-planet/static/js/main.2acd23ee.chunk.js.map",
     "runtime-main.js": "/empowered-planet/static/js/runtime-main.18cf699e.js",
@@ -10,7 +10,7 @@
     "static/js/3.3fff706d.chunk.js": "/empowered-planet/static/js/3.3fff706d.chunk.js",
     "static/js/3.3fff706d.chunk.js.map": "/empowered-planet/static/js/3.3fff706d.chunk.js.map",
     "index.html": "/empowered-planet/index.html",
-    "static/css/main.ad6f0f05.chunk.css.map": "/empowered-planet/static/css/main.ad6f0f05.chunk.css.map",
+    "static/css/main.6f50c8e3.chunk.css.map": "/empowered-planet/static/css/main.6f50c8e3.chunk.css.map",
     "static/js/2.74e0fe2e.chunk.js.LICENSE.txt": "/empowered-planet/static/js/2.74e0fe2e.chunk.js.LICENSE.txt",
     "static/media/02.67655d41.jpg": "/empowered-planet/static/media/02.67655d41.jpg",
     "static/media/Lorem-Ipsum-example.b49fcaa5.jpg": "/empowered-planet/static/media/Lorem-Ipsum-example.b49fcaa5.jpg",
@@ -22,7 +22,7 @@
   "entrypoints": [
     "static/js/runtime-main.18cf699e.js",
     "static/js/2.74e0fe2e.chunk.js",
-    "static/css/main.ad6f0f05.chunk.css",
+    "static/css/main.6f50c8e3.chunk.css",
     "static/js/main.2acd23ee.chunk.js"
   ]
 }
