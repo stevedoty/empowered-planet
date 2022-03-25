@@ -13,35 +13,31 @@ flex-direction: row;
 .Movies-list:hover{
 transform: translateX(-8px);
 }
-.Movie-wrapper{
-margin: 0 4px;
-border: 0 4px;
-border-color: var(--gold);
+.Movie{
 background-color: var(--gold);
 border-radius: 3px;
-}
-.Movie-wrapper:hover{
-margin: 0 12px;
-transform: scale(128%);
-border: 1px solid white;
-}
-.Movie{
 width: 100px;
 height: 62px;
+padding: 10px 5px;
+}
+.Movie-container{
+  margin: 2px;
+}
+.Movie-container:hover{
+margin: 0 20px;
+transform: scale(128%);
 }
 .Movie-container a {
   color: var(--secondary-text-color);
   position: relative;
-  display: inline-block;
   text-decoration: none;
   text-transform: uppercase;
   overflow: hidden;
   transition: .5s;
-  margin-top: 40px;
+    display: inline-block;
 }
 
 .Movie-container a:hover {
-  background: #03e9f4;
   color: #fff;
   border-radius: 5px;
   box-shadow: 0 0 5px #03e9f4,
