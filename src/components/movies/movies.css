@@ -1,6 +1,6 @@
 
 .Movies{
-
+color:var(--secondary-text-color);
 }
 .Movies-list-wrapper{
 padding: 100px 20px;

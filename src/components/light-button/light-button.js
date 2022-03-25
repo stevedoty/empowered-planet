@@ -9,7 +9,7 @@ function LightButton() {
           <span></span>
           <span></span>
           <span></span>
-          Submit
+          Welcome
         </a>
     </div>
   );
