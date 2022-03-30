@@ -9,7 +9,7 @@ function LightButton() {
           <span></span>
           <span></span>
           <span></span>
-          Welcome
+          EMPOWERED PLANET
         </a>
     </div>
   );

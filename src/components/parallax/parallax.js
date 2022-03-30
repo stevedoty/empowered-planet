@@ -45,14 +45,14 @@ class Parallax extends Component {
         <div id="group1" className="parallax__group" style={this.state.parallaxStyleToggle}>
           <div className="parallax__layer parallax__layer--base">
             <div className="title">
-              base layer
+              hi
             </div>
           </div>
         </div>
         <div id="group2" className="parallax__group" style={this.state.parallaxStyleToggle}>
           <div className="parallax__layer parallax__layer--base">
             <div className="title">
-              <Movies />
+hello
             </div>
           </div>
           <div className="parallax__layer parallax__layer--back">

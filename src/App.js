@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import './App.css';
 import './assets/css/main.css';
 
-import mainBackground from "./images/imports/Earth&Moon.jpg"
+import mainBackground from "./images/imports/EarthMoon.jpeg"
 
 import Navbar from './components/navbar';
 import Banner from './components/banner';
@@ -13,6 +13,7 @@ import Movies from './components/movies/movies'
 import Library from './components/library';
 import Store from './components/store';
 import Messenger from './components/messenger';
+import Parallax from './components/parallax/parallax.js';
 
 class App extends Component {
   render() {
@@ -26,6 +27,7 @@ class App extends Component {
             <Movies />
             <Library />
             <Store />>
+            <Parallax />
             <footer id="footer" className="Footer">
                   <p>&copy; empoweredplanet</p>
             </footer>
