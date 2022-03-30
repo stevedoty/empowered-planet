@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import './App.css';
 import './assets/css/main.css';
 
-import mainBackground from "./images/imports/space-trinity.jpg"
+import mainBackground from "./images/imports/Earth&Moon.jpg"
 
 import Navbar from './components/navbar';
 import Banner from './components/banner';
