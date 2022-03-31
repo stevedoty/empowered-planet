@@ -20,6 +20,7 @@ class App extends Component {
     return (
         <div className="App">
             <Navbar />
+            <LightButton />
             <BrandLinks />
             <img className="main-background" src={mainBackground}/>
             <Banner />

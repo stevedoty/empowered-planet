@@ -1,3 +1,9 @@
+.light-button-wrapper {
+  position: absolute;
+  top:var(--navbar-height);
+  left: 50vw;
+  transform: translateX(-50%);
+}
 .light-button a {
   position: relative;
   display: inline-block;
