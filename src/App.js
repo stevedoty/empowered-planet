@@ -24,11 +24,9 @@ class App extends Component {
             <BrandLinks />
             <img className="main-background" src={mainBackground}/>
             <Banner />
-            <LightButton />
             <Movies />
             <Library />
             <Store />>
-            <Parallax />
             <footer id="footer" className="Footer">
                   <p>&copy; empoweredplanet</p>
             </footer>

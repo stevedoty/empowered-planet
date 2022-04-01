@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/empowered-planet/static/css/main.00f3527a.chunk.css",
-    "main.js": "/empowered-planet/static/js/main.662177ea.chunk.js",
-    "main.js.map": "/empowered-planet/static/js/main.662177ea.chunk.js.map",
+    "main.js": "/empowered-planet/static/js/main.8bf832d0.chunk.js",
+    "main.js.map": "/empowered-planet/static/js/main.8bf832d0.chunk.js.map",
     "runtime-main.js": "/empowered-planet/static/js/runtime-main.b8877ede.js",
     "runtime-main.js.map": "/empowered-planet/static/js/runtime-main.b8877ede.js.map",
     "static/js/2.b57f6257.chunk.js": "/empowered-planet/static/js/2.b57f6257.chunk.js",
@@ -23,6 +23,6 @@
     "static/js/runtime-main.b8877ede.js",
     "static/js/2.b57f6257.chunk.js",
     "static/css/main.00f3527a.chunk.css",
-    "static/js/main.662177ea.chunk.js"
+    "static/js/main.8bf832d0.chunk.js"
   ]
 }
