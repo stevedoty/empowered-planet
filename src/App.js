@@ -22,7 +22,9 @@ class App extends Component {
             <Navbar />
             <LightButton />
             <BrandLinks />
+            <div className="main-background-container">
             <img className="main-background" src={mainBackground}/>
+            </div>
             <Banner />
             <Movies />
             <Library />
