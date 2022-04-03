@@ -2,11 +2,10 @@ import React, { Component } from "react";
 import './App.css';
 import './assets/css/main.css';
 
-import mainBackground from "./images/imports/EarthMoon.jpeg"
-
 import Navbar from './components/navbar/navbar';
 import Banner from './components/banner';
 import LightButton from './components/light-button/light-button.js';
+import Background from './components/background/background'
 import BrandLinks from './components/brandlinks/brandlinks';
 import Intro from './components/intro';
 import Movies from './components/movies/movies'
@@ -21,10 +20,8 @@ class App extends Component {
         <div className="App">
             <Navbar />
             <LightButton />
+            <Background />
             <BrandLinks />
-            <div className="main-background-container">
-            <img className="main-background" src={mainBackground}/>
-            </div>
             <Banner />
             <Movies />
             <Library />
