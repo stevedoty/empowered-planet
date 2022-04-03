@@ -4,7 +4,7 @@ import './assets/css/main.css';
 
 import mainBackground from "./images/imports/EarthMoon.jpeg"
 
-import Navbar from './components/navbar';
+import Navbar from './components/navbar/navbar';
 import Banner from './components/banner';
 import LightButton from './components/light-button/light-button.js';
 import BrandLinks from './components/brandlinks/brandlinks';

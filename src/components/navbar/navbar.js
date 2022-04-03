@@ -1,5 +1,6 @@
 import React from 'react';
-import brandIcon from "../images/imports/planet.ico"
+import './navbar.css'
+import brandIcon from "../../images/imports/planet.ico"
 
 function Navbar() {
   return (

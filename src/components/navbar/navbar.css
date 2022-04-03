@@ -1,0 +1,43 @@
+
+.Navbar{
+width: 100vw;
+z-index: 1;
+position: fixed;
+top: 0;
+left: -1px;
+height: var(--navbar-height);
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+background-color: var(--navbar-main-bg-color);
+padding-top: 1.25rem;
+padding-bottom: 0.38rem;
+margin: 0;
+}
+.Navbar-filter{
+width: 100vw;
+filter: blur(20px);
+height: calc(var(--navbar-height) / 2);
+position: fixed;
+top: 0;
+background-color: var(--navbar-main-bg-color);
+z-index: -1;
+}
+.Navbar-item{
+color: var(--silver);
+font-size: 10px;
+text-decoration: none;
+flex-grow: 2;
+align-self: center;
+padding: 0 1rem 0 0;
+margin: none;
+}
+.Navbar-brand-icon{
+box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 1);
+margin-top: 1rem;
+height: 5rem;
+width: 5rem;
+border-radius: 50%;
+top: 0;
+left: 10%;
+}
