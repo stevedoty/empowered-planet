@@ -3,7 +3,7 @@ import './App.css';
 import './assets/css/main.css';
 
 import Navbar from './components/navbar/navbar';
-import Banner from './components/banner';
+import Banner from './components/banner/banner';
 import LightButton from './components/light-button/light-button.js';
 import Background from './components/background/background'
 import BrandLinks from './components/brandlinks/brandlinks';

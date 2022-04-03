@@ -1,3 +1,29 @@
+@media only screen and (min-width: 1280px){
+  .light-button{
+    zoom: 200%;
+  }
+}
+@media only screen and (min-width: 769px){
+  .light-button-wrapper{
+    padding-top: 0.5rem;
+  }
+  .light-button{
+    zoom: 150%;
+  }
+}
+@media only screen and (min-width: 677px){
+  .light-button-wrapper{
+    padding-top: 1rem;
+  }
+  .light-button{
+    zoom: 150%;
+  }
+}
+@media only screen and (min-width: 481px){
+  .light-button{
+    zoom: 120%;
+  }
+}
 .light-button-wrapper {
   position: absolute;
   top:var(--navbar-height);

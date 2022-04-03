@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './parallax.css'
 
 import Intro from '../intro'
-import Banner from '../banner'
+import Banner from '../banner/banner'
 import Movies from '../movies/movies'
 import Messenger from '../messenger'
 

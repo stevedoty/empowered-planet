@@ -1,5 +1,15 @@
 @media only screen and (max-width: 1024px){
   .main-background-container{
+    padding-top: 3rem;
+  }
+}
+@media only screen and (max-width: 768px){
+  .main-background-container{
+    padding-top: 5rem;
+  }
+}
+@media only screen and (max-width: 480px){
+  .main-background-container{
     padding-top: 5.5rem;
   }
 }
