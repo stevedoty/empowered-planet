@@ -25,7 +25,7 @@ class App extends Component {
             <Banner />
             <Movies />
             <Library />
-            <Store />>
+            <Store />
             <footer id="footer" className="Footer">
                   <p>&copy; empoweredplanet</p>
             </footer>

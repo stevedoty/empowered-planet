@@ -9,7 +9,7 @@ height: var(--navbar-height);
 display: flex;
 flex-direction: row;
 justify-content: space-between;
-background-color: var(--navbar-main-bg-color);
+background-color: none;
 padding-top: 1.25rem;
 padding-bottom: 0.38rem;
 margin: 0;
@@ -17,10 +17,10 @@ margin: 0;
 .Navbar-filter{
 width: 100vw;
 filter: blur(20px);
-height: calc(var(--navbar-height) / 2);
+height: calc(var(--navbar-height) / 1.5);
 position: fixed;
 top: 0;
-background-color: var(--navbar-main-bg-color);
+background-color: black;
 z-index: -1;
 }
 .Navbar-item{

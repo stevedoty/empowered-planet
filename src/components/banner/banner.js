@@ -1,5 +1,6 @@
 import React from 'react';
 import MAIN_DATA from "../data";
+import './banner.css'
 
 let quotesArray = MAIN_DATA.QUOTES_ARRAY[1].list
 let quotesArrayIndex = Math.floor( Math.random()*(quotesArray.length)  )
