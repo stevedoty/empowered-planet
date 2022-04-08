@@ -10,7 +10,7 @@ function LightButton() {
             <span></span>
             <span></span>
             <span></span>
-            EMPOWERED PLANET
+            Empowered Planet
           </a>
       </div>
     </div>

@@ -9,7 +9,7 @@ import Background from './components/background/background'
 import BrandLinks from './components/brandlinks/brandlinks';
 import Intro from './components/intro';
 import Movies from './components/movies/movies'
-import Library from './components/library';
+import Library from './components/library/library';
 import Store from './components/store';
 import Messenger from './components/messenger';
 import Parallax from './components/parallax/parallax.js';

@@ -1,7 +1,7 @@
 import React from 'react';
-import MAIN_DATA from "./data";
+import MAIN_DATA from "../data";
+import './library.css'
 
-import yo from "../images/thumbs/02.jpg"
 
 const LibraryItem = props => {
 

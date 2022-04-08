@@ -51,6 +51,9 @@ margin: auto;
 /*---TEXT COLOR THEME---*/
 --main-text-color: var(--bone-white);
 --secondary-text-color: var(--charcoal-black);
+/*---FONT THEME---*/
+--primary-font: 'times new roman';
+--secondary-font: 'Playfair Display';
 /*---DIMENSION VARIABLES---*/
 --navbar-height: 33px;
 --item-height: calc(0.38 * 22rem);
@@ -60,6 +63,7 @@ margin: auto;
 }
 /* -------------------------------- */
 .App {
+font-family: var(--primary-font);
 width: 100%;
 display: inline-block;
 text-align: center;
@@ -171,83 +175,7 @@ url("./images/imports/marek-okon-tWWCqIMiUmg-unsplash.jpg");
 }
 
 /* -------------------------------- */
-.Library{
-display: flex;
-flex-direction: column;
-color: var(--silver);
-}
-.Library-header{
-margin: 2rem 0;
-padding: 0 1rem;
-}
-.Library-articles{
-overflow: auto;
-white-space: nowrap;
-padding-bottom: 38px;
-padding-top: 38px;
-}
-.Library-articles > :hover{
-transform: scale(120%);
-}
-.Library-youtube{
-overflow: auto;
-white-space: nowrap;
-padding-bottom: 38px;
-padding-top: 38px;
-}
-.Library-youtube > :hover{
-transform: scale(120%);
-}
-.Library-item{
-text-align: left;
-font-family: 'Playfair Display';
-font-variant: small-caps;
-display: inline-block;
-overflow: hidden;
-background-color: var(--main-primary-color);
-color: var(--secondary-text-color);
-font-weight: bold;
-height: var(--item-height);
-width: var(--item-width);
-border-radius: 5px;
-box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.38);
-margin: 0.38rem;
-}
-.Library-item-image{
-height: var(--item-image-height);
-width: var(--item-image-width);
-}
-.Library-item-title{
-font-size: 0.7rem;
-margin: 0 auto;
-padding-left: 10px;
-}
-.Library-item-subtitle{
-font-size: 0.6rem;
-margin: 0 auto;
-padding-left: 10px;
-}
-.Library-item-link{
-margin: 0;
-margin-top: 1px;
-margin-left: 10px;
-padding: 0 5px;
-font-size: 0.7rem;
-float: left;
-border-radius: 3px;
-background-color:  var(--main-accent-color);
-color: white;
-}
-.Library-item-link> :hover{
-cursor: pointer;
-}
-@media only screen and (max-width: 600px) {
-  .Library-item {
-    height: calc(var(--item-height)/1.5);
-    width: calc(var(--item-width)/1.5);
-    font-size:60%;
-  }
-}
+
 /* -------------------------------- */
 .Store{
 justify-content: center;
@@ -255,13 +183,12 @@ display: flex;
 flex-direction: row;
 flex-wrap: wrap;
 padding-bottom: 38px;
-color: var(--silver);
+color: var(--secondary-text-color);
 }
 .Store-header{
 margin-bottom: 20px;
 }
 .Store-item{
-font-family: 'Playfair Display';
 font-variant: small-caps;
 color: var(--secondary-text-color);
 background-color: var(--main-primary-color);
@@ -298,6 +225,7 @@ overflow: hidden;
 }
 /* -------------------------------- */
 .Footer{
+color: var(--secondary-text-color);
 background-color: none;
 padding : 1rem;
 }
