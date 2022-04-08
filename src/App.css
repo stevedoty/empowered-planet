@@ -42,8 +42,6 @@ margin: auto;
 --white-sand: #F5EBD8;
 --palm-green: #00A877;
 
-
-
 /*---BACKGROUND COLOR THEME---*/
 --main-neutral-color: var(--sky-blue);/*60*/
 --main-primary-color: var(--white-sand);/*30*/
@@ -71,7 +69,7 @@ align-items: center;
 padding: 0;
 margin: 0;
 background-color: var(--main-neutral-color);
-color: white;
+color: var(--main-text-color);
 
 }
 .App-body{
