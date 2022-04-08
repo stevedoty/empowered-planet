@@ -4,15 +4,15 @@ margin: auto;
 :root{
 /*---WHITES---*/
 --silver:#c0c0c0;
---gold:#ffd700;
 --bone-white:#f1e7dd;
 /*---BLACKS---*/
---charcoal-black:#212121;
+--charcoal-black:#070707;
 /*---REDS---*/
 --red-velvet:rgb(127,42,60);
 --natural-rose:rgb(210,37,67);
 --natural-red:rgb(155,31,33);
 /*---ORANGES & YELLOWS---*/
+--gold:#ffd700;
 --autumn-sunset:rgb(243,133,84);
 --sunset-gold:rgb(232,179,25);
 --honey:rgb(235,169,55);
