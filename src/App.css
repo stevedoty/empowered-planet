@@ -2,44 +2,56 @@ body{
 margin: auto;
 }
 :root{
+/*---WHITES---*/
 --silver:#c0c0c0;
 --gold:#ffd700;
+--bone-white:#f1e7dd;
+/*---BLACKS---*/
+--charcoal-black:#212121;
+/*---REDS---*/
 --red-velvet:rgb(127,42,60);
 --natural-rose:rgb(210,37,67);
 --natural-red:rgb(155,31,33);
+/*---ORANGES & YELLOWS---*/
 --autumn-sunset:rgb(243,133,84);
 --sunset-gold:rgb(232,179,25);
 --honey:rgb(235,169,55);
 --coral:rgb(255,127,80);
+/*---GREENS---*/
 --ocean-green:rgb(72,191,145);
 --dark-ocean-green:rgb(48,148,103);
 --fresh-mint:rgb(149,232,163);
 --grass: rgb(52,140,49);
 --fern-green:rgb(79,121,66);
+--cactus-green:rgb(46,96,33);
 --leaf-green:rgb(45,90,39);
 --dark-moss-green: rgb(12, 36, 11);
 --deep-aqua:rgb(0,188,188);
 --dark-teal-green:rgba(24,97,91,0.9);
+/*---BLUES & PURPLES---*/
 --sea-foam-blue:rgb(42,134,138);
 --matte-dark-blue:rgba(11,11,96,0.8);
 --pure-blue:rgb(0,0,255);
---cactus-green:rgb(46,96,33);
 
---jungle-green: #2b9400;
+/*---60 / 30 /10---*/
 --ocean-blue: #002b94;
---clay-red: #94002b;/*10*/
+--jungle-green: #2b9400;
+--clay-red: #94002b;
+/*------*/
+--sky-blue: #bde2e4;
+--white-sand: #F5EBD8;
+--palm-green: #00A877;
 
---main-primary-color: var(--jungle-green);/*30*/
---main-neutral-color: var(--ocean-blue);/*60*/
---main-accent-color: var(--clay-red);/*10*/
 
---main-bg-color: var(--dark-teal-green);
---secondary-bg-color: var(--natural-red);
---main-text-color: var(--silver);
---secondary-text-color: black;
---navbar-main-bg-color: var(--matte-dark-blue);
---footer-main-bg-color: var(--matte-dark-blue);
 
+/*---BACKGROUND COLOR THEME---*/
+--main-neutral-color: var(--sky-blue);/*60*/
+--main-primary-color: var(--white-sand);/*30*/
+--main-accent-color: var(--palm-green);/*10*/
+/*---TEXT COLOR THEME---*/
+--main-text-color: var(--bone-white);
+--secondary-text-color: var(--charcoal-black);
+/*---DIMENSION VARIABLES---*/
 --navbar-height: 33px;
 --item-height: calc(0.38 * 22rem);
 --item-width: calc(0.62 * 22rem);
