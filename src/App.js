@@ -5,8 +5,7 @@ import './assets/css/main.css';
 import Navbar from './components/navbar/navbar';
 import Banner from './components/banner/banner';
 import LightButton from './components/light-button/light-button.js';
-import Background from './components/background/background'
-import BrandLinks from './components/brandlinks/brandlinks';
+import Background from './components/background/background';
 import Intro from './components/intro';
 import Movies from './components/movies/movies'
 import Library from './components/library/library';
@@ -21,7 +20,6 @@ class App extends Component {
             <Navbar />
             <LightButton />
             <Background />
-            <BrandLinks />
             <Banner />
             <Movies />
             <Library />

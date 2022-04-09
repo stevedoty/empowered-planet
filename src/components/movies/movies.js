@@ -9,7 +9,7 @@ let MOVIELIST = MAIN_DATA.MOVIELIST;
 const Movie = props => {
   return (
     <div className="Movie-container">
-      <a href="#">
+      <a href="">
         <div className="Movie">
           <span></span>
           <span></span>
