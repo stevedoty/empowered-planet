@@ -5,7 +5,7 @@ import brandIcon from "../../images/imports/planet.ico"
 
 function Navbar() {
   let [hidden, setHidden] = useState(false)
- let hiddenStyle = {display:"none"};
+  let hiddenStyle = {display:"none"};
   return (
     <div id="Navbar" className="Navbar">
         <a href="" className="Navbar-item"><img src={brandIcon} className="Navbar-brand-icon" alt=""/></a>
