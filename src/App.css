@@ -21,7 +21,7 @@ margin: auto;
 --ocean-green:rgb(72,191,145);
 --dark-ocean-green:rgb(48,148,103);
 --fresh-mint:rgb(149,232,163);
---grass: rgb(52,140,49);
+--grass-green: rgb(52,140,49);
 --fern-green:rgb(79,121,66);
 --cactus-green:rgb(46,96,33);
 --leaf-green:rgb(45,90,39);
@@ -31,6 +31,8 @@ margin: auto;
 /*---BLUES & PURPLES---*/
 --sea-foam-blue:rgb(42,134,138);
 --matte-dark-blue:rgba(11,11,96,0.8);
+--pure-blue:rgb(0,0,255);
+--navy-blue:#000034;
 --pure-blue:rgb(0,0,255);
 
 /*---60 / 30 /10---*/
@@ -42,13 +44,14 @@ margin: auto;
 --white-sand: #F5EBD8;
 --palm-green: #00A877;
 
+
 /*---BACKGROUND COLOR THEME---*/
---main-neutral-color: var(--sky-blue);/*60*/
---main-primary-color: var(--white-sand);/*30*/
---main-accent-color: var(--palm-green);/*10*/
+--main-neutral-color: var(--navy-blue);/*60*/
+--main-primary-color: var(--grass-green);/*30*/
+--main-accent-color: var(--clay-red);/*10*/
 /*---TEXT COLOR THEME---*/
---main-text-color: var(--bone-white);
---secondary-text-color: var(--charcoal-black);
+--main-text-color: var(--charcoal-black);
+--secondary-text-color: var(--bone-white);
 /*---FONT THEME---*/
 --primary-font: 'times new roman';
 --secondary-font: 'Playfair Display';
@@ -68,7 +71,15 @@ text-align: center;
 align-items: center;
 padding: 0;
 margin: 0;
-background-color: var(--main-neutral-color);
+background-image: linear-gradient(to bottom,
+  black, black, black, black,black,
+  red,
+  var(--gold),
+  var(--white-sand),
+  #724c47,
+  darkblue,
+  black
+);
 color: var(--main-text-color);
 
 }

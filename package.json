@@ -2,7 +2,6 @@
    "name": "empowered-planet",
    "version": "0.1.0",
    "private": true,
-   "homepage": "https://stevedoty.github.io/empowered-planet/",
    "homepages": "https://www.empoweredplanet.net/",
    "dependencies": {
       "-": "^0.0.1",

@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/empowered-planet/static/css/main.f63f764f.chunk.css",
-    "main.js": "/empowered-planet/static/js/main.120c7fbf.chunk.js",
-    "main.js.map": "/empowered-planet/static/js/main.120c7fbf.chunk.js.map",
-    "runtime-main.js": "/empowered-planet/static/js/runtime-main.9cc58d7b.js",
-    "runtime-main.js.map": "/empowered-planet/static/js/runtime-main.9cc58d7b.js.map",
-    "static/js/2.d09ac661.chunk.js": "/empowered-planet/static/js/2.d09ac661.chunk.js",
-    "static/js/2.d09ac661.chunk.js.map": "/empowered-planet/static/js/2.d09ac661.chunk.js.map",
-    "static/js/3.39a1761c.chunk.js": "/empowered-planet/static/js/3.39a1761c.chunk.js",
-    "static/js/3.39a1761c.chunk.js.map": "/empowered-planet/static/js/3.39a1761c.chunk.js.map",
-    "index.html": "/empowered-planet/index.html",
-    "static/css/main.f63f764f.chunk.css.map": "/empowered-planet/static/css/main.f63f764f.chunk.css.map",
-    "static/js/2.d09ac661.chunk.js.LICENSE.txt": "/empowered-planet/static/js/2.d09ac661.chunk.js.LICENSE.txt",
-    "static/media/EarthMoon.6f4ef10a.jpeg": "/empowered-planet/static/media/EarthMoon.6f4ef10a.jpeg",
-    "static/media/Lorem-Ipsum-example.b49fcaa5.jpg": "/empowered-planet/static/media/Lorem-Ipsum-example.b49fcaa5.jpg",
-    "static/media/App.css": "/empowered-planet/static/media/ronaldo-de-oliveira-wngy5vxtZJg-unsplash.511f369d.jpg",
-    "static/media/main.css": "/empowered-planet/static/media/fa-solid-900.efbd5d20.eot",
-    "static/media/planet.b3656d59.ico": "/empowered-planet/static/media/planet.b3656d59.ico"
+    "main.css": "/static/css/main.66a612b6.chunk.css",
+    "main.js": "/static/js/main.120c7fbf.chunk.js",
+    "main.js.map": "/static/js/main.120c7fbf.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.15a8bf41.js",
+    "runtime-main.js.map": "/static/js/runtime-main.15a8bf41.js.map",
+    "static/js/2.d09ac661.chunk.js": "/static/js/2.d09ac661.chunk.js",
+    "static/js/2.d09ac661.chunk.js.map": "/static/js/2.d09ac661.chunk.js.map",
+    "static/js/3.39a1761c.chunk.js": "/static/js/3.39a1761c.chunk.js",
+    "static/js/3.39a1761c.chunk.js.map": "/static/js/3.39a1761c.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.66a612b6.chunk.css.map": "/static/css/main.66a612b6.chunk.css.map",
+    "static/js/2.d09ac661.chunk.js.LICENSE.txt": "/static/js/2.d09ac661.chunk.js.LICENSE.txt",
+    "static/media/EarthMoon.6f4ef10a.jpeg": "/static/media/EarthMoon.6f4ef10a.jpeg",
+    "static/media/Lorem-Ipsum-example.b49fcaa5.jpg": "/static/media/Lorem-Ipsum-example.b49fcaa5.jpg",
+    "static/media/App.css": "/static/media/ronaldo-de-oliveira-wngy5vxtZJg-unsplash.511f369d.jpg",
+    "static/media/main.css": "/static/media/fa-solid-900.efbd5d20.eot",
+    "static/media/planet.b3656d59.ico": "/static/media/planet.b3656d59.ico"
   },
   "entrypoints": [
-    "static/js/runtime-main.9cc58d7b.js",
+    "static/js/runtime-main.15a8bf41.js",
     "static/js/2.d09ac661.chunk.js",
-    "static/css/main.f63f764f.chunk.css",
+    "static/css/main.66a612b6.chunk.css",
     "static/js/main.120c7fbf.chunk.js"
   ]
 }
